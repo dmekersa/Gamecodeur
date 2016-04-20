@@ -1,8 +1,6 @@
 local aliens = {}
 aliens.nombre = 0
 
-print("Module 2 / Chargement - il y a",aliens.nombre,"alien(s)")
-
 function aliens:AjouteAlien()
   self.nombre = self.nombre + 1
   
