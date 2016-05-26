@@ -30,11 +30,23 @@ function CreeSprite(pNomImage, pNbImages, pX, pY)
   
   table.insert(liste_sprites, sprite)
   
-  sprite.anime = function(pDt)
-    sprite.frame = samSprite.frame + 24*pDt
+  sprite.Anime = function()
+    sprite.frame = samSprite.frame + 0.4
     if sprite.frame >= #sprite.images then
       sprite.frame = 1
     end
+  end
+  
+  sprite.Deplace = function()
+    -- Réduction de la vélocité (=friction)
+    sprite.vx = sprite.vx * .9
+    sprite.vy = sprite.vy * .9
+    if math.abs(sprite.vx) < 0.01 then sprite.vx = 0 end
+    if math.abs(sprite.vy) < 0.01 then sprite.vy = 0 end
+    
+    -- Application de la vélocité
+    sprite.x = sprite.x + sprite.vx
+    sprite.y = sprite.y + sprite.vy
   end
   
   return sprite
@@ -42,6 +54,9 @@ function CreeSprite(pNomImage, pNbImages, pX, pY)
 end
 
 function DemarreJeu()
+  -- Vide la liste des sprites
+  liste_sprites = {}
+  
   -- Crée Sam
   samSprite = CreeSprite("p1_walk",11,0,0)
   
@@ -67,23 +82,18 @@ function love.update(dt)
   -- Stocke la position actuelle de Sam
   local ancienX = samSprite.x
   local ancienY = samSprite.y
-
-  -- Réduction de la vélocité (=friction)
-  samSprite.vx = samSprite.vx * .9
-  samSprite.vy = samSprite.vy * .9
-  if math.abs(samSprite.vx) < 0.01 then samSprite.vx = 0 end
-  if math.abs(samSprite.vy) < 0.01 then samSprite.vy = 0 end
   
-  -- Application de la vélocité à Sam
-  samSprite.x = samSprite.x + samSprite.vx
-  samSprite.y = samSprite.y + samSprite.vy
+  local n
+  for n=1,#liste_sprites do
+    local s = liste_sprites[n]
+    s.Deplace()
+    s.Anime()
+  end
   
   -- Changement de frame d'animation pour Sam
   -- Si Sam n'avance pas, il ne bouge plus les jambes
   if math.abs(samSprite.vx) < 1 and math.abs(samSprite.vy) < 1 then
     samSprite.frame = 1
-  else
-    samSprite.anime(dt)
   end
   
   -- Détection des touches du clavier
@@ -104,9 +114,13 @@ function love.update(dt)
 end
 
 function love.draw()
-  -- On dessine Sam
-  local samFrame = samSprite.images[math.floor(samSprite.frame)]
-  love.graphics.draw(samFrame, samSprite.x, samSprite.y, 0, samSprite.flip, 1, samSprite.l/2, samSprite.h-6)
+  -- On dessine les sprites
+  local n
+  for n=1,#liste_sprites do
+    local s = liste_sprites[n]
+    local frame = s.images[math.floor(s.frame)]
+    love.graphics.draw(frame, s.x, s.y, 0, s.flip, 1, s.l/2, s.h-6)
+  end
   
   -- Informations de debug
   love.graphics.print("Vitesse de sam x:"..samSprite.vx.." y:"..samSprite.vy)
