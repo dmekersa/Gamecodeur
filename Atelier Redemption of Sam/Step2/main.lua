@@ -17,6 +17,20 @@ local donjon = require("donjon")
 local samSprite = {}
 local salleFond = {}
 
+local mapMurs = {}
+mapMurs[1]  = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
+mapMurs[2]  = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
+mapMurs[3]  = {1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+mapMurs[4]  = {1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+mapMurs[5]  = {1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+mapMurs[6]  = {1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+mapMurs[7]  = {1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+mapMurs[8]  = {1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+mapMurs[9]  = {1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+mapMurs[10] = {1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
+mapMurs[11] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
+mapMurs[12] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
+
 function DemarreJeu()
   
   samSprite = spriteManager.CreeSprite("p1_walk",11,0,0)
@@ -42,6 +56,9 @@ end
 
 function love.update(dt)
   
+  local ancienX = samSprite.x
+  local ancienY = samSprite.y
+  
   spriteManager.update(dt)
   
   if math.abs(samSprite.vx) < 1 and math.abs(samSprite.vy) < 1 then
@@ -63,14 +80,29 @@ function love.update(dt)
     samSprite.vy = samSprite.vy + 1
   end
   
+  local nColonneCollision
+  local nLigneCollision
+  
+  nColonneCollision = math.floor((samSprite.x / LARGEURTILE) + 1)
+  nLigneCollision = math.floor((((samSprite.y-6)+samSprite.h/2) / HAUTEURTILE) + 1)
+  
+  if mapMurs[nLigneCollision][nColonneCollision] > 0 then
+    samSprite.x = ancienX
+    samSprite.y = ancienY
+    samSprite.vx = 0
+    samSprite.vy = 0
+  end
+  
 end
 
 function love.draw()
   
   love.graphics.draw(salleFond,0,0)
-  
-  spriteManager.draw()
     
+  spriteManager.draw()
+  
+  love.graphics.circle("fill",samSprite.x,((samSprite.y-6)+samSprite.h/2),5)
+      
 end
 
 function love.keypressed(key)

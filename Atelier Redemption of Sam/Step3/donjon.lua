@@ -105,7 +105,7 @@ donjon.GenereDonjon = function()
   print("Donjon généré avec",#listeSalles,"salles")
 end
 
-donjon.DessineMapDonjon = function(pLigneCourante,pColonneCourante)
+donjon.DessineMapDonjon = function(pSalle)
   local x,y
   x=15
   y=15
@@ -121,7 +121,8 @@ donjon.DessineMapDonjon = function(pLigneCourante,pColonneCourante)
         love.graphics.setColor(60,60,60)
         love.graphics.rectangle("fill",x,y,largeurCase,hauteurCase)
       else
-        if nLigne == pLigneCourante and nColonne == pColonneCourante then
+        -- Salle en vert = salle courante
+        if pSalle == salle then
           love.graphics.setColor(25,255,25)
         else
           love.graphics.setColor(255,255,255)

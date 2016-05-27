@@ -58,7 +58,7 @@ spriteManager.draw = function()
   for n=1,#spriteManager.liste_sprites do
     local s = spriteManager.liste_sprites[n]
     local frame = s.images[math.floor(s.frame)]
-    love.graphics.draw(frame, s.x, s.y, 0, s.flip, 1, s.l/2, s.h-6)
+    love.graphics.draw(frame, s.x, s.y, 0, s.flip, 1, s.l/2, s.h/2)
   end
 end
 
