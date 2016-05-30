@@ -18,6 +18,7 @@ local samSprite = {}
 local salleFond = {}
 
 local salleCourante = {}
+salleCourante.portes = {}
 
 local mapMurs = {}
 mapMurs[1]  = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
@@ -33,6 +34,45 @@ mapMurs[10] = {1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1}
 mapMurs[11] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
 mapMurs[12] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
 
+function CreePorte(pType, pX, pY, pLargeur, pHauteur)
+  
+  print("Ajoute une porte de type",pType)
+  
+  local newPorte = {}
+  
+  newPorte.x = pX
+  newPorte.y = pY
+  newPorte.largeur = pLargeur
+  newPorte.hauteur = pHauteur
+  
+  return newPorte
+end
+
+function ChargeSalle(pSalle)
+  
+  salleCourante.portes = {}
+  
+  if pSalle.porteHaut == true then
+    local porte = CreePorte("porteHaut",(largeurEcran/2)-LARGEURTILE,0+5,LARGEURTILE*2,HAUTEURTILE*2)
+    table.insert(salleCourante.portes, porte)
+  end
+  if pSalle.porteDroite == true then
+    local porte = CreePorte("porteDroite",largeurEcran-(LARGEURTILE*2)-5,(hauteurEcran/2)-HAUTEURTILE,LARGEURTILE*2,HAUTEURTILE*2)
+    table.insert(salleCourante.portes, porte)
+  end
+  if pSalle.porteBas == true then
+    local porte = CreePorte("porteBas",(largeurEcran/2)-LARGEURTILE,hauteurEcran-(HAUTEURTILE*2)-5,LARGEURTILE*2,HAUTEURTILE*2)
+    table.insert(salleCourante.portes, porte)
+  end
+  if pSalle.porteGauche == true then
+    local porte = CreePorte("porteGauche",0+5,(hauteurEcran/2)-HAUTEURTILE,LARGEURTILE*2,HAUTEURTILE*2)
+    table.insert(salleCourante.portes, porte)
+  end
+  
+  salleCourante.salle = pSalle
+  
+end
+
 function DemarreJeu()
   
   samSprite = spriteManager.CreeSprite("p1_walk",11,0,0)
@@ -42,7 +82,7 @@ function DemarreJeu()
   
   donjon.GenereDonjon()
   
-  salleCourante.salle = donjon.salleDepart
+  ChargeSalle(donjon.salleDepart)
   
 end
 
@@ -104,6 +144,12 @@ end
 function love.draw()
   
   love.graphics.draw(salleFond,0,0)
+  
+  local nPorte
+  for nPorte = 1,#salleCourante.portes do
+    local p = salleCourante.portes[nPorte]
+    love.graphics.rectangle("line",p.x,p.y,p.largeur,p.hauteur)
+  end
   
   donjon.DessineMapDonjon(salleCourante.salle)
     
