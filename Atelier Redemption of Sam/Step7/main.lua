@@ -214,9 +214,7 @@ function love.draw()
   bulletManager.draw()
   
   love.graphics.circle("fill",samSprite.x,((samSprite.y-6)+samSprite.h/2),5)
-  
-  love.graphics.print(#bulletManager.liste_bullets)
-      
+        
 end
 
 function love.keypressed(key)

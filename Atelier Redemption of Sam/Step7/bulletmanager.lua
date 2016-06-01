@@ -22,7 +22,6 @@ bulletManager.CreeBullet = function(pType, pX, pY, pVx, pVy)
   bullet.Deplace = function(dt)
     -- Application de la vélocité
     bullet.x = bullet.x + bullet.vx
-    print(bullet.vx)
     bullet.y = bullet.y + bullet.vy
   end
   
