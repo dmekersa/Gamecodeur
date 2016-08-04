@@ -1,0 +1,27 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bg | file:house_livingroom_statuettebg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:image | name:statuetteghost | file:house_livingroom_statuetteg.png | type:static | x:575 | y:12 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 | halo:true | halospeed:0.001 |
+object:image | name:statuette | file:house_livingroom_statuette.png | type:static | x:575 | y:12 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:image | name:statuette_righteye_off | file:house_statuette_eyeright_off.png | type:static | x:649 | y:194 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:statuette_righteye_on | file:house_statuette_eyeright_on.png | type:static | x:646 | y:201 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | 
+
+object:image | name:statuette_lefteye_off | file:house_statuette_eyeleft_off.png | type:static | x:735 | y:215 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:statuette_lefteye_on | file:house_statuette_eyeleft_on.png | type:static | x:749 | y:213 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:zone | name:emptyeye | x:724 | y:197 | width:78 | height:95 | visible:false | mousepointer:arrow_puzzle | infotext:HOUSE_LIVINGROOM_SLOT_INFO |
+
+object:image | name:statuette_symbol_blue1 | file:house_statuette_symbol_blue.png | type:static | x:697 | y:476 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:statuette_symbol_blue2 | file:house_statuette_symbol_blue.png | type:static | x:695 | y:550 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+
+object:image | name:statuette_symbol_red1 | file:house_statuette_symbol_red.png | type:static | x:697 | y:476 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:statuette_symbol_red2 | file:house_statuette_symbol_red.png | type:static | x:695 | y:550 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+
+object:image | name:light | file:house_statuette_light.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:darkness | file:house_statuette_darkness.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:2000 |
+
+object:image | name:book | file:house_livingroom_bookview.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:2000 |
+object:emitter | name:flake_book | type:flake | x:278 | y:333 | width:80 | height:200 | start:false | loop:true |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_livingroom |

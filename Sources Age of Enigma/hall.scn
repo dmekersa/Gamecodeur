@@ -1,0 +1,54 @@
+object:scene | walksound:talons | universe:house |
+
+object:image | name:hallon | file:hallbgon.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:1000 | disable:true |
+object:image | name:halldestroyed | file:halldestroyedbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:image | name:house_hall_livingdooropen | type:static | file:house_hall_livingdooropen.jpg | x:0 | y:201 | visible:false | nbframe:01 | bFade:true | nFade:1000 | exit:true | exitdoor:true | destination:house_livingroom |
+
+object:image | name:house_hall_plant | file:house_hall_plant.png | type:static | x:569 | y:521 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take |
+object:image | name:house_score | file:house_score.png | type:static | x:268 | y:414 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take |
+
+object:image | name:halloff | file:hallbgoff.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true |
+
+object:image | name:nathan4 | type:static | file:house_hall_isaac01.png | x:519 | y:524 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan5 | type:static | file:house_hall_isaac02.png | x:445 | y:464 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan6 | type:static | file:house_hall_isaac03.png | x:515 | y:406 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan7 | type:static | file:house_hall_isaac04.png | x:452 | y:285 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan8 | type:static | file:house_hall_isaac05.png | x:375 | y:281 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan9 | type:static | file:house_hall_isaac06.png | x:283 | y:283 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan14 | type:static | file:house_hall_isaac07.png | x:285 | y:283 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan15 | type:static | file:house_hall_isaac08.png | x:402 | y:287 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:hall_isaac_waiting | type:static | file:house_hall_isaac10.png | x:381 | y:298 | visible:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_puzzle | infotext:HOUSE_HALL_ISAAC_INFO |
+
+object:emitter | name:creeping_nathan_shadow | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_smoke.cse | animationfile:particles/nathan_smoke_hall_2.csa |
+object:image | name:nathan_shadow | type:static | file:hall_nathan_shadow.png | x:339 | y:294 | visible:false | nbframe:01 | bFade:true | nFade:200 |
+object:image | name:nathan_light | type:static | file:hall_nathan_light.png | x:327 | y:294 | visible:false | nbframe:01 | bFade:true | nFade:200 |
+
+object:zone | name:darkness | x:0 | y:0 | width:966 | height:600 | visible:true | disable:false |
+
+object:emitter | name:creeping_glow | type:creepingsmoke | x:740 | y:456 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse | scale:0.5 |
+object:zone | name:switch | x:708 | y:424 | width:66 | height:74 | visible:true |
+object:image | name:switchbroken | file:hall_switchbroken.png | type:static | x:731 | y:445 | visible:false | mousepointer:arrow_puzzle |
+object:image | name:switchrepaired | file:hall_switchrepaired.png | type:static | x:720 | y:443 | visible:false | mousepointer:arrow_action |
+object:image | name:switchrepaired_on | file:hall_switchrepaired_on.png | type:static | x:720 | y:443 | visible:false |
+
+object:emitter | name:creeping_sparks | type:creepingsmoke | x:742 | y:467 | width:0 | height:0 | start:false | loop:false | presetfile:particles/hall_sparks.cse | fillpolygone:false |
+
+object:image | name:hall_switchpieces[1] | file:hall_switchpieces1.png | type:static | x:265 | y:610 | visible:true | mousepointer:arrow_take | invimage:inv_switchpieces |
+object:image | name:hall_switchpieces[2] | file:hall_switchpieces2.png | type:static | x:798 | y:635 | visible:true | mousepointer:arrow_take | invimage:inv_switchpieces |
+object:image | name:hall_switchpieces[3] | file:hall_switchpieces3.png | type:static | x:728 | y:562 | visible:true | mousepointer:arrow_take | invimage:inv_switchpieces |
+
+object:emitter | name:creeping_fragments | type:creepingsmoke | x:512 | y:-300 | width:0 | height:0 | start:false | loop:false | presetfile:particles/hall_fragments.cse |
+object:emitter | name:creeping_plaster | type:creepingsmoke | x:512 | y:-300 | width:0 | height:0 | start:false | loop:false | presetfile:particles/hall_plasterslide.cse | scale:0.5 |
+
+object:image | name:neckless | file:ihm_pentacle.png | type:static | x:878 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+
+object:image | name:blank | file:blankbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:preload | destination:halldoor
+object:preload | destination:house_hall
+object:preload | files:ashley_hall_butidont.ogg,ashley_hall_butwhoare.ogg,ashley_hall_huhwhat.ogg,nathan_hall_imnathan.ogg,nathan_hall_iwaswaiting.ogg,nathan_hall_starthere.ogg,nathan_hall_thefrat.ogg,nathan_hall_tothevery.ogg,nathan_hall_welcome.ogg,nathan_hall_youalready.ogg
+
+#END SCRIPTGEN
+object:preload | files:hall_earthquake.ogg,nathan_hall_animportant.ogg
+#SCRIPTGEN: preloadsound

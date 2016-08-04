@@ -1,0 +1,11 @@
+object:scene | walksound:island_walk | universe:island | sounddesign:island_volcano_sd |
+object:image | name:bg | file:island_cave.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:image | name:island_cave_wood1 | file:island_wood_onthewall.png | type:static | x:55 | y:307 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:island_cave_wood2 | file:island_wood_ontheground.png | type:static | x:55 | y:307 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:emitter | name:creeping_glow | type:creepingsmoke | x:527 | y:584 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse |
+object:image | name:island_shovelhandle | file:island_cave_shovelhandle.png | type:static | x:475 | y:561 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_island_shovelhandle.png |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:island_beach |
+
+object:preload | destination:island_dive |

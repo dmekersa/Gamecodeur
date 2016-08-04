@@ -1,0 +1,48 @@
+object:scene | walksound:talons | universe:house |
+object:image | name:bg | file:atticbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:house_attic_candlereflects | file:house_attic_candlereflects.png | type:static | x:421 | y:245 | visible:true | bFade:true | nFade:2000 | disable:true | halo:true | halospeed:0.01 |
+
+object:zone | name:house_attic_pentacle_zone | x:445 | y:353 | width:366 | height:126 | visible:false | mousepointer:arrow_look |
+
+object:emitter | name:creeping_pentacle | type:creepingsmoke | x:629 | y:423 | width:0 | height:0 | start:false | loop:false | presetfile:particles/multi_beam.cse | scale:3 |
+object:image | name:house_attic_pentaclelight | file:house_attic_pentaclelight.png | type:static | x:422 | y:0 | visible:false | bFade:true | nFade:2000 | disable:true |
+
+object:emitter | name:creeping_nathan_shadow_start | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_smoke.cse | animationfile:particles/nathan_smoke_attic_start.csa |
+object:emitter | name:creeping_nathan_shadow_anger | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_smoke.cse | animationfile:particles/nathan_smoke_attic_anger.csa |
+object:emitter | name:creeping_nathan_shadow_attack | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_smoke.cse | animationfile:particles/nathan_smoke_attic_attack.csa |
+
+object:image | name:house_attic_nathan | file:house_attic_nathan_start.png | type:static | x:371 | y:198 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_attic_nathan_anger | file:house_attic_nathan_anger.png | type:static | x:479 | y:199 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_attic_nathan_attack | file:house_attic_nathan_attack.png | type:static | x:400 | y:153 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_attic_nathan_panic | file:house_attic_nathan_panic.png | type:static | x:386 | y:183 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_attic_nathan_die | file:house_attic_nathan_die.png | type:static | x:320 | y:143 | visible:false | bFade:true | nFade:500 |
+
+object:emitter | name:creeping_shadow_panic | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_shadow_panic.cse | animationfile:particles/nathan_shadow_panic.csa |
+object:emitter | name:creeping_shadow_die1 | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_shadow_die_white.cse | animationfile:particles/nathan_shadow_die.csa |
+object:emitter | name:creeping_shadow_die2 | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_shadow_die_red.cse | animationfile:particles/nathan_shadow_die.csa |
+
+object:emitter | name:creeping_nathan_souls | type:creepingsmoke | x:638 | y:267 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_souls.cse | scale:0.75 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_atticdoor | glitch:false |
+
+object:emitter | name:creeping_fragments | type:creepingsmoke | x:512 | y:-300 | width:0 | height:0 | start:false | loop:false | presetfile:particles/hall_fragments.cse |
+
+object:image | name:black1 | file:blackout1.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:black2 | file:blackout2.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:black3 | file:blackout3.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:black4 | file:blackout4.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:black5 | file:blackbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:image | name:black1_ | file:blackout1.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:10 |
+object:image | name:black2_ | file:blackout2.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:10 |
+object:image | name:black3_ | file:blackout3.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:10 |
+object:image | name:black4_ | file:blackout4.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:10 |
+object:image | name:black5_ | file:blackbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:10 |
+
+object:preload | destination:hell_mainscreen
+object:preload | destination:house_attic_pentacle
+object:preload | destination:video_player
+
+#END SCRIPTGEN
+object:preload | files:ATTIC_END_NATHAN1.ogg,ATTIC_END_NATHAN2.ogg,ATTIC_NATHAN1.ogg,ATTIC_NATHAN10.ogg,ATTIC_NATHAN2.ogg,ATTIC_NATHAN3.ogg,ATTIC_NATHAN4.ogg,ATTIC_NATHAN5.ogg,ATTIC_NATHAN6.ogg,ATTIC_NATHAN7.ogg,ATTIC_NATHAN8.ogg,ATTIC_NATHAN9.ogg,attic_ashley1.ogg,attic_ashley2.ogg,attic_ashley4.ogg,attic_ashley5.ogg,attic_end_ashley1.ogg,attic_end_ashley2.ogg,attic_end_ashley3.ogg,attic_end_ashley5.ogg,attic_nathanappear.ogg,attic_pentacle.ogg,ghostgone.ogg,hall_earthquake.ogg
+#SCRIPTGEN: preloadsound

@@ -1,0 +1,52 @@
+object:scene | walksound:island_walk | universe:island | sounddesign:island_beach_sd |
+object:image | name:bg_sky | file:island_mainscreenbg.jpg | type:background | x:0 | y:0 | width:0 | height: | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:image | name:bg_clouds | file:island_mainscreen_clouds.png | type:static | x:0 | y:168 | width:0 | heigth:0 | visible:true | loop:true | bFade:true | nFade:200 |
+object:image | name:bg_beach | file:island_mainscreen_ol2.png | type:background | x:0 | y:185 | width:0 | height:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:xximage | name:bg_waves1 | file:island_mainscreen_waves1.png | type:static | x:0 | y:395 | visible:true | loop:true | bFade:true | nFade:2000 |
+object:xximage | name:bg_waves2 | file:island_mainscreen_waves2.png | type:static | x:0 | y:395 | visible:true | loop:true | bFade:true | nFade:2000 |
+object:image | name:bg_coco | file:island_mainscreen_ol1.png | type:background | x:0 | y:0 | width:0 | height:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:image | name:island_plant | file:island_beach_plant.png | type:static | x:-340 | y:348 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:image | name:island_shark | file:island_beach_shark.png | type:static | x:273 | y:392 | visible:true | loop:false | nbframe:7 | bFade:true | nFade:500 | disable:true |
+
+object:zone | name:island_sand | x:550 | y:487 | width:431 | height:166 | visible:true | loop:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_info |
+
+object:image | name:island_crab | file:island_crabanim | type:static | x:417 | y:557 | visible:false | loop:false | nbframe:24 | bFade:false | nFade:0 | mousepointer:arrow_take | invimage:inv_island_crab.png |
+
+object:image | name:parrot_nopearl | file:island_beach_parrotnopearl.png | type:static | x:660 | y:89 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:50 | mousepointer:arrow_talk |
+object:image | name:parrot_pearl | file:island_beach_parrotpearl.png | type:static | x:660 | y:89 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:50 | mousepointer:arrow_action |
+object:image | name:falling_pearl | file:island_beach_fallingpearl.png | type:static | x:704 | y:149 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:50 |
+object:zone | name:digit | x:641 | y:629 | width:137 | height:41 | visible:false | mousepointer:arrow_action |
+object:emitter | name:creeping_glow | type:creepingsmoke | x:898 | y:540 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse |
+object:image | name:island_cross | file:island_cross.png | type:static | x:839 | y:531 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:400 | mousepointer:arrow_info | infotext:ISLAND_CROSS_INFO |
+object:image | name:pearl_sand | file:island_beach_pearlsand.png | type:static | x:641 | y:629 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:100 | mousepointer:arrow_action |
+object:image | name:safe_close | file:island_beach_safeclose.png | type:static | x:812 | y:515 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_info |
+object:image | name:safe_open | file:island_beach_safeopen.png | type:static | x:812 | y:506 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_look |
+object:image | name:parrot_safe | file:island_beach_parrotsafe.png | type:static | x:885 | y:454 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:50 | disable:true |
+
+object:image | name:island_berry | file:island_berry.png | type:static | x:926 | y:548 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_island_berry.png |
+
+object:zone | name:creek | x:658 | y:359 | width:310 | height:80 | visible:true | exit:true | exitwalkto:true | destination:island_creek |
+object:zone | name:dive | x:250 | y:370 | width:180 | height:80 | visible:true | exit:true | exitwalkto:true | destination:island_dive |
+
+object:image | name:island_queen | file:island_queenonthebeach.png | type:static | x:448 | y:261 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:1000 | mousepointer:arrow_talk |
+object:image | name:island_queen_stone | file:island_stone_in_queens_hand.png | type:static | x:720 | y:446 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+
+object:anime | name:plantanimrot | target:island_plant | type:rotate | angle1:-1 | angle2:1 | direction:1 | bounce:true | duration:3000 | counterfunction:LINEAR |
+object:anime | name:pearl_animp2p | target:falling_pearl | type:p2p | x:704 | y:149 | x2:704 | y2:619 | bounce:false | duration:1000 | counterfunction:EASEIN |
+
+object:image | name:island_glow1 | file:stone_glow1.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:island_glow2 | file:stone_glow2.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:island_glow3 | file:stone_glow3.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:island_enigmastone | file:univers_stone3_blue.png | type:static | x:271 | y:92 | visible:false | nbframe:1 | bFade:true | nFade:2000 |
+
+object:image | name:blank | file:blankbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:anime | name:sharkanim | target:island_shark | type:frame |
+object:anime | name:bganim | target:bg_sky | type:marquee | duration:90000 | direction:1 |
+object:anime | name:cloudsanim | target:bg_clouds | type:marquee | duration:30000 | direction:-1 |
+object:anime | name:island_crab_anim | target:island_crab | type:video | invimage:inv_island_crab.png |
+
+object:preload | destination:vignette_island_safe
+#END SCRIPTGEN
+object:preload | files:blowpipe.ogg,crabwalk.ogg,opensafe.ogg
+#SCRIPTGEN: preloadsound

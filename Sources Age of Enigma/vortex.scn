@@ -1,0 +1,17 @@
+object:image | name:bgvortexegypt | file:vortex.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:250 |
+
+object:emitter | name:creeping_vortex | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/vortex1.cse | animationfile:particles/vortex1.csa |
+
+object:image | name:pharaon_standup1 | file:vortex_egypt_dead.png | type:static | x:150 | y:100 | visible:false | nbframe:1 | bFade:true | nFade:10000 |
+object:image | name:pharaon_standup2 | file:vortex_egypt_alive.png | type:static | x:150 | y:100 | visible:false | nbframe:1 | bFade:true | nFade:10000 |
+
+object:image | name:pirate_standup1 | file:vortex_island_dead.png | type:static | x:150 | y:100 | visible:false | nbframe:1 | bFade:true | nFade:10000 |
+object:image | name:pirate_standup2 | file:vortex_island_alive.png | type:static | x:150 | y:100 | visible:false | nbframe:1 | bFade:true | nFade:10000 |
+
+object:image | name:japan_standup1 | file:vortex_japan_dead.png | type:static | x:150 | y:100 | visible:false | nbframe:1 | bFade:true | nFade:10000 |
+object:image | name:japan_standup2 | file:vortex_japan_alive.png | type:static | x:150 | y:100 | visible:false | nbframe:1 | bFade:true | nFade:10000 |
+
+
+object:preload | destination:egypt_land
+object:preload | destination:island_beach
+object:preload | destination:japan_mainscreen

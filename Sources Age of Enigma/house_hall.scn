@@ -1,0 +1,36 @@
+object:scene | walksound:talons | universe:house |
+
+object:image | name:halldestroyed | file:halldestroyedbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:500 |
+
+object:zone | name:corridor | x:325 | y:355 | width:135 | height:160 | visible:true | exit:true | exitwalkto:true | destination:corridor |
+object:zone | name:diningroom | x:757 | y:227 | width:234 | height:375 | visible:true | mousepointer:arrow_action |
+object:zone | name:upstairs | x:460 | y:240 | width:205 | height:310 | visible:true | exit:true | exitwalkto:true | destination:firstfloor |
+object:image | name:house_hall_diningdooropen | type:static | file:house_hall_diningdooropen.png | x:775 | y:205 | visible:false | nbframe:01 | bFade:true | nFade:1000 | exit:true | exitdoor:true | destination:house_diningroom |
+object:image | name:house_hall_livingdooropen | type:static | file:house_hall_livingdooropen.jpg | x:0 | y:154 | visible:false | nbframe:01 | bFade:true | nFade:1000 | exit:true | exitdoor:true | destination:house_livingroom |
+
+object:zone | name:painting1 | x:694 | y:388 | width:53 | height:50 | visible:true | mousepointer:arrow_info |
+
+object:image | name:house_hall_plant | file:house_hall_plant.png | type:static | x:569 | y:521 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take |
+object:image | name:house_hall_plant_done | file:house_hall_plant_cut.png | type:static | x:569 | y:521 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:house_score | file:house_score.png | type:static | x:268 | y:414 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_house_score.png |
+
+object:image | name:nathan9 | type:static | file:house_hall_isaac06.png | x:283 | y:283 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan14 | type:static | file:house_hall_isaac07.png | x:285 | y:283 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan15 | type:static | file:house_hall_isaac08.png | x:402 | y:287 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:hall_isaac_waiting | type:static | file:house_hall_isaac10.png | x:380 | y:298 | visible:false | nbframe:01 | bFade:true | nFade:2000 | mousepointer:arrow_puzzle | infotext:HOUSE_HALL_ISAAC_INFO |
+
+object:emitter | name:creeping_nathan_shadow | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_smoke.cse | animationfile:particles/nathan_smoke_hall_2.csa |
+object:emitter | name:creeping_nathan_show | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_smoke.cse | animationfile:particles/nathan_smoke_hall_1.csa |
+object:emitter | name:creeping_nathan_corridor | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_smoke.cse | animationfile:particles/nathan_smoke_hall_stairs.csa |
+object:emitter | name:creeping_nathan_souls1 | type:creepingsmoke | x:455 | y:485 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_souls.cse |
+object:emitter | name:creeping_nathan_souls2 | type:creepingsmoke | x:425 | y:465 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_souls.cse | scale:0.4 |
+
+object:image | name:nathan_shadow | type:static | file:hall_nathan_light.png | x:339 | y:294 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan_shadow_slow | type:static | file:hall_nathan_light.png | x:339 | y:294 | visible:false | nbframe:01 | bFade:true | nFade:1000 |
+object:image | name:nathan_show | type:static | file:hall_nathan_light_show.png | x:281 | y:294 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:nathan_corridor | type:static | file:hall_nathan_corridor.png | x:386 | y:382 | visible:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:image | name:hall_rope | file:hall_rope.jpg | type:static | x:0 | y:0 | visible:false | bFade:true | nFade:1000 | exit:true | exitwalkto:true | destination:firstfloor |
+
+#END SCRIPTGEN
+#SCRIPTGEN: preloadsound

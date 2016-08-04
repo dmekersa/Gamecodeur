@@ -1,0 +1,8 @@
+object:scene | walksound:none | universe:house | sounddesign:livingroom_sd |
+object:image | name:bg | file:house_livingroom_boxbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:image | name:house_livingroom_boxtopopen | file:house_livingroom_box_boxopen.png | type:static | x:336 | y:208 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:livingroom_bookinca_eyestatue | file:livingroom_bookinca_eyestatue.png | type:static | x:478 | y:309 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 | mousepointer:arrow_take | invimage:inv_statuette_eye.png |
+object:image | name:house_livingroom_boxtopclosed | file:house_livingroom_box_boxclosed.png | type:static | x:335 | y:225 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_look |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_livingroom | glitch:false |

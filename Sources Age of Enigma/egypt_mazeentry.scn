@@ -1,0 +1,11 @@
+object:scene | walksound:egypt_walk | universe:egypt | sounddesign:egypt_inside_sd |
+object:image | name:bg | file:egypt_mazeentrybg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:zone | name:egypt_keyroom_zone | x:97 | y:163 | width:69 | height:404 | visible:true | exit:true | exitwalkto:true | destination:egypt_keyroom |
+object:zone | name:egypt_maze_zone | x:441 | y:265 | width:157 | height:238 | visible:true | exit:true | exitwalkto:true | destination:egypt_maze |
+object:image | name:egypt_mazedoor | file:egypt_mazeentry_door.png | type:static | x:439 | y:247 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_info | infotext:EGYPT_MAZEENTRY_DOOR_INFO |
+
+object:image | name:egypt_symbol_god04h | file:egypt_symbol_god04h.png | type:static | x:828 | y:502 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_god04.png |
+
+object:image | name:egypt_mummy | file:egypt_mummy.png | type:static | x:373 | y:233 | visible:false | bFade:true | nFade:500 | halo:true | halospeed:0.001 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:egypt_land |

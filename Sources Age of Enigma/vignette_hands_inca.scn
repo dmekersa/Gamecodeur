@@ -1,0 +1,13 @@
+object:scene | walksound:none | universe:none |
+object:image | name:bg | file:mg_poltergeist_bg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+
+object:anime | name:handashley_animp2p | target:hand_ashley  | type:p2p | x:-350 | y:1024 | x2:-100 | y2:270 | bounce:false | duration:3500 | counterfunction:EASEOUT |
+object:anime | name:handinca_animp2p | target:hand_inca      | type:p2p | x:330 | y:-592 | x2:209 | y2:0 | bounce:false | duration:3500 | counterfunction:EASEOUT |
+
+object:image | name:hand_ashley | file:hand_ashley.png  | type:static | x:-100 | y:270 | visible:false | nbframe:1 | bFade:true | nFade:2000 |
+
+object:xxemitter | name:creeping_glow | type:creepingsmoke | x:420 | y:355 | width:0 | height:0 | start:false | loop:false | presetfile:particles/beam_x3.cse | scale:1 |
+
+object:image | name:hand_inca | file:hand_inca.png      | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:2000 |
+
+object:image | name:blank | file:blankbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:4000 |

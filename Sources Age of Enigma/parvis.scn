@@ -1,0 +1,18 @@
+object:scene | walksound:none | universe:house | sounddesign:outdoor_sd |
+object:image | name:bg | file:parvisbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:zone | name:parvis_doorhandle | x:689 | y:411 | width:101 | height:101 | visible:true | mousepointer:arrow_action | 
+object:image | name:parvis_dooropen | file:parvis_dooropen.png | type:static | x:211 | y:13 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | exit:true | exitwalkto:true | destination:hall |
+
+object:image | name:parvis_rubbon | file:anim_parvis | type:static | x:0 | y:313 | visible:true | loop:true | nbframe:24 | bFade:false | nFade:0 |
+
+object:image | name:parvis_tuto1 | file:parvis_tuto.png | type:static | x:0 | y:0 | visible:false | bFade:true | nFade:500 |
+object:image | name:parvis_tuto2 | file:parvis_tuto2.png | type:static | x:0 | y:0 | visible:false | bFade:true | nFade:500 |
+object:xxemitter | name:creeping_smoke | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/menu_mystery.cse | animationfile:particles/menu_mystery.csa |
+
+object:zone | name:parvis_name | x:242 | y:183 | width:158 | height:71 | visible:true | mousepointer:arrow_info | infotext:HOUSE_PARVIS_NAME_INFO |
+object:anime | name:parvis_rubbon_anim | target:parvis_rubbon | type:video |
+
+object:image | name:envelope_parvis | file:envelope_parvis.png | type:static | x:204 | y:215 | visible:true | mousepointer:arrow_take | invimage:ihm_envelope.png |
+object:emitter | name:flake_envelope | type:flake | x:254 | y:255 | width:26 | height:35 | start:true | loop:true |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_out |

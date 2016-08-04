@@ -1,0 +1,53 @@
+tradf
+object:scene | walksound:none | universe:menu |
+object:image | name:menu_ol_bg | file:menu_ol_bg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:menu_ol_zep | file:menu_ol_zep.png | type:background | x:520 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:menu_ol_house | file:menu_ol_house.png | type:background | x:533 | y:50 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:menu_ol_tree | file:menu_ol_tree.png | type:background | x:0 | y:21 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:emitter | name:creeping_leaf | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/menu_leaves.cse | animationfile:particles/leaf1.csa |
+object:image | name:menu_logo | file:menu_logo.png | type:background | x:256 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 | basedir:l10n/ |
+object:xxemitter | name:creeping_smoke | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/menu_mystery_light.cse | animationfile:particles/menu_mystery.csa |
+
+object:image | name:menu_ol_exit | file:menu_ol_exit.png | type:background | x:0 | y:462 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:menu_social | file:menu_social.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:but_rate | file:menu_rate.png | type:background | x:12 | y:154 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:image | name:ashley | file:ashleyanimmenu | type:static | x:134 | y:206 | width:0 | heigth:0 | visible:true | loop:true | bFade:false | nFade:0 | nbframe:12 |
+object:xximage | name:menu_ol_light | file:menu_ol_light.png | type:background | x:-20 | y:-50 | width:1024 | heigth:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:barremenu | file:barre_menu.png | type:static | x:0 | y:499 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 |
+object:zone | name:but_options | x:237 | y:652 | width:187 | height:100 | visible:true |
+object:zone | name:but_play | x:442 | y:609 | width:150 | height:105 | visible:true |
+object:zone | name:but_credits | x:613 | y:680 | width:170 | height:78 | visible:true |
+object:zone | name:but_player | x:681 | y:533 | width:217 | height:15 | visible:true |
+object:zone | name:but_exit | x:52 | y:506 | width:102 | height:37 | visible:true |
+object:zone | name:but_mg | x:869 | y:677 | width:130 | height:45 | visible:true |
+
+object:zone | name:but_facebook | x:10 | y:10 | width:76 | height:76 | visible:true |
+object:zone | name:but_twitter | x:95 | y:10 | width:76 | height:76 | visible:true |
+object:zone | name:but_itunes | x:174 | y:10 | width:76 | height:76 | visible:true |
+object:zone | name:but_geisha | x:255 | y:10 | width:76 | height:76 | visible:true |
+
+object:zone | name:but_cheat1 | x:305 | y:206 | width:70 | height:70 | visible:true |
+object:zone | name:but_cheat2 | x:415 | y:402 | width:76 | height:76 | visible:true |
+object:zone | name:but_cheat3 | x:906 | y:273 | width:76 | height:76 | visible:true |
+object:zone | name:but_cheat4 | x:285 | y:370 | width:76 | height:76 | visible:true |
+
+object:text | name:txt_exit | textid:MENU_QUIT | fontname:NITECLUB.TTF | fontsize:35 | x1:27 | x2:154 | style:center | y:506 | rotation:0 | fade:500 | R:0 | G:0 | B:0 | A:0.9 | visible:true |
+object:text | name:txt_play | textid:MENU_PLAY | fontname:NITECLUB.TTF | fontsize:44 | x1:448 | x2:583 | style:center | y:630 | rotation:0 | fade:500 | R:0 | G:0 | B:0 | A:0.9 | visible:true |
+object:text | name:txt_options | textid:MENU_OPTIONS | fontname:NITECLUB.TTF | fontsize:35 | x1:243 | x2:414 | style:center | y:675 | rotation:0 | fade:500 | R:0 | G:0 | B:0 | A:0.9 | visible:true |
+object:text | name:txt_credits | textid:MENU_CREDITS | fontname:NITECLUB.TTF | fontsize:35 | x1:589 | x2:736 | style:center | y:685 | rotation:0 | fade:500 | R:0 | G:0 | B:0 | A:0.9 | visible:true |
+object:text | name:txt_change | textid:MENU_PLAYER | fontname:tahoma.ttf | fontsize:14 | x1:666 | x2:926 | style:center | y:537 | rotation:0 | fade:500 | R:0.64 | G:0.60 | B:0.48 | A:1 | visible:true |
+object:text | name:txt_extras | textid:MENU_EXTRAS | fontname:NITECLUB.TTF | fontsize:35 | x1:869 | x2:1000 | style:center | y:666 | rotation:0 | fade:500 | R:0 | G:0 | B:0 | A:0.9 | visible:true |
+object:text | name:txt_facebook | textid:MENU_FACEBOOK | fontname:tahoma.ttf | fontsize:14 | x1:79 | x2:400 | style:left | y:105 | rotation:0 | fade:500 | R:1 | G:1 | B:1 | A:1 | visible:true |
+
+object:xxzone | name:menu_house | x:653 | y:140 | width:353 | height:325 | visible:true | mousepointer:arrow_walk |
+
+object:anime | name:ashleyanim | target:ashley | type:video |
+object:xxanime | name:zeplight | target:menu_ol_light | type:rotate | angle1:-4 | angle2:4 | direction:1 | bounce:true | duration:4000 | counterfunction:EASEIN |
+object:xxanime | name:bg1anim | target:menu_ol_bg | type:p2p | x:0 | y:-100 | x2:0 | y2:0 | loop:false | duration:20000 | counterfunction:EASEOUT |
+object:anime | name:bg2anim | target:menu_ol_zep | type:p2p | x:1024 | y:0 | x2:-500 | y2:0 | loop:false | duration:50000 | counterfunction:LINEAR |
+object:xxanime | name:bg4anim | target:menu_ol_light | type:p2p | x:-750 | y:-70 | x2:1024 | y2:-70 | loop:true | duration:30000 | counterfunction:LINEAR |
+
+object:preload | destination:minigames
+object:preload | destination:mode |
+object:preload | destination:credits

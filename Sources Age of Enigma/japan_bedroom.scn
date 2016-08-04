@@ -1,0 +1,72 @@
+object:scene | walksound:japan_walk | universe:japan | sounddesign:japan_bedroom_sd |
+object:image | name:bg | file:japan_bedroombg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+object:image | name:bg2 | file:japan_bedroombg2.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:zone | name:candlelampzone | x:711 | y:120 | width:96 | height:68 | visible:false | mousepointer:arrow_puzzle | infotext:HOUSE_LIVINGROOM_SLOT_INFO |
+object:image | name:japan_veil_messy | file:japan_veil_messy.png | type:static | x:197 | y:119 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_action |
+object:image | name:japan_veil_tidy | file:japan_veil_tidy.png | type:static | x:198 | y:118 | visible:false | loop:true | nbframe:5 | bFade:true | nFade:100 | disable:true |
+object:image | name:japan_screen_messy | file:japan_screen_messy.png | type:static | x:1 | y:119 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_action |
+object:image | name:japan_screen_tidy | file:japan_screen_tidy.png | type:static | x:0 | y:90 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:japan_bed_messy | file:japan_bed_messy.png | type:static | x:434 | y:338 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_action |
+object:image | name:japan_bed_tidy | file:japan_bed_tidy.png | type:static | x:434 | y:361 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_look |
+object:image | name:japan_leaves_tidy | file:japan_bedleaves_tidy.png | type:static | x:472 | y:388 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | disable:true |
+object:zone | name:torchzone | x:614 | y:176 | width:35 | height:87 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_LIVINGROOM_SLOT_INFO |
+object:image | name:japan_torch_messy | file:japan_torch_messy.png | type:static | x:765 | y:586 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_torchoff.png |
+object:image | name:japan_bento_messy | file:japan_bento_messy.png | type:static | x:890 | y:480 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_bentoempty.png |
+object:image | name:japan_meal_messy | file:japan_meal_messy.png | type:static | x:881 | y:509 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_meal.png |
+object:zone | name:encenszone | x:308 | y:486 | width:95 | height:68 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_LIVINGROOM_SLOT_INFO |
+object:zone | name:tablezone | x:169 | y:474 | width:153 | height:122 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_LIVINGROOM_SLOT_INFO |
+object:image | name:japan_underteapot_messy | file:japan_underteapot_messy.png | type:static | x:288 | y:512 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_underteapot.png |
+object:image | name:japan_table_messy[1] | file:japan_table_messy1.png | type:static | x:151 | y:463 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_tablepieces |
+object:image | name:japan_table_messy[2] | file:japan_table_messy2.png | type:static | x:246 | y:443 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_tablepieces |
+object:image | name:japan_table_messy[3] | file:japan_table_messy3.png | type:static | x:237 | y:467 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_tablepieces |
+object:image | name:japan_table_messy[4] | file:japan_table_messy4.png | type:static | x:451 | y:436 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_tablepieces |
+object:image | name:japan_bowl1_messy | file:japan_bowl1_messy.png | type:static | x:218 | y:483 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_bowl1.png |
+object:image | name:japan_bowl2_messy | file:japan_bowl2_messy.png | type:static | x:107 | y:433 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_bowl2.png |
+object:image | name:japan_teapot_messy | file:japan_teapot_messy.png | type:static | x:714 | y:125 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_teapot.png |
+object:image | name:japan_bonzai_messy | file:japan_bonzai_messy.png | type:static | x:395 | y:539 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_action |
+object:image | name:japan_kimono1_messy | file:japan_kimono1_messy.png | type:static | x:478 | y:304 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_kimono1.png |
+object:image | name:japan_kimono2_messy | file:japan_kimono2_messy.png | type:static | x:401 | y:397 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_kimono2.png |
+object:image | name:japan_kimono3_messy | file:japan_kimono3_messy.png | type:static | x:182 | y:354 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_kimono3.png |
+object:image | name:japan_encensstick_messy | file:japan_encensstick_messy.png | type:static | x:385 | y:414 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_encensstick.png |
+object:image | name:japan_encensholder_messy | file:japan_encensholder_messy.png | type:static | x:423 | y:397 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_japan_encensholder.png |
+object:image | name:japan_stones_messy | file:japan_stones_messy.png | type:static | x:658 | y:316 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_action |
+
+object:image | name:japan_torchoff_tidy | file:japan_torchoff_tidy.png | type:static | x:623 | y:179 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | 
+object:emitter | name:fire_torch | type:creepingsmoke | x:638 | y:194 | scale:0.30 | start:false | loop:false | presetfile:particles/japan_torch.cse |
+object:image | name:japan_kimono1_tidy | file:japan_kimono1_tidy.png | type:static | x:173 | y:131 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | 
+object:image | name:japan_kimono2_tidy | file:japan_kimono2_tidy.png | type:static | x:172 | y:128 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:japan_kimono3_tidy | file:japan_kimono3_tidy.png | type:static | x:172 | y:128 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | disable:true |
+object:image | name:japan_bonzai_tidy | file:japan_bonzai_tidy.png | type:static | x:390 | y:525 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | disable:true |
+object:image | name:japan_encensfull_tidy | file:japan_encensfull_tidy.png | type:static | x:302 | y:449 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | 
+object:image | name:japan_encenslight | file:japan_encenslight.png | type:static | x:336 | y:392 | visible:false | loop:true | nbframe:3 | bFade:true | nFade:1000 |
+object:image | name:japan_table_tidy | file:japan_table_tidy.png | type:static | x:164 | y:466 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:japan_underteapot_tidy | file:japan_underteapot_tidy.png | type:static | x:210 | y:474 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | 
+object:image | name:japan_bento_tidy | file:japan_bentofull_tidy.png | type:static | x:248 | y:478 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | disable:true |
+object:image | name:japan_teapot_tidy | file:japan_teapot_tidy.png | type:static | x:215 | y:459 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | disable:true |
+object:image | name:japan_bowl1_tidy | file:japan_bowl1_tidy.png | type:static | x:194 | y:523 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | disable:true |
+object:image | name:japan_bowl2_tidy | file:japan_bowl2_tidy.png | type:static | x:172 | y:464 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | disable:true |
+object:image | name:japan_candlelamp_tidy | file:japan_candlelamp_tidy.png | type:static | x:723 | y:127 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | 
+object:image | name:japan_candlelamplight | file:japan_candlelamplight.png | type:static | x:675 | y:90 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | 
+object:image | name:japan_bonzai_tidy | file:japan_bonzai_tidy.png | type:static | x:390 | y:525 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | disable:true |
+object:emitter | name:creeping_glow | type:creepingsmoke | x:710 | y:315 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse | scale:0.5 |
+object:image | name:japan_stones_tidy | file:japan_stones_tidy.png | type:static | x:693 | y:298 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | disable:true |
+ 
+// A valider
+object:image | name:japan_candlelamp_tidy | file:japan_candlelamp_tidy.png | type:static | x:723 | y:127 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | 
+object:image | name:japan_candlelamplight | file:japan_candlelamplight.png | type:static | x:675 | y:90 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | 
+
+object:image | name:japan_tidyvision | file:japan_tidyvision.jpg | type:background | x:0 | y:0 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:2000 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:japan_garden |
+
+object:image | name:japan_glow1 | file:stone_glow1.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:japan_glow2 | file:stone_glow2.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:japan_glow3 | file:stone_glow3.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:japan_enigmastone | file:univers_stone4_purple.png | type:static | x:271 | y:92 | visible:false | nbframe:1 | bFade:true | nFade:2000 |
+
+object:anime | name:veilanim | target:japan_veil_tidy | type:frame |
+object:anime | name:encensanim | target:japan_encenslight | type:frame |
+
+
+object:preload | destination:japan_mainscreen

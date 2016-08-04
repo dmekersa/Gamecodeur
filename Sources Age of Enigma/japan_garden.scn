@@ -1,0 +1,19 @@
+object:scene | walksound:japan_walk | universe:japan | sounddesign:japan_garden_sd |
+object:image | name:bg | file:japan_gardenbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+object:image | name:dooropen | file:japan_garden_dooropen.png | type:static | x:500 | y:396 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | exit:true | exitwalkto:true | destination:japan_bedroom |
+
+object:zone | name:japan_bedroomzone | x:498 | y:395 | width:90 | height:97 | visible:true | mousepointer:arrow_action |
+object:emitter | name:fire_lamp | type:creepingsmoke | x:356 | y:467 | scale:0.30 | start:false | loop:false | presetfile:particles/japan_torch.cse |
+
+object:image | name:lamp | file:japan_garden_lamp.png | type:static | x:343 | y:438 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+object:zone | name:lamp_zone | x:311 | y:447 | width:71 | height:60 | visible:true |
+object:emitter | name:creeping_glow | type:creepingsmoke | x:357 | y:460 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse | scale:0.5 |
+
+object:zone | name:japan_gardenzone | x:420 | y:518 | width:252 | height:57 | visible:true | mousepointer:arrow_action |
+
+object:emitter | name:flake_garden | type:flake | x:540 | y:540 | width:100 | height:52 | start:true | loop:true |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:japan_mainscreen |
+#END SCRIPTGEN
+object:preload | files:carpet_burn.ogg,store.ogg
+#SCRIPTGEN: preloadsound

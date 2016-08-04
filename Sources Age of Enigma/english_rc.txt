@@ -1,0 +1,1945 @@
+﻿UI_SYSTEMCURSOR "System cursor"
+INTRO_SPEECH_1	"I don't fear ghosts..."
+INTRO_SPEECH_2	"What I fear is inside of me!"
+INTRO_SPEECH_3	"Huh!!"
+INTRO_SPEECH_4	"Quit barking Isaac, you woke me up. That's not nice, you bad dog!"
+INTRO_SPEECH_5	"I dreamed of that same house again... what can it mean?"
+INTRO_SPEECH_6	"I've got a pile of work to do, starting with reading this..."
+INTRO_SPEECH_7	"Isaac! What's your problem already?"
+INTRO_SPEECH_8	"Things are not looking up!"
+INTRO_SPEECH_9	"How could this letter have gotten here?"
+INTRO_SPEECH_10	"It's my name on the envelope, but the address is wrong!"
+INTRO_SPEECH_11	"I don't believe it - that house!"
+NATHAN1_SPEECH_1	"Aaagghhh!? What the...?"
+NATHAN1_SPEECH_2	"I was waiting for you, Ashley! I was waiting because I need you... and you'll need me to understand why you're here."
+NATHAN1_SPEECH_3	"But who are you?"
+NATHAN1_SPEECH_4	"I'm Nathan and I can help you. Take this."
+NATHAN1_SPEECH_5	"The Fraternity of Mediums chose you and called you here to free the six ghosts that are held captive."
+NATHAN1_SPEECH_6	"But I don't know how!"
+NATHAN1_SPEECH_7	"You already know most of what you'll need to know, trust me."
+NATHAN1_SPEECH_8	"An important task has been entrusted to you and by the end you'll find out who you are..."
+NATHAN1_SPEECH_9	"...to the very depths of your soul!"
+
+>>>>>>>>>>> DEBUT Partie proofread FAIT <<<<<<<<<<<<<<<<<<<<<
+HALL_NATHAN_MEET2_1	"You've made the right choice by trusting me. Now, if you want your freedom, step forward. The essence of your soul will overpower your innocence."
+HALL_ASHLEY_MEET2	"But I'm no prisoner!"
+HALL_NATHAN_MEET2_3	"Do you really think so, Ashley?"
+
+HALL_NATHAN_MEET3	"You need to further explore your powers...
+We'll meet again soon, Ashley!"
+
+HALL_NATHAN_MEET3_1	"You now realize that no one really knows where he comes from nor what he's capable of."
+HALL_NATHAN_MEET3_2	"Knowledge comes from trial and error, Ashley..."
+HALL_ASHLEY_MEET3_3	"I'm being tested?"
+HALL_NATHAN_MEET3_4	"Yes. Since ghosts began to spread through our world, the Fraternity has been looking for the Key - they think it's you!"
+HALL_ASHLEY_MEET3_5	"Are you part of the Fraternity?"
+HALL_NATHAN_MEET3_6	"..."
+HALL_ASHLEY_MEET3_7	"Answer me! You know so much about me. Are you part of the Fraternity?"
+HALL_NATHAN_MEET3_8	"The Fraternity wants... YOU! Isn't that enough to satisfy you?"
+
+HALL_NATHAN_MEET4_1	"Ashley, I know everything about you. Why don't you trust me?"
+HALL_ASHLEY_MEET4_2	"Because I don't know who you are!
+What exactly do you want from me?"
+HALL_NATHAN_MEET4_3	"To help you! Have I not helped you ever since you arrived?"
+HALL_ASHLEY_MEET4_4	"I suspect that it was the Fraternity who guided me here!"
+HALL_NATHAN_MEET4_5	"The Fraternity will end up rejecting you! You must join me."
+HALL_NATHAN_MEET4_6	"Free one more soul. Only then will the Fraternity be certain of your ability to save the world."
+HALL_ASHLEY_MEET4_7	"There are 6 ghosts, and this will be the 5th! Who can the 6th be?"
+HALL_NATHAN_MEET4_8	"You will find out, Ashley!"
+HALL_NATHAN_MEET4_9	"I hope it won't be too late for us."
+
+ATTIC_PENDANT	"The pendant is now in your inventory."
+ATTIC_NATHAN1	"Thank you, Ashley."
+ATTIC_ASHLEY1	"Where's the 6th ghost?"
+ATTIC_NATHAN2	"I'm the 6th ghost, but I have no need to be free. The land of the dead is my kingdom..."
+ATTIC_NATHAN3	"The Fraternity sent you here, but I was the one who used your powers as a medium!"
+ATTIC_NATHAN4	"You captured the energy of those souls in my pendant!"
+ATTIC_ASHLEY2	"But... Who are you then, if you're not part of the Fraternity?"
+ATTIC_NATHAN5	"I was a medium like you... Then I discovered the powers of darkness. The Fraternity damned me, accusing me of sorcery."
+ATTIC_NATHAN6	"They want you since you are the Key - the most powerful medium in the world, able to reach into the afterlife."
+ATTIC_NATHAN7	"Join with me! Our alliance will give us absolute power over the world to bring about complete chaos!"
+ATTIC_ASHLEY4	"No! I refuse to be part of this! You got swallowed by darkness and now you want to bring the whole world down with you!"
+ATTIC_NATHAN8	"You have no choice! THE FRATERNITY WILL EXPEL YOU AS IT DID ME! YOU MUST ESCAPE THEIR GRASP!"
+ATTIC_ASHLEY5	"LIES!"
+ATTIC_NATHAN9	"Then the Fraternity won't have you either! With the energy of the 5 ghosts, I have the power to fling you to Hell..."
+ATTIC_NATHAN10	"NOW!"
+
+ATTIC_END_NATHAN1	"What spell is this...?!"
+ATTIC_END_ASHLEY1	"You underestimated me, Nathan. I feel an extraordinary power within me."
+ATTIC_END_ASHLEY2	"You helped me understand why I felt different - thank you."
+ATTIC_END_ASHLEY3	"I am the Key. Shadows are harmless to me."
+ATTIC_END_ASHLEY5	"Now they've come to take you away..."
+ATTIC_END_NATHAN2	"Nooooooooooooooooo!"
+
+THEEND_SPEECH_1 Ashley, you are now one of us. Your wisdom and immense power have brought the deceitful Nathan to his knees.
+THEEND_SPEECH_2 Your real struggle begins now...
+THEEND_SPEECH_3 But... Nathan is no more!
+THEEND_SPEECH_4 You're right. Bodily he is no more, but his spirit is alive...
+THEEND_SPEECH_5 The world is still in great danger. You must be at the ready.
+THEEND_SPEECH_6 Feel the force within you.
+THEEND_SPEECH_7 What must I do?
+>>>>>>>>>>> FIN Partie proofread FAIT <<<<<<<<<<<<<<<<<<<<<
+
+LOADING	"L O A D I N G"
+TITLE_TEXT1	"A few hours later"
+TITLE_TEXT2	"2212 Manor Street, Long Island"
+MENU_PLAY	PLAY
+MENU_OPTIONS	OPTIONS
+MENU_CREDITS	CREDITS
+MENU_QUIT	EXIT
+MENU_PLAYER	Change player? Click here
+MENU_WELCOME	Welcome
+MENU_EXTRAS	Extras
+MODE_TITLE	CHOOSE DIFFICULTY
+MODE_CASUAL	CASUAL
+MODE_ADVENTURE	ADVENTURE
+MODE_CASUAL_DESC	"You are guided through the adventure.
+
+Basic dialog is provided and active zones are highlighted."
+
+MODE_ADVENTURE_DESC	"You are free to roam.
+
+Dialog is more detailed and active zones are not highlighted."
+
+MODE_BUT_CANCEL	Cancel
+MODE_BUT_CONTINUE	Continue
+ERR_TITLE	Error
+ERR_BODY	Couldn't load %s
+UI_OPTIONS	OPTIONS
+UI_MUSICVOL	Music volume
+UI_SFXVOL	SFX volume
+UI_FULLSCREEN	"Full screen"
+UI_WINDOWED	"Window mode"
+UI_OPTIONS	OPTIONS
+UI_OK		OK
+UI_YES		Yes
+UI_NO		No
+UI_NEW		New
+UI_PLAYERLIST	LIST OF PLAYERS
+UI_CANCEL	Cancel
+UI_DELETE	Delete
+UI_DELETEPLAYER	Delete
+UI_NEWPLAYER	New player
+UI_ALREADYEXIST	This name is already taken.
+UI_MISSINGNAME	Enter your name.
+UI_MENU	MENU
+UI_HINT	Guide
+UI_MAP	Map
+UI_DIARY	DIARY
+IHM_INFO_ENVELOPE	"Collect all the hidden envelopes.
+
+Review their content in your diary - they contain important information."
+
+UI_OBJECTIVE	????
+UI_OBJECTIVES	????
+UI_TASK_NEWOBJECTIF	"New objective: "
+UI_TASKHINTNO	CLOSE
+UI_TASK_HINTAVAILABLE	Click a question for help
+UI_TASK_HINTNOTAVAILABLE	No additional help available yet
+UI_TASK_HINTERROR	I'm unable to get clues to help me with this objective...
+UI_TASK_HINTNOTAVAILABLE_MORE	"Impossible!
+I need more time to concentrate..."
+
+UI_HINTBOX_OK	Done
+NOTIMPLEMENTED	Not implemented
+TUTOBOX_CLICK_ZONE	"Click the indicated area"
+TUTOBOX_CLICK_EVERYWHERE	"Click to continue"
+MINIGAME_EXIT	Back
+MINIGAME_SUBMIT	Submit
+MINIGAME_RESET	Reset
+MINIGAME_SKIP	Skip
+MINIGAME_HELP	Skip
+MINIGAME_SUCCES	"Success!"
+MINIGAME_FAIL	YOU FAILED!
+MOSAIC_TITLE	"REPLAY THE MINI-GAMES"
+MOSAIC_SUB_TITLE	"To unlock a mini-game, you must solve it during the adventure"
+MINIGAME_SKIP_MORE_HELP_QUERY	"You have the option of either taking a Joker and restarting in easy mode or skipping the mini-game. What's your choice?"
+MINIGAME_SKIP_MORE_HELP_QUERY_HINT	"You have the option of taking a Joker to obtain a clue or skipping the mini-game. What's your choice?"
+MINIGAME_SKIP_QUERY	"There's no more help available.
+Skip the mini-game now?"
+
+MINIGAME_SECONDS	" Seconds"
+MINIGAME_HINT_NUMBER	"You have %d Joker(s)."
+MINIGAME_HINT_SKIP_NOW	"Skip now"
+MINIGAME_HINT_GET_HINT	"Get Joker"
+MINIGAME_HINT_NO_THANKS	"No thanks"
+MINIGAME_TITLE_PREFIX	Enigma #
+MINIGAME_LOGIC	LOGIC
+MINIGAME_MEMORY	MEMORY
+MINIGAME_OBSERVATION	OBSERVATION
+MINIGAME_HOLDSTART	Start the game
+MINIJEU_TUTO_RESET	""
+MINIJEU_TUTO_SKIP	""
+MINIJEU_TUTO_HELP	"If you find the puzzle too difficult you can get help or simply skip it by clicking this button."
+MINIJEU_TUTO_SUBMIT	"This button lets you submit your answer"
+MINIJEU_TUTO_CLUE	"You've just been given a clue. If you wish to see it again, click on the corresponding button."
+CINEMATIC_CLOSETXT	Click to skip
+DIALOG_CLOSETXT	Skip
+RULE_POLTERGEISTMG	"Keep clicking the poltergeist until it vanishes."
+CAPTION_TEMPLATEMG	Mini-game
+RULES_TEMPLATEMG	This mini-game has not yet been coded. Click HELP three times to skip.
+HINT1_TEMPLATEMG	"Not implemented."
+HINT2_TEMPLATEMG	""
+HINTQUERY1_TEMPLATEMG	"Not Implemented"
+HINTQUERY2_TEMPLATEMG	"Not Implemented"
+CAPTION_CONNECTMG	Connections
+RULES_CONNECTMG	"Reconnect the red and blue circuits. Click the circles to swivel them."
+HINT1_CONNECTMG	""
+HINT2_CONNECTMG	""
+HINTQUERY1_CONNECTMG	"Two rows of squares are now in place."
+HINTQUERY2_CONNECTMG	"There are now only three rows of squares to put in place."
+CAPTION_JIGSAWMG	Puzzle Picture
+RULES_JIGSAWMG	"Reassemble the picture by positioning the squares in the right places."
+HINT1_JIGSAWMG	""
+HINT2_JIGSAWMG	""
+HINTQUERY1_JIGSAWMG	"There are now fewer pieces in the puzzle."
+HINTQUERY2_JIGSAWMG	"There are now even fewer pieces in the puzzle."
+CAPTION_TREASUREMG	"The code"
+RULES_TREASUREMG	"Find the code. Click on the digits."
+HINT1_TREASUREMG	"The sum of all numbers is 20."
+HINT2_TREASUREMG	"The first number is 8."
+ENIGME_TREASUREMG	"All numbers are even.
+The second is half the first.
+The first is the highest.
+All are different.
+The last is less than five."
+
+CAPTION_DIGITMG	"In the Sand"
+RULES_DIGITMG	"Find where the pearl is buried by clicking the squares on the matrix. When you click a square, a number will indicate the distance in squares from the pearl, horizontally, vertically or diagonally.
+You are allowed 6 tries."
+
+HINT1_DIGITMG	""
+HINT2_DIGITMG	""
+HINTQUERY1_DIGITMG	"You are now allowed 8 tries."
+HINTQUERY2_DIGITMG	"You are now allowed 10 tries."
+CAPTION_MIKADOMG	"Sticks"
+RULES_MIKADOMG	"Pick up the sticks in the correct order, starting with the top one and working your way down to the bottom of the pile."
+
+HINT1_MIKADOMG	""
+HINT2_MIKADOMG	""
+HINTQUERY1_MIKADOMG	"There are now fewer branches to untangle."
+HINTQUERY2_MIKADOMG	"There are even fewer branches to untangle!"
+CAPTION_SIMONSHARKMG	"Find the treasure"
+RULES_SIMONSHARKMG	"Memorize the pirate's movements and place a flag on each cross where the pirate goes. Your goal is to reach the treasure indicated by a red cross. Click Start to begin."
+HINT1_SIMONSHARKMG	""
+HINT2_SIMONSHARKMG	""
+HINTQUERY1_SIMONSHARKMG	"The pirate will need to make fewer moves."
+HINTQUERY2_SIMONSHARKMG	"The pirate will need to make even fewer moves!"
+CAPTION_BONZAIMG	"Trim the Bonsai"
+RULES_BONZAIMG	"Copy Natsumi's drawing by delicately trimming the bonsai. Go easy, otherwise you'll need to start again. Click the zones you wish to trim."
+HINT1_BONZAIMG	""
+HINT2_BONZAIMG	""
+HINTQUERY1_BONZAIMG	"Start again, only this time with one less branch to trim."
+HINTQUERY2_BONZAIMG	"Start again, only this time with two less branches to trim!"
+CAPTION_UNSCREWMG	"Unscrew"
+RULES_UNSCREWMG	"Undo the four screws. Right-click and you'll loosen the screw, left-click and you'll tighten it!
+Note: The screws are linked. Loosening one might tighten another."
+
+HINT1_UNSCREWMG	"You might want to take notes. Remember that right-clicking a screw loosens it."
+HINT2_UNSCREWMG	"Loosen all the screws, one by one, from right to left and from top to bottom."
+CAPTION_STONES	"Stones"
+RULES_STONES	"Which arrangement of stones casts this shadow?
+Select the correct one and submit."
+
+HINT1_STONES	""
+HINT2_STONES	""
+HINTQUERY1_STONES	"One of the options has been eliminated."
+HINTQUERY2_STONES	"Two options have been eliminated!"
+CAPTION_ZENGARDEN	"Zen Garden"
+RULES_ZENGARDEN	"Which is the correct aerial view of the Zen garden? Click to select one and then submit."
+HINT1_ZENGARDEN	""
+HINT2_ZENGARDEN	""
+HINTQUERY1_ZENGARDEN	"One of the options has been eliminated."
+HINTQUERY2_ZENGARDEN	"Two options have been eliminated!"
+CAPTION_MASTERMINDMG	"Color Combination"
+RULES_MASTERMINDMG	"Find the right combination of colored cobblestones. Try positioning four cobblestones of different colours where you see question marks. The water lilies will help you."
+RULES1_MASTERMINDMG	"When you see a water lily with flowers, your cobblestone is in the right place"
+RULES2_MASTERMINDMG	"A water lily without flowers indicates one of your cobblestones is correct, but in the wrong place"
+COLORBLIND_MASTERMINDMG	If you are color blind, click here
+COLORBLIND_MASTERMINDMG_DISABLE	If you are not color blind, click here
+HINT1_MASTERMINDMG	""
+HINT2_MASTERMINDMG	""
+HINTQUERY1_MASTERMINDMG	"Now try with only seven colors"
+HINTQUERY2_MASTERMINDMG	"Now try with only five colors"
+CAPTION_PIANO	"Chessboard"
+RULES_PIANO	"Play the music score on the piano by tapping the four highlighted keys."
+HINT1_PIANO	"There are only four different runes on the score and dirty fingerprints on each of them. Press the right keys and you won't get dirty!"
+HINT2_PIANO	"To play the music score correctly, match the runes from low to high with the piano keys from left to right."
+HINTQUERY1_PIANO	""
+HINTQUERY2_PIANO	""
+CAPTION_CHESSMEMORY	"Checkerboard"
+RULES_CHESSMEMORY	"You have 30 seconds to look at the checkerboards. Then answer the questions."
+HINT1_CHESSMEMORY	""
+HINT2_CHESSMEMORY	""
+HINTQUERY1_CHESSMEMORY	"You are given 5 more seconds to look at the checkerboards."
+HINTQUERY2_CHESSMEMORY	"You are given 5 more seconds to look at the checkerboards."
+QUERY1_CHESSMEMORY	"Which checkerboard has the most ring counters?"
+QUERY2_CHESSMEMORY	"Which checkerboard has the most full counters?"
+QUERY3_CHESSMEMORY	"Which checkerboard has the most counters?"
+QUERY4_CHESSMEMORY	"Which checkerboard has the least counters?"
+QUERY5_CHESSMEMORY	"How many counters are there on this checkerboard?"
+QUERY6_CHESSMEMORY	"How many ring counters are there on this checkerboard?"
+QUERY7_CHESSMEMORY	"How many full counters are there on this checkerboard?"
+CAPTION_MISSINGPARTS	"Patch"
+RULES_MISSINGPARTS	"Identify the missing parts of the picture from the five different options. Select and hit SUBMIT."
+HINT1_MISSINGPARTS	""
+HINT2_MISSINGPARTS	""
+HINTQUERY1_MISSINGPARTS	"Only one missing part left to identify!"
+HINTQUERY2_MISSINGPARTS	"Now only three options!"
+CAPTION_PHOTOCOMP	"Fresco"
+RULES_PHOTOCOMP	"Complete the fresco by clicking each fragment and indicating its original position on the fresco."
+HINT1_PHOTOCOMP	""
+HINT2_PHOTOCOMP	""
+HINTQUERY1_PHOTOCOMP	"Now only 4 fragments."
+HINTQUERY2_PHOTOCOMP	"Now only 3 fragments!"
+CAPTION_CUBES	"Cubes"
+RULES_CUBES	"Take a good look at this assembly of cubes. In your opinion, how many cubes were used to build it?"
+HINT1_CUBES	""
+HINT2_CUBES	""
+HINTQUERY1_CUBES	"The cube assembly has been simplified"
+HINTQUERY2_CUBES	"The cube assembly has been simplified further"
+QUERY_CUBES	"How many cubes are there?"
+CAPTION_PLANTADDITION	Adding plants
+RULES_PLANTADDITION	"Find the number correct number of each kind of plant so that the totals for each row and column tally up."
+HINT1_PLANTADDITION	""
+HINT2_PLANTADDITION	""
+HINTQUERY1_PLANTADDITION	"You're given the value of the first plant"
+HINTQUERY2_PLANTADDITION	"You're given the value of the second plant"
+CAPTION_PLANTMEMORY	Memory Grid
+RULES_PLANTMEMORY	"Study the grid then answer the question."
+HINT1_PLANTMEMORY	""
+HINT2_PLANTMEMORY	""
+PLANTMEMORY_START	CLICK TO START
+PLANTMEMORY_SHOW	Study the grid for...
+PLANTMEMORY_TIME	seconds
+PLANTMEMORY_V0_QUERY	In which square is this plant?
+PLANTMEMORY_V0_HINT1	"One species of plant is visible."
+PLANTMEMORY_V0_HINT2	"Two species of plant are visible."
+PLANTMEMORY_V1_QUERY	In which square are plants of this color?
+PLANTMEMORY_V1_HINT1	"One species of plant is visible."
+PLANTMEMORY_V1_HINT2	"Two species of plant are visible."
+PLANTMEMORY_V2_QUERY	What color is the plant on this square?
+PLANTMEMORY_V2_HINT1	"You have more time to look at the grid."
+PLANTMEMORY_V2_HINT2	"You have more time to look at the grid."
+CAPTION_GARDENING	The 5 Symbols
+RULES_GARDENING	"Complete the matrix: Every line and column must contain the five symbols with no repeats."
+HINT1_GARDENING	""
+HINT2_GARDENING	""
+HINTQUERY1_GARDENING	"More pieces have been positioned for you."
+HINTQUERY2_GARDENING	"Incorrectly positioned pieces will be indicated."
+CAPTION_MIRORGRID	"Light game"
+RULES_MIRORGRID	"Place 9 more mirrors so that each number is reflected by an identical number, directly and by ricochet."
+HINT1_MIRORGRID	""
+HINT2_MIRORGRID	""
+HINTQUERY1_MIRORGRID	"One mirror is now positioned on the matrix for you."
+HINTQUERY2_MIRORGRID	"Two more mirrors are now positioned on the matrix."
+CAPTION_SYMBOLMATCH	"The secret of life"
+RULES_SYMBOLMATCH	"Match each symbol with the pictures on the merchant's cards.
+To do so, slide it under the corresponding card."
+
+HINT1_SYMBOLMATCH	""
+HINT2_SYMBOLMATCH	"Hint: Matches must be made between opposites."
+HINTQUERY1_SYMBOLMATCH	"One pair has been made for you."
+CAPTION_FLACONS	"Bottles"
+RULES_FLACONS	"Position the bottles on squares with crosses.
+Slide a bottle to move it."
+
+HINT1_FLACONS	"Hint: To position the first one, use the other bottles."
+HINT2_FLACONS	"The original position of the bottles has changed. The puzzle is now easier."
+CAPTION_DICE	"The Dice"
+RULES_DICE	"Rebuild the dice from the flat pattern. Shift the symbols and rotate by right-clicking. Hit SUBMIT to check your answer."
+HINT1_DICE	""
+HINT2_DICE	""
+HINTQUERY1_DICE	"One side has been positioned for you."
+HINTQUERY2_DICE	"A second side has been positioned for you."
+CAPTION_DEMELAGE	"Untangling"
+RULES_DEMELAGE	"Position the symbols on the pentagram so that none of the links between them intersects another link."
+HINT1_DEMELAGE	""
+HINT2_DEMELAGE	""
+HINTQUERY1_DEMELAGE	"The outer links have been erased"
+HINTQUERY2_DEMELAGE	"The points of the star have been positioned"
+
+PENTAGRAM_QUERY "How many triangles are there?"
+
+CAPTION_PENTAGRAM	"Pentagram"
+RULES_PENTAGRAM	"Find the total number of triangles in the picture."
+HINT1_PENTAGRAM	"Click the pentagram and the different types of triangle will be shown."
+HINT2_PENTAGRAM	""
+HINTQUERY2_PENTAGRAM	"The pentagram has been simplified"
+CAPTION_MATCH3	"The Door to Hell"
+RULES_MATCH3	"Dismantle the brick wall below the threshold indicated by the red line. Bricks must be matched in groups of three or more (horizontal or vertical) to disappear.
+A brick can only be moved horizontally."
+
+HINT1_MATCH3	""
+HINT2_MATCH3	""
+HINTQUERY1_MATCH3	"The threshold has been raised by a line"
+HINTQUERY2_MATCH3	"The threshold has been raised by a line"
+CHAPTER_EGYPT_CAPTION	A PHARAOH IN ANCIENT EGYPT
+CHAPTER_ISLAND_CAPTION	A TALE OF PIRATES
+CHAPTER_JAPAN_CAPTION	A JAPANESE GIRL TO BE WED
+TITLE_CARIN	"June 14th 1947, Amityville, United States"
+TITLE_LOADING	LOADING...
+TITLE_LOADING2	Please wait
+SUBTITLE_CARIN	"The arrival"
+UI_TASKHINTNO	CLOSE
+UI_TASK_GUIDE	TASK GUIDE	
+INVENTORY_ASHLEY_BESTMOSAIC	I was always the best in pottery class!
+INVENTORY_ASHLEY_WRISTFIXED	The pruning shears are repaired.
+INVENTORY_ASHLEY_BENTO	Looks quite the part.
+INVENTORY_ASHLEY_ENCENSNO	I might burn myself. I must put that down first.
+INVENTORY_MONK_CAP	This looks like a cap!
+INVENTORY_MONK_PESTLE	The piece of wood has been shaped.
+INVENTORY_ASHLEY_ZIPPO	The lighter works now.
+INVENTORY_ASHLEY_FIRE	No, better to put the twigs down first and then light them.
+INVENTORY_MURRAY_BLOWPIPE	"Watch out, parrot!"
+STONE_COMPLETED	"A soul gem is now active on the pendant."
+inv_house_carkey	Car keys
+HOUSE_OUT_TUTOASK	"Welcome, Ashley. Would you like to follow a quick tutorial?"
+HOUSE_OUT_TUTO_TASK	"The guide lists your objectives and gives clues.
+Open it to discover the first objective."
+
+HOUSE_OUT_TUTO_CAR	"Explore the area with your cursor. The cursor will switch to a magnifying glass when zooming is possible.
+
+First, click on the car door to look inside."
+
+HOUSE_OUT_TUTO_CARKEY	"Look carefully for objects that may help you on your quest.
+
+When the cursor switches to a hand you may collect an object."
+
+HOUSE_OUT_TUTO_CARKEYOK	"To progress, use the objects you collect.
+
+Now click on the key to use it."
+
+HOUSE_OUT_TUTO_USECARKEY	"Place the key over the glove box and click again."
+HOUSE_OUT_CARBOX_INFO	"It's locked!"
+HOUSE_OUT_TUTO_ENTERHOUSE	"Your cursor will switch to footsteps when you're able to walk to another place.
+
+Now click on the door of the house."
+
+HOUSE_OUT_ASHLEY_ISAAC1	"Isaac... Wait for me while I get my things."
+HOUSE_OUT_ASHLEY_ISAAC2	"Let's go Isaac."
+HOUSE_OUT_ASHLEY_NEEDMAP	"First I must get the plan and the key I was given. I must have left them in the car."
+HOUSE_OUT_ASHLEY_ZEPS	"Things are not looking up..."
+PARVIS_ASHLEY_ENVELOPE	"I should take that envelope first. It looks like the one I was sent!"
+PARVIS_READNOTICE	"It's a message from the anti-ghost militia:
+
+LEAVE!!"
+
+HOUSE_PARVIS_NAME_INFO	"Paul Wendell - Antiques collector"
+PARVIS_THISHOUSE	"This house!
+The same as in my dream..."
+
+PARVIS_NOTICE	"Interesting"
+PARVIS_ASHLEY_DOOROPEN	"It's locked. I'd better use the key."
+PARVISVO1	"You face a closed door.
+You're about to turn the handle..."
+
+PARVIS_DIALOG_TUTO1	"Interact with the scene.
+Your cursor will change to cogs where action of some sort is possible."
+
+HALL_ASHLEY_ENTER1	"We made it inside. Very easy to get in,
+don't you think Isaac?"
+
+HALL_ASHLEY_ENTER2	"And I'm under the impression we're not alone..."
+HALL_ASHLEY_DARK	"First we need some light."
+HALL_NATHAN_WHOSTHERE	"Come in Ashley... don't be afraid, you're welcome here."
+HALL_NATHAN_STARTHERE	"Come this way, Ashley. There's a soul who needs your help. You must begin your journey here..."
+HALL_ASHLEY_JUSTME	"Hel... Hello.
+We can talk just as soon as I get a light on, alright?"
+
+HALL_TUTO_ITEM	"You now have a piece of the switch. Congratulations! Find the other two pieces to complete it."
+HALL_TUTO_ITEMFULL	"The switch is now complete. Move it from your inventory to its rightful place on the wall."
+HALL_ASHLEY_SWITCHBROKEN	"The switch is broken and parts are scattered on the floor."
+HALL_ASHLEY_SWITCHPIECES	A missing piece of the switch.
+HALL_ASHLEY_SWITCHFULL	The switch is repaired. Well done!
+HALL_ASHLEY_SWITCHREPAIRED	The switch now works.
+HALL_ASHLEY_SWITCHOFF	I feel less tense when it's on, so I'll leave it that way.
+HALL_ASHLEY_ADVENTUREBEGIN	"Who was that? I must find a way to reach the second floor now."
+HALL_ASHLEY_HEXA	"What a curious pendant!"
+HALL_ASHLEY_STUCK	We're prisoners here!
+HALL_ASHLEY_ARTCRITIC	Nice painting. But this is no time to hang around.
+HALL_ASHLEY_NOTFINISH	I'm not finished here.
+HALL_ASHLEY_NEEDWATER	Quickly, water! In the kitchen...
+HALL_ASHLEY_STAIRSBROKEN	The staircase is broken, making it impossible to go upstairs.
+HALL_ASHLEY_GROUNDFLOORRESOLVED	Great! I can now reach the second floor of the house.
+HALL_ASHLEY_ISAACNO	Isaac - No!
+HALL_ASHLEY_PLANT	I need something sharp.
+HOUSE_HALL_ISAAC_INFO	"I'd need something to climb upward."
+HALL_ASHLEY_NOTNOWDINING	"It's blocked!"
+HALL_ASHLEY_LIVINGFIRST	I should first go to the living room as Nathan suggested.
+HALL_ASHLEY_INCOMPLETEROPE	"I won't be able to climb this."
+FIRSTFLOOR_ASHLEY_NOBACK	There's nothing more to do here.
+FIRSTFLOOR_ASHLEY_ISAACREUNION	"Isaac, my brave companion - we're finally reunited! I won't feel so alone exploring this floor. I sense there are ghosts here!"
+HOUSE_KITCHEN_ASHLEY_CALL999	"A lot of people were fooled by this form of state propaganda."
+HOUSE_KITCHEN_ASHLEY_DAD	"All the pans are worn through"
+HOUSE_KITCHEN_POLTER_WATER	I can't reach the faucet. I have to drive this poltergeist away first.
+HOUSE_KITCHEN_VOICEOVER_NOWATER	There's no water.
+HOUSE_KITCHEN_VOICEOVER_FILL	My saucepan's full of water.
+HOUSE_KITCHEN_ASHLEY_ENOUGH	I think I have enough.
+DININGROOM_INFO_CLOSED	"It's locked. There's a curious clock inside."
+DININGROOM_MURRAY_BAILLE	"What are you up to?
+Daydreaming, are we?"
+
+DININGROOM_MURRAY_HELLO	"Hello sailor, I'm Samuel Murray.
+Who are you?"
+
+DININGROOM_ASHLEY_MYNAME	I'm Ashley. Perhaps I can help you...
+DININGROOM_MURRAY_AREYOU	Who said I needed help? You a pirate?
+DININGROOM_ASHLEY_NOTEXACT	Not exactly... I've come to... actually, I can't really explain...
+DININGROOM_MURRAY_SHOWME	"Forget it! I only talk to pirates. Show me you're a worthy pirate!"
+DININGROOM_ASHLEY_HOW	Very well... So captain, tell me what I'm to do.
+DININGROOM_MURRAY_HOW	"Start by putting things back in their places! My galleon has seen better days."
+DININGROOM_ASHLEY_OKLETSTRY	OK, let's see if we can do what he asks...
+DININGROOM_MURRAY_PRISONER	I'm held prisoner here. Can you help me?
+DININGROOM_ASHLEY_IMEDIUM	I'm convinced I can help you somehow and free you of your troubles.
+DININGROOM_MURRAY_HOWCANYOU	How can you unshackle me?
+DININGROOM_ASHLEY_GIVEME	Give me your hand and I'll discover what's keeping you here.
+DININGROOM_ASHLEY_FINISH	I'm finished in this room.
+DININGROOM_MURRAY_EPILOG1	What powers! You can now go into the beyond, sailor.
+DININGROOM_MURRAY_EPILOG2	Beware, Ashley. You will meet some foul winds!
+DININGROOM_ASHLEY_NEEDWATER	I should put that out, and quickly... water! Perhaps in the kitchen?
+DININGROOM_ASHLEY_USEPAN	Use the saucepan of water on it to douse the flames.
+DININGROOM_ASHLEY_VASEBOAT	This vase seems to be here for a reason. Perhaps to draw attention to the galleon.
+DININGROOM_VOICEOVER_MISSING	Something's missing here.
+DININGROOM_MURRAY_ORDER	Tidy up around here and my galleon will look all the more splendid.
+DININGROOM_MURRAY_DANGERFIRE	Put that out! Fires are dangerous! Some pirate you are!
+DININGROOM_MURRAY_KEY	Did you find out what the first key is used for?
+DININGROOM_MURRAY_NOTFINISH	So greenhorn, you're not finished yet?
+DININGROOM_MURRAY_CLOCK	How about you put the clock right.
+DININGROOM_MURRAY_2DRAWER	The clock's got two drawers, right?
+DININGROOM_MURRAY_WHERETRE	Where do pirates put their treasure?
+DININGROOM_MURRAY_GIVEME	You have the treasure? Give it to me!
+DININGROOM_MURRAY_PROGRESS	So, are you making progress?
+DININGROOM_MURRAY_NEAR	Ahh! You're nearly there!
+DININGROOM_MURRAY_BRAVO	The treasure! Bless my barnacles, you're a true pirate!
+DININGROOM_MURRAY_TRUST	You've earned my trust.
+DININGROOM_MURRAY_WELLDONE	You're done! But tidying up is not the work of pirates!
+DININGROOM_MURRAY_SERIOUS	Down to business.
+DININGROOM_ASHLEY_CRAZY	Hey! What's the matter with you?
+DININGROOM_MURRAY_CIGAR	"No cause for concern sailor, I have many more where that came from!
+I'll light another, don't you worry."
+
+DININGROOM_VOICEOVER_CARPET	Something's hidden under the mat.
+DININGBOOK_ASHLEY_ILLUS	The scrap of paper came from this illustration.
+DININGBOOK_ASHLEY_CLUE	There must be a clue in this picture.
+DININGBOAT_ASHLEY_REPAIR	A piece of the mast is missing.
+DININGBOAT_ASHLEY_THETRES	The treasure!
+DININGCLOCK_ASHLEY_PAPERFIRST	I must pick up the scrap of paper first.
+DININGCLOCK_ASHLEY_WOODFIRST	I must find the piece of mast first.
+DININGCLOCK_ASHLEY_STRANGE	What an odd clock!
+DININGCLOCK_ASHLEY_NUM13	The scrap of paper! Number 13 is written on it.
+DININGCLOCK_ASHLEY_MAST	It's a piece of the mast off the galleon.
+DININGCLOCK_ASHLEY_BOATREPAIRED	It's repaired! And it looks like I've triggered a mechanism.
+DININGCLOCK_ASHLEY_DONTKNOW	I have no idea what time to set the clock to.
+DININGCLOCK_ASHLEY_2ND	"There must be another combination for the second drawer...
+What could it be?"
+
+DININGLIB_ASHLEY_BOOKSBAD	These books are tatty!
+DININGLIB_ASHLEY_MISSPART	Pages have been torn out of this book.
+DININGPICTURE_ASHLEY_CLOCK	I don't believe it! It's the clock on the bookshelf!
+DININGPICTURE_ASHLEY_INTRO	This photo seems to have been taken in this very room.
+ROOM2_ISAAC_LIGHTBEDSIDE	"Are you wondering, like I am, why there's a light coming from the bedside table?"
+HOUSE_BATHROOM_GROUND_INFO	"There's a round stain on this tile."
+HOUSE_BATHROOM_SLEEP_INFO	He seems to be asleep.
+HOUSE_BATHROOM_PARCHMENT	"Canopic jars!
+This diagram seems to show a ritual
+to arrange them."
+
+HOUSE_BATHROOM_NEFERES_GOD	"Bow before Neferes, your Pharaoh God!"
+HOUSE_BATHROOM_NEFERES_OSIRIS	"Are you Osiris?
+Have you come to welcome me to my eternal kingdom?"
+
+HOUSE_BATHROOM_ASHLEY_IMNOT1	"Neferes... pardon? ... Your majesty Neferes...
+I'm afraid you're not where you think you are."
+HOUSE_BATHROOM_NEFERES_RITUAL1	"Protect me, Gods!
+The ritual has failed! I have been betrayed!"
+HOUSE_BATHROOM_NEFERES_RITUAL2	"Am I not in my royal tomb?"
+HOUSE_BATHROOM_ASHLEY_IMNOT2	"No, you are in my world, far from where you should be. You have to be freed."
+HOUSE_BATHROOM_ASHLEY_IMNOT3	"I'm not Osiris, but I'm here for you."
+HOUSE_BATHROOM_NEFERES_CHILD	""
+HOUSE_BATHROOM_NEFERES_BACKTOMB	"I must leave your world and return to the Gods in my tomb!"
+
+HOUSE_BATHROOM_ASHLEY_ICANHELP	"Maybe I can help you - give me your hand
+and I'll find out what is keeping you
+here among the dead."
+HOUSE_BATHROOM_NEFERES_OK	"I wish to know. Woman sent by the Gods, here is my hand..."
+HOUSE_NEFERES_EPILOG1	"My family betrayed me. But you have a good soul and have taught me how to trust again."
+HOUSE_NEFERES_EPILOG2	"Receive a blessing from Neferes. You are now a child of the Pharaoh God."
+HOUSE_NEFERES_EPILOG3	"Ashley, take this object and continue on. Are you ready to risk your life?"
+inv_bathroom_chalk	Ochre chalk
+inv_bath_flacon_blue_full	Blue bottle
+inv_bath_flacon_blue_part	Incomplete blue bottle
+inv_bath_flacon_green_full	Green bottle
+inv_bath_flacon_green_part	Incomplete green bottle
+inv_bath_flacon_red_full	Red bottle
+inv_bath_flacon_red_part	Incomplete red bottle
+inv_bath_flacon_yellow_full	Yellow bottle
+inv_bath_flacon_yellow_part	Incomplete yellow bottle
+egypt_land	Valley of the Kings
+egypt_maze	Maze
+egypt_mazeentry	Entrance
+egypt_tomb	Tomb
+egypt_keyroom	Key room
+egypt_boatroom	Room with boat
+egypt_boat	Boat
+egypt_keyroom_zoom	Key mechanism
+mo_gameboard_zone	Game board
+mo_egypt_shop	Merchant
+mo_egypt_walkingguy	Men strolling
+mo_egypt_travelers	Travelers
+mo_egypt_keyroom_cube	Mechanism
+mo_egypt_maze_zone	Heavy closed door
+mo_egypt_missingkey_zone	Strange device
+inv_egypt_key	Maze Key
+mo_egypt_boat_key	Key
+inv_egypt_boat_key	Key
+inv_egypt_fig01	Figurine
+inv_egypt_fig02	Figurine
+inv_egypt_fig03	Figurine
+inv_egypt_fig04	Figurine
+inv_egypt_fig05	Figurine
+inv_egypt_fig06	Figurine
+inv_egypt_fig07	Figurine
+inv_egypt_fig08	Figurine
+inv_egypt_fig09	Figurine
+EGYPT_TOMB_GOD1_INFO	Isis
+EGYPT_TOMB_GOD2_INFO	Thot
+EGYPT_TOMB_GOD3_INFO	Horus
+EGYPT_TOMB_GOD4_INFO	Hathor
+EGYPT_TOMB_GOD5_INFO	Osiris
+EGYPT_TOMB_GOD6_INFO	Anubis
+EGYPT_TOMB_GOD7_INFO	Amon
+EGYPT_MAZE_ROOM	Room
+inv_egypt_god01	Isis
+inv_egypt_god02	Thot
+inv_egypt_god03	Horus
+inv_egypt_god04	Hathor
+inv_egypt_god05	Osiris
+inv_egypt_god06	Anubis
+inv_egypt_god07	Amon
+egypt_tomb_connect_god01	Symbol of the God Isis
+egypt_symbol_god01h	Symbol of the God Isis
+egypt_tomb_connect_god02	Symbol of the God Thot
+egypt_tomb_connect_god03	Symbol of the God Horus
+egypt_tomb_connect_god04	Symbol of the God Hathor
+egypt_symbol_god04h	Symbol of the God Hathor
+egypt_tomb_connect_god05	Symbol of the God Osiris
+egypt_tomb_connect_god06	Symbol of the God Anubis
+egypt_tomb_connect_god07	Symbol of the God Amon
+egypt_symbol_god07h	Symbol of the God Amon
+mo_egypt_tomb_connect_zonemg	Purifying mechanism
+mo_egypt_mazedoor	Labyrinth door
+mo_egypt_maze_door1	Door number 1
+mo_egypt_maze_door2	Door number 2
+mo_egypt_maze_door3	Door number 3
+mo_egypt_boat_zone	Boat
+EGYPT_MAIN_PEOPLE1	"It cannot be! Our dead Pharaoh?
+Who are you?"
+
+EGYPT_MAIN_PEOPLE2	"The Gods are against us.
+Flee I say, flee!"
+
+EGYPT_MAIN_SHOP_HELLO	"What do you want, stranger?"
+EGYPT_MAIN_NEFERES_ENTER	"To enter the Pharaoh's tomb!"
+EGYPT_MAIN_SHOP_IHAVEKEY	"I have a secret key...
+but only members of the Royal Family 
+are allowed to enter the tomb!"
+
+EGYPT_MAIN_NEFERES_IAM	"You might say I am closely related to the Pharaoh..."
+EGYPT_MAIN_SHOP_SHOWME	"Prove it! Show me you know
+life's secret!"
+
+EGYPT_MAIN_SHOP_CONGRAT	You're right - life is full of conflict. A Pharaoh must resolve his people's conflicts and guide them to new heights.
+EGYPT_MAIN_SHOP_ENTER	"Here is the key. Now enter and prepare to face the truth!"
+EGYPT_NEFERES_KEYAPPEAR	"Though long dead, I seem to still have some dexterity. 
+The tomb opening mechanism has appeared!"
+
+EGYPT_NEFERES_EARTHQUAKE	"What happened? Could it be that the door opened?"
+EGYPT_MAZEENTRY_DOOR_INFO	"This heavy door is firmly shut."
+EGYPT_NEFERES_LOST	"I've lost my way!
+I must remember which doors to take in the proper order.
+The inscription to the right of the door may help..."
+
+EGYPT_NEFERES_BADPLACE	That's the wrong place.
+EGYPT_NEFERES_RESOLVEBOAT	"Perfect! It's not far now. I shall soon learn the truth."
+EGYPT_MUMMY_RITUAL1	So you dare return to your tomb!
+EGYPT_MUMMY_RITUAL2	"Pharaoh Neferes, you have shown disrespect to the Gods... Rectify your sin or yield to our wrath!"
+EGYPT_NEFERES_WHATHAP	"I slighted the Gods?
+What possibly could have happened while I was being embalmed?"
+
+EGYPT_NEFERES_RESOLVECONNECT	Success! The mechanism now works!
+EGYPT_NEFERES_ARRIVETOMB	"What could have happened here?
+The purification ritual was sabotaged!
+I have been betrayed!"
+
+EGYPT_NEFERES_MEETHERES1	Mother... why are you here?
+EGYPT_HERES_MEETHERES1	My son, I was the one who betrayed you!
+EGYPT_HERES_MEETHERES2	"I plotted for your brother Akeraton to inherit your throne. Being younger, I considered him more able to satisfy my thirst for greatness."
+EGYPT_NEFERES_MEETHERES2	Mother, you had me assassinated?
+EGYPT_HERES_MEETHERES3	"No, my son, but I admit I was involved in plotting of your murder. I was blinded by thoughts of the riches your brother promised me after your death."
+EGYPT_HERES_MEETHERES4	"And I sabotaged the embalming ritual to be sure you would not torment us in the afterlife."
+EGYPT_HERES_MEETHERES5	"I too have been punished. I stand here, as I have for centuries, under the angry gaze of the Gods."
+EGYPT_NEFERES_MEETHERES3	"I am Neferes, Grand Pharaoh, son of Ra. The Gods hold me responsible. I must end this curse!"
+EGYPT_HERES_MEETHERES6	"The Gods requested I leave you this message: Activate the purification mechanism and your family will be pardoned."
+EGYPT_NEFERES_FINAL1	"I am Neferes, Grand Pharaoh, son of Ra. The purification rites have now been observed!"
+EGYPT_NEFERES_FINAL2	"Mother, you must now face your destiny among the dead. I've one last task - to thank a lady."
+ISLAND_DIALOGBOX_INTRO1	"Why, it's the island where I perished! How is this possible?"
+ISLAND_DIALOGBOX_INTRO2	"I buried a chest here containing wonderful treasure! At least... that's what I was led to believe."
+ISLAND_DIALOGBOX_INTRO3	"I killed a Duke and abandoned my crew in order to keep it with me. Alas I lost the key and was never able to open it!"
+ROOM2_VO_CHAPELET	Something seems to be emanating from the rosary
+ROOM2_ASHLEY_NONEED	I've no need for this right now.
+ROOM2_PRIEST_APPEAR	It's terrible! He's about to die. I must pray!
+ROOM2_ASHLEY_CALMDOWN	Steady your nerves! Who do you say is dying?
+ROOM2_PRIEST_APPEAR2	"The abbot. A strange illness consumes him.
+It's the witch - she's poisoned him!
+I'm sure of it! I'll jail her, the vermin!"
+
+ROOM2_PRIEST_APPEAR3	"I'm trying to pray for his recovery,
+but I've lost my Holy Bible."
+
+ROOM2_ASHLEY_FOUNDBIBLE	Let me help. My dog and I will find the Bible for you.
+ROOM2_PRIEST_NOBIBLE	"The abbot... he's dying!
+And I can't pray, I lost my Holy Bible..."
+
+ROOM2_ISAAC_WOOF	Woof!
+ROOM2_ASHLEY_SEEK	"Isaac, be a good dog
+and go find the lost Bible"
+
+ROOM2_ASHLEY_THANKSISAAC	Good dog, Isaac!
+HOUSE_ROOM2_ASHLEY_BEDSIDELIGHT	There is a strange glow in that drawer!
+ROOM2_PRIEST_EVIL	"I still can't pray, as
+I sense that there's a demon hidden in the room!"
+
+ROOM2_ASHLEY_DEMONINMIRROR	"Some sort of evil force is possessing
+the mirror!
+Repairing the mirror should banish the evil."
+
+HOUSE_ROOM2_MIRROR_INFO	"Part of the mirror is missing"
+ROOM2_ASHLEY_DEMONINMIRROR2	"Complete!
+The evil is just a numbskull
+poltergeist... Drive it away!"
+
+ROOM2_PRIEST_REPAIR	Take this mirror fragment, it may help.
+ROOM2_ASHLEY_HEREBIBLE	"Here Priest, take this Bible.
+Can you pray now?"
+
+ROOM2_PRIEST_HELPPOLTER	Help me! The devil!
+ROOM2_PRIEST_ICANTRUSTYOU	So I can trust you?
+HOUSE_GUILLEM_EPILOG1	"Thank you... I was blind but now I see!"
+HOUSE_GUILLEM_EPILOG2	"My intolerance brought about my downfall and the death of a man I respected."
+HOUSE_GUILLEM_EPILOG3	"You seem so wise, and yet so fragile. Your soul is pure. The abbot would have wanted me to help you. So please, take this."
+HOUSE_GUILLEM_EPILOG4	"Now I must meet my creator... As for you, beware of wolves disguised as lambs!"
+inv_room2mirror_frag00	Mirror fragment
+inv_room2mirror_frag01	Mirror fragment
+inv_room2mirror_frag02	Mirror fragment
+inv_room2mirror_frag03	Mirror fragment
+inv_room2mirror_frag04	Mirror fragment
+inv_room2mirror_frag05	Mirror fragment
+inv_room2mirror_frag06	Mirror fragment
+inv_room2mirror_frag07	Mirror fragment
+inv_room2mirror_frag08	Mirror fragment
+inv_room2_flask	Flask of holy water
+inv_room2_bible	Bible
+ISLAND_SKELETON_INFO	"Fair's fair: Murray got to live, and he got to keep his hat!"
+ISLAND_CROSS_INFO	"The chest is buried here"
+ISLAND_BEACH_MURRAY_BROKE	"Bless my barnacles - this shovel's too fragile! I must reinforce it."
+ISLAND_CRABHOLE_INFO	"This hole seems to have been a shelter to crabs."
+ISLAND_BEACH_MURRAY_NOBERRY	"I need a blowpipe and some ammunition!"
+ISLAND_BEACH_MURRAY_SHARK	There's a shark lurking around the shipwreck. I can't go out there until I get it to swim away, but how?
+ISLAND_BEACH_MURRAY_SAND	"I don't remember where the chest is buried... I need my treasure map."
+ISLAND_BEACH_MURRAY_CROSSOK	"I have to dig where the map tells me to."
+ISLAND_BEACH_MURRAY_NEEDMAP	"I need my treasure map."
+ISLAND_BEACH_MURRAY_MISSED	"Missed!"
+ISLAND_BEACH_MURRAY_HANDLE	"A handle would help..."
+ISLAND_BEACH_MURRAY_MYSAFE	My chest... Now I just need to open it to find out what's inside.
+ISLAND_BEACH_PARROT_PEARL	It's too high. I need some form of projectile!
+ISLAND_BEACH_PARROT_NOPEARL	Thieeeef!
+ISLAND_BEACH_PARROT_SAFE	...
+ISLAND_BEACH_MURRAY_IWASWAITING	I've waited for this moment for many years.
+ISLAND_BEACH_MURRAY_MINE	The pearl is mine now, stupid parrot!
+ISLAND_BEACH_NECKLESS_INFO	This seems to be the missing half of my locket.
+ISLAND_CAVE_MURRAY_ENOUGH	I think I have enough...
+ISLAND_CAVE_MURRAY_BERK	Oh, nasty!
+ISLAND_CAVE_MURRAY_MGDONE	"What a find! A shovel handle!"
+ISLAND_DIVE_MURRAY_INTRO	I must act quickly!
+ISLAND_DIVE_MURRAY_DONE	I'm done here.
+ISLAND_DIVE_MURRAY_WHY	Why won't the clam give me the key?
+ISLAND_DIVE_MURRAY_STICKNOT	The twig isn't enough. I need something more. 
+ISLAND_DIVE_MURRAY_STICK	This twig will stop the clam from closing.
+ISLAND_DIVE_MURRAY_PEARL	A pearl of exactly the same weight as the key.
+ISLAND_DIVE_MURRAY_BLOUP	...glug glug glug...?
+ISLAND_DIVE_MURRAY_SUCCESS	I did it! I have the key to the chest!
+ISLAND_DIVE_MURRAY_TOFAST	It closes too quickly. I have to jam it open!
+ISLAND_DIVE_MURRAY_TOOLATE	I'm out of time!
+ISLAND_DIVE_MURRAY_MISSED	Failed!
+ISLAND_VIEW_MURRAY_NICE	"The shark is visible from here...
+
+Such a beautiful view!"
+
+ISLAND_VIEW_MURRAY_DONE	I'm done here.
+ISLAND_VIEW_MURRAY_SHARK	"A shark is preventing me from reaching the shipwreck.
+I must get it to swim away, but how?"
+
+ISLAND_VIEW_MURRAY_HERE	It won't bother me here.
+ISLAND_VIEW_MURRAY_SEA	The sea looks magnificent from up here. But I must be careful!
+ISLAND_VIEW_MURRAY_FREE	The path is clear!
+ISLAND_VIEW_MURRAY_SUCCESS	Great! I succeeded, and the path is clear!
+ISLAND_VIEW_MURRAY_FAILED	I must get this shark to swim away. Start again.
+ISLAND_CREEK_MURRAY_VOLCANO	This volcano looks very menacing, but fortunately it's calm right now.
+ISLAND_CREEK_MURRAY_SAND	The beach is strewn with fragments of clams.
+ISLAND_CREEK_PARROT_PEARL	My peeaaarrrlll!
+ISLAND_CREEK_MURRAY_WHERE	Hey! Where did it go?
+ISLAND_QUEEN_EPILOG1	"Samuel... Know you who I am?"
+ISLAND_MURRAY_EPILOG1	"You are... our Queen?!"
+ISLAND_QUEEN_EPILOG2	"I am indeed. And thus ends a very long search for you."
+ISLAND_MURRAY_EPILOG2	"F...For me? How so?"
+ISLAND_QUEEN_EPILOG3	"You are my son! I gave you life before I became Queen..."
+ISLAND_QUEEN_EPILOG4	"I was told that you were lost at sea during an expedition along the spice trading routes. You were accompanying your uncle, the Marquis of York."
+ISLAND_QUEEN_EPILOG5	"Rumors surfaced that you were still alive. I regained hope."
+ISLAND_QUEEN_EPILOG6	"I sent the Duke of Oxford on a mission to find you. I gave him half a locket as proof of your existence..."
+ISLAND_MURRAY_EPILOG3	"The Duke... The treasure... The locket... you mean to say I murdered the man who tracked me down?"
+ISLAND_QUEEN_EPILOG7	"The treasure, Samuel - It was the only hope for us to reunite. Go now... you know the truth."
+ISLAND_MURRAY_EPILOG4	"Yes. I am free... I ask you to forgive me. Farewell mother."
+ISLAND_QUEEN_EPILOG8	"You are forgiven. Goodbye, my son. We will reunite..."
+inv_island_berry	Berry
+inv_island_blowpipe	Hollow reed
+inv_island_blowpipearmed	Blowpipe
+inv_island_crab	Crab
+inv_island_key	Key
+inv_island_map	Treasure map
+inv_island_rope	Strap
+inv_island_shovelbroken	Broken shovel
+inv_island_shovelfull	Shovel
+inv_island_shovelhandle	Shovel handle
+inv_island_shovelhead	Shovel head
+inv_island_shovelstrong	Strengthened shovel
+inv_island_wood	Stick
+LIVINGROOM_TITLE_PAGE1	KAPANGYA
+LIVINGROOM_SUBTITLE_PAGE1	The Inca Legend
+LIVINGROOM_TEXT_PAGE1	""
+LIVINGROOM_TITLE_PAGE2	USE
+LIVINGROOM_SUBTITLE_PAGE2	"The 4 powers"
+LIVINGROOM_TEXT_PAGE2	"Legend says that the Kapangya statuette holds 4 magic powers.
+Choose 2 different symbols on the belly of the statue and a magic power will be triggered by pressing its eye."
+
+LIVINGROOM_TITLE_PAGE3	ELEVATION
+LIVINGROOM_SUBTITLE_PAGE3	"And the rocks defy gravity"
+LIVINGROOM_TEXT_PAGE3	"The Kapangya statuette was used by the Incan rulers to elevate rock. They could gain access to enemy temples by raising the heavy stone doors that blocked their entry.
+
+The formula for ELEVATION is:
+2 dragons"
+
+LIVINGROOM_TITLE_PAGE4	ILLUMINATION
+LIVINGROOM_SUBTITLE_PAGE4	"Darkness conquered"
+LIVINGROOM_TEXT_PAGE4	"The Kapangya statuette was able to produce strikingly powerful light. Thus, the statuette's holder need never fear the darkness of night!
+
+The formula for ILLUMINATION is:
+1 eye and 1 dragon."
+
+LIVINGROOM_TITLE_PAGE5	QUAKE
+LIVINGROOM_SUBTITLE_PAGE5	"Wrath of the earth"
+LIVINGROOM_TEXT_PAGE5	"Earthquake was the most impressive power of Kapangya.
+Fortunately, its effects were short-lived - so goes the legend!
+
+The formula for QUAKE is:
+2 eyes"
+
+LIVINGROOM_TITLE_PAGE6	ECLIPSE
+LIVINGROOM_SUBTITLE_PAGE6	"The sun dies"
+LIVINGROOM_TEXT_PAGE6	"The eclipse was dreaded by early settlers, who saw it as a curse.
+Imagine, therefore, the immense power of the statuette's holder who could summon an eclipse by magic!
+
+The formula for ECLIPSE is:
+1 dragon and 1 eye"
+
+HOUSE_PIANO_SCORE_INFO	This melody looks easy to play...
+HOUSE_LIVINGROOM_ASHLEY_WHATWAS	"What can I do? I have to somehow help this ghost."
+HOUSE_LIVINGROOM_ASHLEY_GHOSTSTAT	"This must be the book the ghost mentioned. I have to find the missing pages."
+HOUSE_LIVING_BOOKG_INFO	"The pages are missing."
+HOUSE_LIVING_STATUETTEG_INFO	"You must assemble a statuette here."
+HOUSE_LIVINGROOM_ASHLEY_NEEDBOOK	"I have no idea how to make this statuette. First I should look for the book and place it on the table as the ghost suggests."
+HOUSE_LIVINGROOM_ASHLEY_BOOKHERE	"OK, the book seems to be in the right place. Let's take a closer look!"
+HOUSE_LIVINGROOM_SLOT_INFO	Something seems to be missing here.
+HOUSE_LIVINGROOM_INCOMPLETE	Hmmm... nothing's happening. Could it be that three symbols are required?
+HOUSE_LIVINGROOM_BOOKEFFECT	Something's written in the book.
+HOUSE_LIVINGROOM_STATUETTETALK1	"Woman - I beg you! Help me rebuild Kapangya. Use the book to help you!"
+HOUSE_LIVINGROOM_STATUETTETALK2	Maypin kashan munaykiki? Maypitaqmi khuyayniki?
+HOUSE_LIVINGROOM_ASHLEY_ORDER	Whoops! I must check the book.
+HOUSE_LIVINGROOM_ASHLEY_ORDERFLAME	Oh! I think I need to light a fire in the base.
+HOUSE_LIVINGROOM_ASHLEY_BRUSHWOOD	It's likely to go out unless I bind the twigs together.
+HOUSE_LIVINGROOM_ASHLEY_ZIPEMPTY	My lighter won't work! It must be empty.
+HOUSE_LIVINGROOM_ASHLEY_MISSEYE	I think I'm done - all it needs now is an eye. Can this statuette really have incredible powers?
+HOUSE_LIVINGROOM_ASHLEY_OKLETME	OK, it's asking me to activate an effect on the statuette. I'll try...
+HOUSE_LIVINGROOM_YUMANCO_ASKEFFECT0	You rebuilt Kapangya - you have the honor of activating it!
+HOUSE_LIVINGROOM_YUMANCO_ASKEFFECT1	Two dragons to elevate rock!
+HOUSE_LIVINGROOM_YUMANCO_ASKEFFECT2	An eye and a dragon to cast light!
+HOUSE_LIVINGROOM_YUMANCO_ASKEFFECT3	Two eyes and the earth will quake!
+HOUSE_LIVINGROOM_YUMANCO_ASKEFFECT4	A dragon and an eye to shadow the sun!
+HOUSE_LIVINGROOM_EFFECT1DONE	You have activated the ELEVATION effect
+HOUSE_LIVINGROOM_EFFECT2DONE	You have activated the ILLUMINATION effect
+HOUSE_LIVINGROOM_EFFECT3DONE	You have activated the QUAKE effect
+HOUSE_LIVINGROOM_EFFECT4DONE	You have activated the ECLIPSE effect
+HOUSE_LIVINGROOM_ASHLEY_PIANO	"It's hard to get near with this poltergeist buzzing around!"
+HOUSE_LIVINGROOM_ASHLEY_KILLPOL	"Nothing but a lowlife and a pest!"
+HOUSE_LIVING_SCORE_INFO	"It's the stand for a music score."
+LIVING_POLT_TUTO	"Poltergeists try to stop you from achieving your objective.
+
+Click the poltergeist to drive it away."
+
+HOUSE_LIVINGROOM_YUMANCO_DIAL1	I am YUMANCO...
+HOUSE_LIVINGROOM_YUMANCO_DIAL2	You gave life to Kapangya, my statue. Are you a goddess?
+HOUSE_LIVINGROOM_YUMANCO_DIAL3	Then you may be able to help me...
+HOUSE_LIVINGROOM_YUMANCO_DIAL4	I made a grave mistake. I must repent and be forgiven.
+HOUSE_LIVINGROOM_YUMANCO_DIAL5	I must have your counsel and your powers. I need to reach the land of the dead.
+HOUSE_LIVINGROOM_ASHLEY_HELLO	Hello Yumanco.
+HOUSE_LIVINGROOM_ASHLEY_NOTGOD	No, I'm no goddess. But I'm here to free you from what torments you.
+LIVINGROOM_ASHLEY_GIVEME	I'll try. Give me your hand. You must show me what keeps you here...
+HOUSE_LIVINGROOM_YUMANCO_BACK1	Ashley! Ashley! I'm free and can now rest in peace for all eternity.
+HOUSE_LIVINGROOM_YUMANCO_BACK2	Ashley, my friend - remember me...
+HOUSE_KEYHOLE_DOOR_INFO	"It's locked."
+HOUSE_BASEMENTKEYHOLE_NATSUMI_GOAWAY	Go away! Leave me be!
+HOUSE_BASEMENT_NATSUMI_THANKYOU	Thank you...
+HOUSE_BASEMENTKEYHOLE_ASHLEY_DONTBE	"Don't be afraid of me.
+I'm here to help you."
+
+HOUSE_BASEMENTKEYHOLE_NATSUMI_DOYOU	"I just want to see my husband again, Atsuhito."
+HOUSE_BASEMENTKEYHOLE_ASHLEY_NO	"Let me in, I can perhaps..."
+HOUSE_BASEMENTKEYHOLE_NATSUMI_SOGO	"If you manage to open the door, then come in. Otherwise leave me be!"
+HOUSE_BASEMENTKEYHOLE_ASHLEY_NOTEASY	Hmmm... This is not going to be easy.
+HOUSE_BASEMENTKEYHOLE_NATSUMI_ISAID	I said GO AWAY!
+HOUSE_BASEMENTKEYHOLE_ASHLEY_OUPS	"I don't believe it.
+That makes me jump every time..."
+
+HOUSE_BASEMENT_BONZAI_INFO	"This bonsai is beautiful.
+How incredible with it being kept in a cellar."
+
+HOUSE_BASEMENT_BROKENPOT_INFO	The pot is broken... and empty.
+HOUSE_BASEMENT_MESS_INFO	Useless items.
+HOUSE_BASEMENT_COAL_INFO	The coal has been knocked over.
+HOUSE_BASEMENT_VASE_INFO	This vase seems to have something in it.
+HOUSE_BASEMENT_VASEBROKEN_INFO	The vase is now broken.
+HOUSE_BASEMENT_TRASH_INFO	The trash can is empty.
+HOUSE_BASEMENT_NATSUMI_HELPME	Free me, I beg you!
+HOUSE_BASEMENT_ASHLEY_GIVEME	Give me your hand and I'll guide you in your world...
+HOUSE_BASEMENT_NATSUMI_LETME	Leave me to cry by myself. Leave...
+HOUSE_BASEMENT_ASHLEY_BULBBROK	The bulb's broken.
+HOUSE_BASEMENT_ASHLEY_LIGHT	The light's already on.
+HOUSE_BASEMENT_ASHLEY_CUT	I'll cut myself if I try to unscrew it.
+HOUSE_BASEMENT_ASHLEY_MISSBULB	All I need is a new light bulb.
+HOUSE_BASEMENT_ASHLEY_WRISTBROK	These pruning shears would be useful if they weren't broken.
+HOUSE_BASEMENT_ASHLEY_DRAWING	Looks like a landscape from centuries past. The tree is magnificent.
+HOUSE_BASEMENT_ASHLEY_INEED2	I have to trim the bonsai to look as the ghost remembers it.
+HOUSE_BASEMENT_ASHLEY_OUPSFALL	Whoops!
+HOUSE_BASEMENT_NATSUMI_CANYOUBONZ	Can you trim the bonsai to look as I remember it?
+HOUSE_BASEMENT_NATSUMI_DOYOUHAVE	Do you have something for me?
+HOUSE_BASEMENT_NATSUMI_DOYOUHAVE2	I said, have you something for me?
+HOUSE_BASEMENT_NATSUMI_IDONTNEED	I have no need for that.
+HOUSE_BASEMENT_ASHLEY_SHEDRAW	The ghost seems to be drawing something...
+HOUSE_BASEMENT_ASHLEY_SHEDRAW2	She's made me a drawing!
+HOUSE_BASEMENT_NATSUMI_DOYOUWANT2GIVE	You want to give me something?
+HOUSE_BASEMENT_ASHLEY_IMPOBULB	That's not possible - there's already a light bulb.
+HOUSE_BASEMENT_ASHLEY_CANNOTWRIST	My pruning shears are broken. It's impossible to use them.
+HOUSE_BASEMENT_ASHLEY_INEEDMODEL	I'd need a guide to follow in order to trim this properly.
+HOUSE_BASEMENT_NATSUMI_WOMANYOUCAN	"By trimming the bonsai you've brought back the happy memories of my wedding day."
+HOUSE_BASEMENT_NATSUMI_CANYOUIWILL	"I'm ready once again for the man I love... Come, take me there!"
+HOUSE_BASEMENT_ASHLEY_REALLYSO	"You're sure? If you trust me, I'll be able to help you."
+HOUSE_BASEMENT_NATSUMI_ITISATSU	It's Atsuhito... I was so in love with him, and we were to marry...
+JAPAN_DIALOGBOX_INTRO1	"My home! It's here that I was to marry, but Atsuhito was called to war and never came back..."
+JAPAN_DIALOGBOX_INTRO2	"I must get to the bridal suite to finish preparations..."
+JAPAN_NATSUMI_NEEDFIRE	I can't light this torch without fire...
+JAPAN_NATSUMI_FLAME	The lamp is lit!
+JAPAN_NATSUMI_LAMPGARDEN	Lamp is lit.
+JAPAN_NATSUMI_ENDALPHA1	Congratulations! You've now completed the Alpha test of Age Of Enigma.
+JAPAN_NATSUMI_ENDALPHA2	** Quit the game by hitting ESCAPE **
+JAPAN_NATSUMI_ORDERFIRST	I must tidy things up first.
+JAPAN_NATSUMI_STILLNEED	I think I'll need that.
+JAPAN_NATSUMI_DEJAFAIT	It's already done.
+JAPAN_NATSUMI_NOROOM	I have no space for that.
+JAPAN_NATSUMI_LIGHTFIRST	I think I should light this first.
+JAPAN_NATSUMI_BEDROOM_MGDONE	There, that's how I arranged them on our wedding day.
+JAPAN_NATSUMI_MAINSCREEN_MGDONE	A lantern has appeared on the bench!
+JAPAN_NATSUMI_MAINSCREEN_BANK	Nothing happens.
+JAPAN_ATSUHITO_EPILOG1	"What a beautiful bridal suite. I would have cherished my wedding night. But with the war, it wasn't to be."
+JAPAN_ATSUHITO_EPILOG2	"Natsumi, you must have waited forever for this moment. You died and still I didn't come back."
+JAPAN_ATSUHITO_EPILOG3	"How many years have you wasted?"
+JAPAN_ATSUHITO_EPILOG4	"You must learn, Natsumi, that life is worth more than anything, and that regrets don't honor the dead."
+JAPAN_NATSUMI_EPILOG1	"Atsuhito, my sweetheart... I thought it better to wait for you than to let go..."
+JAPAN_ATSUHITO_EPILOG5	"Memories are always with you. Leave now in peace, and remember the love we shared."
+JAPAN_NATSUMI_HOUSEEPILOG1	"Thank you Ashley! You have helped lift a terrible weight from my heart."
+JAPAN_NATSUMI_HOUSEEPILOG2	"I didn't know earthly love, but with this pardon, I will know it in the afterlife."
+JAPAN_NATSUMI_HOUSEEPILOG3	"Ashley, be careful! He who doesn't free, imprisons..."
+INCA_DIALOGBOX_INTRO1	"Woman, you have divine powers! You sent me to the entrance of the land of the dead. Now I must complete the path that keeps me from redemption."
+INCA_DIALOGBOX_INTRO2	"I will enter this temple and face my destiny again!"
+INCA_DIALOGBOX_INTRO3	"Thank you! Help me enter the temple."
+INCA_MAIN_YUMANCO_STATUETTE_NOEFFECT	"I should try something else."
+INCA_ARTEFACT_APPEAR	A symbol of one of the great sorrows - I should take it.
+INCA_MAIN_DOOR_INFO	"The door's closed."
+INCA_MAIN_TOPDOOR_INFO	"Death row."
+INCA_MAIN_PYRAMID_INFO	"The pyramid of sacrifices. It seems to be angry!"
+INCA_MAIN_SKY_INFO	"The sun seems to be hidden."
+INCA_MAIN_YUMANCO_MGDONE	I was sure this block was hiding something!
+INCA_GUARD_NEEDSPEAR	My spear is broken!
+INCA_GUARD_SPEARBROKEN	It's incomplete!
+INCA_GUARD_REFUSE	What are you doing there? My spear is broken - first, help me!
+INCA_GUARD_RITUAL1	"My spear is finally repaired.
+I can now carry out the ritual!"
+
+INCA_GUARD_RITUAL2	"Sacrificed souls -
+The day of our deliverance is upon us!"
+
+INCA_GUARD_RITUAL3	"Yumanco, Lord of the Nahuati people..."
+INCA_GUARD_RITUAL4	"You have caused great suffering to your people."
+INCA_GUARD_RITUAL5	"You must now repent."
+INCA_GUARD_RITUAL6	"You must now enter the temple to find the 4 great sorrows. Only then will you purify yourself!"
+INCA_YUMANCO_HOWENTER	"How shall I enter the temple?
+The door is closed!"
+
+INCA_GUARD_RITUAL7	"Long have you abused the powers of Kapangya and oppressed the people."
+INCA_GUARD_RITUAL8	"You will now put those powers to good use and purify yourself."
+INCA_YUMANCO_STAIRSDARK	"Find a way to light the room."
+INCA_YUMANCO_INCOMPLETE	It's incomplete... I must find more.
+INCA_YUMANCO_NOTHERE	That won't work... I must look elsewhere.
+INCA_YUMANCO_GOTALL	I have the four sorrows!
+INCA_YUMANCO_DEATHPASSAGE	"Death row! I have condemned them by the thousands, and today it is my turn!"
+INCA_YUMANCO_HOLE	"This wide hole is preventing me reaching my goal."
+INCA_YUMANCO_MAKEFALL	"These stone blocks seem unstable."
+INCA_YUMANCO_HOLEOK	"The hole has been filled and can be crossed."
+INCA_YUMANCO_FRESCOMISS	"This fresco seems unfinished."
+INCA_PRIEST_READY	"Almighty Gods!
+Receive this sacrifice!"
+
+INCA_YUMANCO_WHOISIT	"Priest!
+Who do you sacrifice?"
+
+INCA_PRIEST_INTY	"Yumanco!
+I sacrifice Inty - it was your wish!"
+
+INCA_YUMANCO_IDIDNT	"Inty! My wife!
+I could never have wished that!
+I would never have wanted her dead!"
+
+INCA_PRIEST_YOUDID1	"Yet, Yumanco, it is you who killed her...
+You slaughtered her tribe, the Atamayas!"
+
+INCA_PRIEST_YOUDID2	"When she fled, tired of your violence,
+she returned to her tribe... the one you gave orders to slaughter!"
+
+INCA_YUMANCO_IMSAD1	"NO, STOP!
+My rage blinded me. I regret my actions to the very depths of my soul."
+
+INCA_YUMANCO_IMSAD2	"Save her this time, I beg you!"
+INCA_PRIEST_NO1	"The sacrifice cannot be interrupted. It will be repeated forever. 
+You are condemned to witness it for the rest of eternity. This is your punishment!"
+
+INCA_PRIEST_NO2	"Only a sign from the Gods can end it!"
+INCA_PRIEST_STOP1	"Kapangya! Kapangya!"
+INCA_PRIEST_STOP2	"Is it your wish to save this victim?"
+INCA_PRIEST_DIE1	"Yumanco..."
+INCA_PRIEST_DIE2	"May the Gods one day forgive you!"
+INCA_YUMANCO_INTY	"Inty! True love! I saved you!"
+INCA_INTY_YOUKILLME	"No, in truth, you killed me... There's no going back."
+INCA_YUMANCO_CRY	"I'm sorry! I mourn for you! It was all my fault!"
+INCA_INTY_YOUCRY	"Yumanco, you mourn for me, yet so many others suffered from your cruelty."
+INCA_INTY_YOURSOUL1	"Your soul is held prisoner. And only the all powerful can unshackle it."
+INCA_INTY_YOURSOUL2	"Repent, and your punishment will be nullified."
+INCA_YUMANCO_HOWSOUL	"But how do I repent? The harm is already done."
+INCA_INTY_YOUCAN1	"If you really want to, you must sacrifice your power... sacrifice Kapangya!"
+INCA_INTY_YOUCAN2	"Only then will you be free of your punishment and torment, and able to continue your spiritual journey."
+INCA_PRIEST_WAITKAP	"I wait for Kapangya to be shrouded in the 4 sorrows!"
+INCA_INTY_WAITKAP	"Have you pieced together the 4 sorrows of the sacrificed peoples?
+Then sacrifice Kapangya!"
+
+INCA_FINAL_SKY_INFO	"Respecting the wishes of the faithful, the clouds have disappeared and the sun has returned."
+INCA_FINAL_YUMANCO_CANNOT	"I can't get close. The priest is waiting for a sign from the gods... I should use the statuette!"
+MIDDLEAGE_MONK_ALREADY	That task is already done.
+MIDDLEAGE_MONK_NEEDTOOL	I'd need a tool to cut this.
+MIDDLEAGE_MONK_GATHERFAILED	Gasp!
+MIDDLEAGE_WITCH_SOWHAT	So what?
+MIDDLEAGE_WITCH_ASKPLATE	Did you find a plate? Show me...
+MIDDLEAGE_WITCH_RHAAA	RHAAAAAA!
+MIDDLEAGE_MONK_AFFRAID	You frightened me, witch!
+MIDDLEAGE_WITCH_IMNOT	I'm no witch!
+MIDDLEAGE_WITCH_LETMEHELP	I can help you cure the abbot.
+MIDDLEAGE_MONK_POISON	You'll probably poison him!
+MIDDLEAGE_WITCH_OPEN	Open your heart and you'll see that's not my aim.
+MIDDLEAGE_WITCH_DIDYOUSAVE	Were you able to save him?
+MIDDLEAGE_MONK_NOSAVE	No.
+MIDDLEAGE_WITCH_BRINGMEPLATE	Then bring me a plate, and I will help you prepare a cure.
+MIDDLEAGE_MONK_TRUSTHER	I shall try to trust her this time.
+MIDDLEAGE_WITCH_SETPLATE	"Perfect.
+Put the plate in front of me."
+
+MIDDLEAGE_WITCH_NOTSUITABLE	That's not what I want!
+MIDDLEAGE_JAIL_PLATEZONE_INFO	Put something here.
+MIDDLEAGE_WITCH_ASKPLANT1	"Its bud is like a snake's head!
+Bring me this plant."
+
+MIDDLEAGE_WITCH_ASKPLANT2	"Its leaf is like a fan!
+Bring me this plant."
+
+MIDDLEAGE_WITCH_ASKPLANT3	"Its flower is white but foul-smelling!
+Bring me this plant."
+
+MIDDLEAGE_WITCH_ASKPLANT4	"Death is its garden!
+Bring me this plant."
+
+MIDDLEAGE_WITCH_WHATAREU	What are you doing?!
+MIDDLEAGE_MONK_EMPTYPLATE	"A wooden plate.
+Here's where I put the plate she is asking for."
+
+MIDDLEAGE_MONK_CONTENTPLATE	"The remedy is not yet ready."
+MIDDLEAGE_WITCH_PUTINPLATE	Well done! Put that on the plate!
+MIDDLEAGE_WITCH_PREPARE	"Good! Now use a pestle
+and follow my instructions carefully..."
+
+MIDDLEAGE_WITCH_WELLDONE	Well done!
+MIDDLEAGE_MONK_NEEDSHAPE	It won't fit. It needs reshaping.
+MIDDLEAGE_WITCH_ASKCONTENT	Give me the remedy!
+MIDDLEAGE_WITCH_ASKFLASK	Bring me an empty flask!
+MIDDLEAGE_WITCH_ASKCAP		The flask needs a cork!
+MIDDLEAGE_WITCH_GONOW	"Here's the cure!
+The abbot must drink it now. Go!"
+
+MIDDLEAGE_ABBOT_DYING	I think I'm dying... help me!
+MIDDLEAGE_ABBOT_NOGOOD	Ahhhhrg! This was supposed to cure me?!
+MIDDLEAGE_ABBOT_TREAT	Yes... I'm better now!
+MIDDLEAGE_ABBOT_EPILOG1	"Brother Guillem, you overcame your prejudices and were able to trust this woman."
+MIDDLEAGE_ABBOT_EPILOG2	"As you see, she was not a witch but a herbalist. She had a cure to save my life..."
+MIDDLEAGE_MONK_EPILOG1	"My sorrow overwhelms me, my dear abbot! My intolerance cost you your life."
+MIDDLEAGE_ABBOT_EPILOG4	"Be pardoned - a pardon is a measure of fairness and hope. Now you may continue on your road to our creator... goodbye."
+ATTICDOOR_5STONE	Get the 5 stones
+mo_house_atticdoor_door_idle	Attic door
+mo_house_atticdoor_door_active	Attic door
+HOUSE_ATTICDOOR_DOORIDLE_INFO	"Locked. You can just make out a pentagram on it."
+HOUSE_ATTICDOOR_DOORON_INFO	"The pentagram is lit up and extremely hot."
+HOUSE_ATTIC_PENTACLE_INFO	"This engraving seems to indicate the spot where an object goes."
+mo_hell_mainscreen	Tree of the Hanged
+mo_hell_vale	Soul Valley
+mo_hell_styx	River Styx
+mo_hell_item_lemon_hangon	Lemon
+mo_hell_lemon	Lemon
+mo_hell_item_crow	Injured crow
+mo_hell_item_beetle	Beetle
+mo_hell_item_hourglass	Hourglass
+mo_hell_knife	Knife
+hell_item_cane	Piece of walking stick
+mo_hell_mainscreen_seth	Seth
+mo_hell_hang_zone	The hanged
+mo_hell_tartare_zone	Castle
+mo_hell_vale_soul_1	Soul in distress
+mo_hell_vale_soul_2	Another soul in distress
+mo_hell_vale_soul_3	Another soul in distress
+mo_hell_item_heart	Heart
+mo_hell_item_eyeball	Eye
+mo_hell_item_butterfly	Butterfly wing
+mo_hell_sling_stick	Stick
+mo_hell_smoke	Dark smoke
+mo_hell_stone	Stone
+mo_hell_sand	Sand
+mo_hell_item_clover	Clover
+mo_hell_sling_rope	String
+mo_hell_charon	Charon the ferryman
+mo_hell_door_zone	Door to Hell
+inv_hell_sling_armed	Armed slingshot
+inv_hell_sling	Slingshot
+inv_hell_sling_rope	String
+inv_hell_sling_stick	Stick
+inv_hell_coin	Gold coin
+inv_hell_lemon	Lemon
+inv_hell_sand	Sand
+inv_hell_item_hourglass_empty	Empty hourglass
+inv_hell_item_cane_part	Incomplete walking stick
+inv_hell_knife	Knife
+inv_hell_stone	Stone
+inv_hell_item_cane_full	Walking stick
+inv_hell_item_fruit	Rotten lemon
+inv_hell_item_butterfly	Butterfly wing
+inv_hell_item_hourglass_full	Hourglass
+inv_hell_item_crow	Injured crow
+inv_hell_item_eyeball	Eyeball
+inv_hell_item_beetle	Beetle
+inv_hell_item_clover	Four leaf clover
+inv_hell_item_heart	Heart
+task_hell_foundrichard	Find Richard, brother of Seth
+task_hell_leave	Leave Hell by crossing the river Styx!
+task_hell_reassureseth	Tell Seth his brother is well
+task_hell_savesoul_1	Get objects requested by first soul
+task_hell_savesoul_2	get objects requested by second soul
+task_hell_savesoul_3	Get objects requested by third soul
+HELL_FARDOOR_INFO	"The door to Hell. To reach it, you must first cross the River Styx. That is, if the ferryman will take you..."
+HELL_MAINSCREEN_HANG_INFO	Damned souls...
+HELL_MAINSCREEN_TARTARE_INFO	Tartarus - those who challenged the Gods are locked up there.
+HELL_ASHLEY_ENOUGHSOUL	I should deal with the soul in distress first...
+HELL_ASHLEY_ENDSOUL	I've already found Richard. There's no point bothering these souls again!
+HELL_SOUL_IWOULDLIKE	"I'd like..."
+HELL_SOUL1_GIVE1	"A heart, to remind myself of life before death."
+HELL_SOUL1_GIVE2	"Some clover, as I've waited so long for a little luck."
+HELL_SOUL1_GIVE3	"A beetle, to imitate crawling as I'm weak and corrupt."
+HELL_SOUL2_GIVE1	"An eye, to see what I didn't when I was still able."
+HELL_SOUL2_GIVE2	"An injured bird, as I've never had my independence."
+HELL_SOUL2_GIVE3	"An hourglass, to time the eternity I'll spend here."
+HELL_SOUL3_GIVE1	"A butterfly wing, as an insignificant act can transform the world."
+HELL_SOUL3_GIVE2	"A rotten fruit, as my soul wasn't shored up against the brutality of life."
+HELL_SOUL3_GIVE3	"A walking stick, as I shall now be forever alone."
+HELL_LEMON_INFO	"It's too high."
+HELL_SMOKE_INFO	"This foul smoke would rot anything that came in contact with it."
+HELL_SOUL4_IMOK	"I'm Richard! Is my brother looking for me? Tell him I am well."
+HELL_ASHLEY_NEWSOUL	"(Gasp! While looking for Richard, I disturbed this soul!)
+
+I'm sorry to have bothered you. What can I do for you?"
+
+HELL_ASHLEY_CHARON	"I beg you! Let me cross to return among the living! I should not be here... I must go back!"
+HELL_ASHLEY_CHARON2	"What a chill! But at least he believes me, and wants me to pay him... I must find something!"
+HELL_ASHLEY_ARRIVAL	This is awful - I've been set up by this demon ghost! I must be strong and keep the faith.
+HELL_ASHLEY_EYEBALL	"I can't get it out. I need a tool."
+HELL_SOUL_THANKU	Thank you.
+HELL_SOUL_MORE	Thank you... give me what I need, I beg you.
+HELL_SOUL_DONE	I can suffer in peace now.
+HELL_SOUL2_EMPTY	There's no sand in it... I've no use for that!
+HELL_SOUL3_ROTEN	This is not rotten.
+HELL_SOUL_NOTHKS	No, I don't want that.
+HELL_SETH_HELP	"Can you help me find my brother Richard? You will receive a gold coin in exchange for your help."
+HELL_SETH_MEET1	"Who are you, lady?"
+HELL_ASHLEY_MEETSETH1	"My name is Ashley. Who are you? How do I get out of here?"
+HELL_SETH_MEET2	"I am Seth and I welcome you to Hell! If you want to leave, it'll cost you!"
+HELL_SETH_HELP	"Can you help me find my brother Richard? I'll give you a gold coin in exchange for your help."
+HELL_SETH_THANKS1	"Richard is well? Oh, bless you! Here is a gold coin."
+HELL_SETH_THANKS2	"Thank you for finding Richard. Be sure to use this token of gratitude."
+HELL_CHARON_PAY	Pay.
+HELL_CHARON_NO	No.
+HELL_CHARON_COME	Climb aboard.
+GLOBAL_TUTO_COMBINEITEM	"This type of object must be combined with another object within the inventory."
+GLOBAL_ASHLEY_FINISHED	I'm finished here.
+GLOBAL_ASHLEY_NOEFFECT	Nothing happens.
+GLOBAL_ASHLEY_NOEFFECT1	It's doing nothing!
+GLOBAL_ASHLEY_NOEFFECT2	Nothing happens.
+GLOBAL_ASHLEY_NOEFFECT3	Good try, but no use!
+GLOBAL_ASHLEY_NOEFFECT4	Good try.
+GLOBAL_ASHLEY_NOEFFECT5	What if you tried something else?
+GLOBAL_ASHLEY_NOEFFECT6	No, that doesn't work.
+GLOBAL_ASHLEY_NOEFFECT7	Original, but of no use here.
+GLOBAL_ASHLEY_NOEFFECT8	Nothing happens.
+GLOBAL_ASHLEY_FAILED	Gasp! I failed! Try again?
+GLOBAL_DOORCLOSED	"It's closed."
+inv_switchpieces	Pieces of light switch
+inv_vasepieces	Pieces of vase
+inv_diningroom_rightwindowkey	Display cabinet key
+inv_house_framedining	Picture frame
+inv_dining_vase	Vase
+inv_dining_page	Torn page
+inv_pan	Empty Saucepan
+inv_panfull	Full Saucepan
+inv_basementkey	Basement key
+inv_dining_mast	Boat mast
+inv_dining_page	Torn page
+inv_dining_treasure	Treasure
+inv_dining_vase	Vase
+inv_switchrepaired	Repaired switch
+inv_statuette_eye	Kapangya eye
+inv_statuette_symbol_red	Red stamp
+inv_statuette_symbol_blue	Blue stamp
+inv_house_basement_bolt	Bolt
+inv_house_basement_bulb	Light Bulb
+inv_house_basement_grid_charcoal	Charcoal
+inv_house_basement_grip	Pruning shears
+inv_house_basement_gripbroken	Broken pruning shears
+inv_house_basement_hammer	Hammer
+inv_house_basement_paper	Paper
+inv_house_basement_rag	Rag
+inv_house_basement_screwdriver	Screwdriver
+inv_house_basement_sketch	Sketch
+inv_house_framedining	Frame
+inv_house_hook	Hook
+inv_house_rope	Rope
+inv_house_ropehook	Grapple
+inv_house_ropeladder	Ladder
+inv_hexagramme_final	Soul pendant
+inv_island_pearl	Pearl
+inv_island_neckless1	Half a locket
+inv_island_neckless2	Half a locket
+inv_island_neckless_full	Locket
+inv_middleage_cap	Cap
+inv_middleage_chervil	Green plant
+inv_middleage_cork	Cork
+inv_middleage_dill	Green plant
+inv_middleage_fennel	Pleasant smelling green plant
+inv_middleage_flask_empty	Empty bottle
+inv_middleage_flask_full	Bottle containing cure
+inv_middleage_garlic	Strong smelling plant
+inv_middleage_ginkgo	Branch
+inv_middleage_pestle	Pestle
+inv_middleage_plate	Plate
+inv_middleage_poppy	Red flower
+inv_middleage_rue	Yellow flower
+inv_middleage_sickle	Sickle
+inv_middleage_wood	Piece of wood
+inv_middleage_wort	Yellow flower
+inv_middleage_contentplate_ready	Preparation
+MOUSEOVER_INFO	"Observe"
+MOUSEOVER_LOOK	"Look at"
+MOUSEOVER_GOTO	"Go to"
+MOUSEOVER_BACK	"Back to"
+MOUSEOVER_TAKE	"Take"
+MOUSEOVER_TALK	"Talk to"
+MOUSEOVER_USE	"Use"
+MOUSEOVER_ACTION	"Action on"
+MOUSEOVER_WALK	"Walk to"
+MOUSEOVER_PUZZLE	"Something is missing here"
+inv_key	Key
+mo_parvis	Entrance
+mo_house_out	Street
+mo_parvis_doorhandle	Door handle
+mo_hall	Hall
+mo_house_hall	Hall
+mo_corridor	Corridor
+mo_firstfloor	Second floor
+mo_keyhole	Basement door
+mo_basement	Basement
+mo_closet	Closet
+mo_parvis	Entrance
+mo_house_room2	Bedroom
+mo_bathroom	Bathroom
+mo_house_atticdoor	Door to attic
+mo_house_attic	Attic
+mo_house_diningroom	Dining room
+mo_house_livingroom	Living room
+mo_kitchen	Kitchen
+mo_stairsdown	Stairs to basement
+mo_switchrepaired	Repaired switch 
+mo_switchrepaired_on	Switch
+hall_switchpieces	Parts of switch
+mo_parvis_notice	Notice from the Ghost Militia
+mo_rightwindow_closed	Closed window
+dining_vasepieces	Pieces of vase
+pirate_sit	Murray the pirate ghost
+mo_carpet_key	Key to window
+mo_boatbroken	Broken model
+mo_boatrepaired	Repaired model
+mo_boatbrokenbg	Damaged model
+mo_boatrepairedbg	Repaired model
+mo_boatopenbg	Open model
+mo_boatemptybg	Empty model
+mo_vase_left	Decorative vase
+mo_frame_trace	Mark on wall left by picture frame
+mo_frame_dresser	Picture frame
+mo_frame_wall	Picture frame
+mo_frame_picture_dirty	Stain
+mo_hall_clock	Strange clock
+mo_hall_books	Library
+mo_diningclock_clock	Peculiar clock
+mo_diningclock_mastpiece	Boat mast
+mo_diningclock_pagepiece	Page 13
+mo_diningclock_leftbutton	Mechanism
+mo_diningclock_rightbutton	Mechanism
+mo_kitchen_faucet	Faucet
+mo_kitchen_badpan	Broken saucepans
+mo_kitchen_polt	Pesky poltergeist
+mo_kitchen_pan	Saucepan
+mo_kitchen_water	Water
+mo_basement_rag	Rag
+mo_house_room2_mirror_repared	Repaired mirror
+mo_house_room2_bedclosed	Bedspread
+mo_house_room2_mirrorzone	Mirror
+mo_house_room2_bedside_closed	Bedside table
+mo_house_room2_priest_nobible	Priest without bible
+mo_house_room2_priest_bible	Priest
+mo_house_room2_priest_underattack	Priest under attack!
+mo_house_room2_frag05	Mirror fragment
+mo_house_room2_frag06	Mirror fragment
+mo_house_room2_frag07	Mirror fragment
+mo_house_room2_frag08	Mirror fragment
+mo_house_room2_isaac_quiet	Isaac
+mo_house_room2_isaac_bible	Bible in Isaac's mouth
+mo_island_rock	Rock
+mo_island_shark	Dangerous shark
+mo_island_coco	Coconuts
+mo_safe_close	Chest firmly locked
+mo_safe_open	Open chest
+mo_parrot_nopearl	Thieving parrot
+mo_parrot_pearl	Thieving parrot
+mo_woodout	Wooden stick
+mo_benitieropen	Clam open!
+mo_benitierclose	Clam closed
+mo_dive_key	Safe key
+mo_dive_pearl	Pearl
+mo_island_cave_wood1	Branches
+island_beach	The beach
+island_cave	The pile of branches
+island_creek	The creek
+island_dive	The seafloor
+island_falaise	The cliff
+inca_mainscreen	Temple entrance
+inca_passage	Death row
+inca_stairs	Staircases
+inca_final	Tip of the pyramid
+inca_autel	Alter of sacrifice
+inca_main_guard_nospear	Guard without spear
+inca_main_guard_spear	Guard
+inca_main_skyzone	Firey sky
+inca_pyramid_zone	Pyramid of sacrifices
+inca_main_door	Closed door
+inca_main_cubesclosed	Odd stone block
+inca_spear	Piece of spear
+inv_inca_spearbroken	Incomplete spear
+inv_inca_spearrepaired	Repaired spear
+inv_inca_statuette	Kapangya
+inca_stairs_darkness	Darkness
+inca_fresco1_piece	Piece of fresco
+inca_fresco2_piece	Piece of fresco
+inv_inca_fresco1broken	Incomplete pieces of fresco
+inv_inca_fresco2broken	Incomplete pieces of fresco
+inv_inca_fresco1repaired	Complete pieces of fresco
+inv_inca_fresco2repaired	Complete pieces of fresco
+inca_effectraise_zone	Power to elevate
+inca_effectearthquake_zone	Power to quake
+inca_effectlight_zone	Power to illuminate
+inca_effectdark_zone	Power to throw into darkness
+inca_passage_blocks_ceiling	Unstable ceiling
+inca_passage_blocks_ground	Collapse
+inca_cartouche1_ground	Cartridge fallen on the ground
+inca_cartouche2_ground	Cartridge fallen on the ground
+inv_inca_cartouche1	Cartridge
+inv_inca_cartouche2	Cartridge
+inca_artefact1	1st great sorrow
+inca_artefact2	2nd great sorrow
+inca_artefact3	3rd great sorrow
+inca_artefact4	4th great sorrow
+inv_inca_artefact1	1st great sorrow
+inv_inca_artefact2	2nd great sorrow
+inv_inca_artefact3	3rd great sorrow
+inv_inca_artefact4	4th great sorrow
+mo_turn_right	Next page
+mo_turn_left	Previous page
+mo_spiled_ink	"Spilled ink, not yet dry."
+japan_mainscreen	Exterior
+japan_garden	Zen garden
+japan_bedroom	Bridal suite
+mo_japan_bedroomzone	Closed door
+mo_japan_gardenzone	Zen garden
+mo_bankzone	Bench
+mo_japan_leaves_messy	Petals
+inv_japan_tablepieces	Fragment of table
+inv_japan_kimono2	Part of Kimono
+inv_japan_kimono3	Part of Kimono
+inv_japan_kimono1	Part of Kimono
+inv_japan_tablepieces	Table piece
+inv_japan_bentoempty	Empty bento
+inv_japan_meal	Meal
+inv_japan_bentofull	Full bento
+inv_japan_encensfull	Incense holder
+inv_japan_encensstick	Incense stick
+inv_japan_encensholder	Incomplete incense holder
+inv_japan_candlelamp	Oil lamp
+inv_japan_leaves	Petals
+inv_japan_table	Table
+inv_japan_underteapot	Teapot stand
+inv_japan_bowl2	Bowl
+inv_japan_torchon	Burning torch
+inv_japan_torchoff	Extinguished torch
+inv_japan_bowl1	Bowl
+inv_japan_teapot	Teapot
+task_japan_garden	Resolve the enigma of the Zen garden
+task_japan_tidy	Redecorate the bridal suite
+task_japan_revealbank	Resolve the puzzle of the stone bench
+mo_middleage_cloister	Cloister
+mo_middleage_jail	Jail
+mo_middleage_stairs	Stairs to jail
+mo_middleage_mainscreen	Countryside
+mo_middleage_plate	Plate
+mo_middleage_sickle	Sickle
+mo_middleage_oak_zone	Oak
+mo_middleage_ginkgo_zone	Tree branches
+mo_middleage_rue_zone	Yellow flowers
+mo_middleage_aneth_zone	Green plants
+mo_middleage_cerfeuil_zone	Green plants
+mo_middleage_ail_zone	Odorous flowers
+mo_middleage_pavot_zone	Red flowers
+mo_middleage_fenouil_zone	Odorous yellow flowers
+mo_middleage_millepertuis_zone	Yellow flowers
+mo_middleage_witch_wait	Witch
+mo_middleage_witch_ask	Witch
+mo_middleage_dyingabbot	Dying abbot
+task_japan_tidy_hint	"Lie down on the bed in the bridal suite and you will discover the perfection you aspired to. Tidy the room so that each object is as it was in your vision."
+task_japan_revealbank_hint	"Natsumi - I can now sense that you and Atsuhito were tremendously in love. Examine the bench beneath the cherry tree - a precious object is no doubt hidden there! But first, you must light the lamps along the path to the bench, and this you must do in a particular order."
+inv_house_brushwood_fagot	Tinder wood
+inv_house_cordon	Rope
+inv_house_statuette_part_skull	Piece of statuette
+inv_house_statuette_part_chest	Piece of statuette
+inv_house_statuette_part_head1	Piece of statuette
+inv_house_statuette_part_head2	Piece of statuette
+inv_house_statuette_part_jaw	Piece of statuette
+inv_house_statuette_part_legs	Piece of statuette
+inv_house_brushwood	Twigs
+inv_house_zippo_fluid	Lighter fluid
+inv_house_zippo_full	Reloaded lighter
+inv_house_zippo_empty	Empty lighter
+inv_house_knife	Knife
+inv_house_score	Score
+mo_house_hall_plant	Dead plant
+mo_house_hall_plant_done	Dead plant
+mo_house_score	Score
+mo_house_statuette_part_head2	Piece of statuette
+mo_house_corridor_painting	Painting
+mo_house_cordon	String
+basement_bulb	Bulb
+house_zippo_fluid	Gas
+mo_island_sand	Sand
+mo_island_crab	Crab
+mo_island_berry	Berry
+mo_digit	Pearl in the sand
+mo_island_cross	Location of the treasure
+mo_pearl_sand	Pearl in the sand
+mo_parrot	Thieving parrot
+mo_island_creek_skeleton	Skeleton
+mo_island_rope	Strap
+mo_island_blowpipe	Reed
+mo_island_map	Treasure map
+mo_volcano	Volcano
+mo_island_shovelhandle	Shovel handle
+mo_island_shovelhead	Shovel head
+mo_woodout	Wooden stick
+livingroom_book	Book
+piano	Piano
+chessboard	Chessboard
+house_livingroom_ghost	Yumanco
+livingroom_poltergeist	Poltergeist
+livingroom_book_full	Kapangya Book
+livingroom_book_ghost	Mysterious book
+livingroom_statuette_ghost	Mysterious statue
+livingroom_statuette_full	Kapangya statuette
+house_statuette_part_skull	Piece of statuette
+house_statuette_part_chest	Piece of statuette
+house_statuette_part_legs	Piece of statuette
+house_statuette_part_head1	Piece of statuette
+house_corridor_drawer_closed	Drawer
+house_zippo_empty	Lighter
+inv_livingroom_book	Book
+inv_livingroom_page	Torn pages
+SPIRITISM_SPIRITAREYOU	Spirits... ARE YOU THERE?!
+
+CINEMATIC_ISLAND_PROLOG	""
+
+CINEMATIC_JAPAN_PROLOG	""
+
+CINEMATIC_INCA_PROLOG	""
+
+CINEMATIC_EGYPT_PROLOG	""
+
+CINEMATIC_MIDDLEAGE_PROLOG	""
+
+CINEMATIC_CREDITS	"
+AGE OF ENIGMA:
+THE SECRET OF THE 6TH GHOST
+ 
+A game by Casual Box
+
+-- Producer --
+David Mekersa
+
+-- Assistant Producer & Scriptgirl --
+Jennifer d'Alboy
+
+-- Additional Production --
+Jean-Christophe Russier
+
+-- Writer --
+David Mekersa
+
+-- Co-writer --
+Christophe Joubert
+
+-- Lead Artist --
+Nicolas Leger
+
+-- Illustrations --
+Pamonh Sisouk
+
+-- Music & Sound Design --
+The Cleophas Brothers
+
+-- Programming --
+David Mekersa
+Quentin Gensburger
+
+-- Minigames Programming --
+Quentin Gensburger
+
+-- Particle Engine and VFX --
+Francois Desruelles
+
+-- English Localization --
+Neil Parkinson
+
+-- Proofreading --
+Erin Bell
+Jean-Marie d'Alboy
+
+-- Developer's Diaries --
+Neil Parkinson
+
+-- Additional Programming --
+Matthieu Lombard
+Rene Pourtier
+
+-- 3D animation --
+Guillaume Poitel
+
+-- Voice Acting --
+Ed Mace (Nathan)
+Shelly Callahan (Ashley)
+Yann Cleophas (Yumanco)
+Jennifer d'Alboy (Natsumi)
+Quentin Gensburger (Murray)
+Ahmad Joumblat (Neferes)
+Jacques Dumaire (Guilhem)
+
+-- Main Testers --
+Aude Langevin
+Daniele Ricard
+Francine Agasse (Misstick)
+Franck Grac
+Gaelle Roussel-Gabas
+Jean-Marie d'Alboy
+Laurence Hart
+Liliane Gay (lilypioupiou)
+Manra
+Patrick Baillard
+Perline
+Sylvia Guglielmi
+Valerie Pourtier
+
+-- Special thanks --
+Jean-Marie d'Alboy
+Diego Perrot
+Jean-Claude Cottier
+Emmanuel Marty
+Andreas Schneider
+James Poag
+Lauren Dycus
+Tyler Cooper
+Abrial Da Costa
+Benoit Hozjan
+Jean-Noel Aubry
+Antoine Calas
+"
+
+objective_none	"Explore different areas to discover new objectives"
+objective_house_getmap	"Take the key and the plan of the house"
+question_house_getmap_how	"Where is the key and the plan of the house?"
+answer_house_getmap_how	"The key and plan are in the glove box of the car. Use the car keys to open the glove box."
+objective_house_enterhouse	"Enter the house"
+question_house_enterhouse_how	"How do I enter the house?"
+answer_house_enterhouse_how	"The key to the house is in the glove box, and the key to the glove box in the car's ignition."
+objective_house_hall_light	"Turn the light on"
+question_house_hall_light_how	"How do I repair the switch?"
+answer_house_hall_light_how	"The pieces have fallen on the floor. Pick them up, place the repaired switch on the wall and turn it on."
+objective_house_contactyumanco	"Meet the first ghost"
+question_house_contactyumanco_where	"Where's Yumanco?"
+answer_house_contactyumanco_where	"The first ghost is in the living room."
+objective_house_living_book	"Restore the Kapangya book"
+question_house_living_book_where	"Where are the book's pages?"
+answer_house_living_book_where	"The 6 pages are hidden in the living room. Once you have them, you must place them on the open book on the living room table."
+objective_house_living_buildkapangya	"Assemble the Kapangya statuette"
+question_house_living_buildkapangya_how	"How do I assemble the statuette?"
+answer_house_living_buildkapangya_how	"Place the 6 statuette pieces on the living room table, where you see a transparent statuette. You must follow the order shown in the Kapangya book. There are 5 pieces in the living room, and one on the floor in the corridor."
+objective_house_living_buildbase	"Assemble the base of the statuette"
+question_house_living_buildbase_fire	"How do I make fire?"
+answer_house_living_buildbase_fire	"To make fire you have to light the sticks in the base of the statuette. To light the sticks, obtained in the hallway, you will need to fill the lighter with fluid. Cut the twigs with the knife from the kitchen. The lighter is in the drawer in the hallway and the lighter fluid in the cupboard."
+objective_house_living_buildhead	"Assemble the head of the statuette"
+question_house_living_buildhead_jaw	"Where do I find the jaw of Kapangya?"
+answer_house_living_buildhead_jaw	"The jaw is hidden in the piano in the living room. Drive away the poltergeist that's haunting it and solve the music score puzzle."
+question_house_living_buildhead_piano	"How do I play the piano?"
+answer_house_living_buildhead_piano	"Place the music score found on the shelves in the hallway on the piano. Play the notes in the order indicated, using the 4 areas of the keyboard, from the lowest on the left to the highest on the right."
+question_house_living_buildhead_eye	"Where do I find Kapangya's eye?"
+answer_house_living_buildhead_eye	"Solve the mini-game on the box at Yumanco's feet in the living room."
+objective_house_living_4powers	"Activate Kapangya's 4 powers"
+question_house_living_4powers_how	"How do I activate a power?"
+answer_house_living_4powers_how	"Select 2 symbols by pressing the medallions on the statuette's belly, then press its eye."
+question_house_living_4powers_next	"Which power do I  activate next?"
+answer_house_living_4powers_next	"To know which power to activate, you must speak with the ghost. It will tell you which 2 symbols to select on the statuette's belly. The dragon is the red symbol, and the eye is the blue one."
+objective_house_helpnatsumi	"Help the ghost called Natsumi"
+question_house_helpnatsumi_where	"Where do I find Natsumi?"
+answer_house_helpnatsumi_where	"Natsumi is in the cellar, the door to which you will find in the corridor. Yumanco will give you the key to the cellar."
+question_house_helpnatsumi_what	"What does Natsumi want?"
+answer_house_helpnatsumi_what	"Natsumi wants a piece of paper and some charcoal."
+question_house_helpnatsumi_nextpaper	"Where do I find the next object?"
+answer_house_helpnatsumi_nextpaper	"You'll find a piece of paper in the vase in the cellar. Break the vase with the hammer, which you will also find in the cellar in the toolbox."
+question_house_helpnatsumi_nextcharcoal	"Where do I find the next object?"
+answer_house_helpnatsumi_nextcharcoal	"The charcoal is in the coal bucket. Knock the bucket over and take the piece of coal that falls on the grate in the middle of the room."
+objective_house_basementlight	"Turn on the light in the cellar"
+question_house_basementlight_how	"How do I turn on the light?"
+answer_house_basementlight_how	"Change the bulb. You can remove the shattered bulb by using a cloth. You'll find a new bulb in the cupboard and a cloth in the kitchen."
+objective_house_basementgrid	"Unscrew the grate in the cellar"
+question_house_basementgrid_how	"How do I unscrew the grate?"
+answer_house_basementgrid_how	"Solve the mini-game with the screws. To activate the mini-game, use the screwdriver on the grate. You'll find the screwdriver in the drawer in the cellar."
+objective_house_bonzai	"Trim the bonsai to look as Natsumi remembers it"
+question_house_bonzai_how	"How do I trim the bonsai?"
+answer_house_bonzai_how	"When Natsumi has given you the drawing, copy it using the shears that are hanging in the cellar beneath the shelves."
+question_house_bonzai_grip	"How do I fix the shears?"
+answer_house_bonzai_grip	"Pick up the broken shears and the screw you find on the floor beside the open grate. Use the screw to fix the shears."
+objective_japan_findbedroom	"Find the bridal suite"
+question_japan_findbedroom_where	"Where do I find the bridal suite?"
+answer_japan_findbedroom_where	"The bridal suite is on the other side of the patio. Slide the blind behind the Zen garden."
+objective_japan_tiny	"Tidy up the bridal suite"
+question_japan_tiny_how	"How do I tidy the bridal suite?"
+answer_japan_tiny_how	"Natsumi's vision is inscribed on the bed. Arrange the sheets in order to see it. Every object in the room must be placed exactly as shown in her vision."
+question_japan_tiny_encens	"How do I light the incense?"
+answer_japan_tiny_encens	"Assemble the incense stand and stick and place them on the floor beside the bed. Light the incense with the torch."
+question_japan_tiny_next	"What else do I need to reorganize?"
+answer_japan_tiny_next	"The table and the utensils, the screen and the 3 parts of the kimono, the incense on the floor, the bonsai, and the pebbles on the small table. Don't forget to light the incense and the lamp above the bed, and place petals on the bed. The blind at the window must brush from side to side. The Bento box and the food must be combined in the inventory, and so must the incense stand and incense stick."
+objective_japan_candlelamp	"Hang the lamp above the bed"
+question_japan_candlelamp_where	"Where do I find the lamp to hang above the bed?"
+answer_japan_candlelamp_where	"The lamp is hidden in a mini-game, on the bench beneath the cherry tree outside the palace. To activate the mini-game, light the torches on the path leading to the bench."
+question_japan_candlelamp_lamps	"How do I light the three torches that lead to the bench?"
+answer_japan_candlelamp_lamps	"Light the torches in the correct order."
+objective_japan_torch	"Light the torch"
+question_japan_torch_how	"How do I light the torch?"
+answer_japan_torch_how	"First light the lamp on the patio. To do this, play the Zen garden mini-game."
+objective_house_freemurray	"Free the last ghost on the first floor of the house"
+question_house_freemurray_where	"Where do I find the last ghost on the first floor of the house?"
+answer_house_freemurray_where	"The last ghost on the first floor of the house is in the dining room. Follow his instructions to gain his trust and free him."
+objective_house_tinyboat	"Bring Murray the pirate's galleon back to its former glory"
+question_house_tinyboat_how	"How do I bring the galleon back to its former glory?"
+answer_house_tinyboat_how	"Place a vase to the right of the galleon to mirror the one on its left. The vase in question is in pieces on the floor of the dining room. First remove the framed photo."
+objective_house_treasure	"Find the treasure hidden in the dining room and give it to Murray"
+question_house_treasure_key	"How do I open the display cabinet?"
+answer_house_treasure_key	"The key to the display cabinet is hidden under the rug in the dining room. Put out the fire to get it. To do so, fill a saucepan with water in the kitchen using the faucet."
+question_house_treasure_firstdrawer	"How do I open the first drawer of the clock?"
+answer_house_treasure_firstdrawer	"Set the time on the clock by pressing the buttons to move the hands. Match the time shown in the framed photo."
+question_house_treasure_seconddrawer	"How do I open the second drawer of the clock?"
+answer_house_treasure_seconddrawer	"Use the scrap of paper you found in the first drawer to play the mini-game in one of the books on the bookshelf. When you have solved the puzzle, you will see the time on the spire in the photo."
+objective_house_repairboat	"Fix the galleon"
+question_house_repairboat_how	"How do I fix the galleon?"
+answer_house_repairboat_how	"Use the mast you found in the second drawer of the clock. Then play the mini-game hidden in the rear half of the boat."
+objective_island_findchest	"Find Murray's chest"
+question_island_findchest_map	"Where do I find the treasure map?"
+answer_island_findchest_map	"A map is hidden at the bottom of a hole in the creek. To get the map from the hole, you must place the crab there when you have captured it on the beach. The crab can only be captured when it comes out of the sand."
+question_island_findchest_howdig	"How do I dig?"
+answer_island_findchest_howdig	"Use the treasure map in the sand on the beach to discover where the chest is buried. To dig you'll need a shovel."
+objective_island_shovel	"Make a shovel"
+question_island_shovel_how	"How do I make a shovel?"
+answer_island_shovel_how	"The base of the shovel is buried in the sea beside the shipwreck, and the handle is in the creek beneath a bunch of branches. Play the branches mini-game to receive it. Assemble the two parts in the inventory, then reinforce the shovel with the rope found on the skeleton."
+objective_island_key	"Get the key to the chest"
+question_island_key_how	"How do I get the key?"
+answer_island_key_how	"The key is in the clam in the sea. Take the twig nearby in the water and place it in the clam, then exchange the pearl for the key."
+objective_island_pearl	"Take the pearl from the parrot"
+question_island_pearl_where	"Where do I find the pearl?"
+answer_island_pearl_where	"The parrot has the pearl. Drive it away from the creek. Take the reed hidden behind the skull and place the berry found on the beach inside it. You have devised a blowpipe that can be used on the parrot. Play the pearl mini-game to locate the pearl in the sand."
+objective_inca_spear	"Find the guard's spear"
+question_inca_spear_where	"Where do I find the guard's spear?"
+answer_inca_spear_where	"The spear is made of 6 parts that must be collected beside the doorway to the temple. The spearhead is hidden in the block of cut stone. Play the cut stone mini-game to receive it."
+objective_inca_enter	"Enter the temple"
+question_inca_enter_how	"How do I enter the temple?"
+answer_inca_enter_how	"Use the Kapangya statuette on the door and activate the ELEVATE power."
+objective_inca_4artefacts	"Get the 4 great sorrows"
+question_inca_4artefacts_where	"Where do I find the next great sorrow?"
+answer_inca_4artefacts_where	"The 4 great sorrows are artifacts obtained when you repair the 4 frescos that illustrate the sacrifice ritual. There are 2 frescos in the first room, and two more in the second room in the pyramid. On each fresco you play a mini-game."
+question_inca_4artefacts_light	"How do I light the staircase?"
+answer_inca_4artefacts_light	"Use Kapangya on the statue with the red eyes. Activate the ILLUMINATE power."
+question_inca_4artefacts_cross	"How do I cross the chasm?"
+answer_inca_4artefacts_cross	"Use Kapangya on the unstable ceiling stone above the hole. Activate the TREMBLE power."
+objective_inca_sacrifice	"Sacrifice Kapangya"
+question_inca_sacrifice_god	"How do I provoke a sign from the Gods?"
+answer_inca_sacrifice_god	"Use Kapangya on the sun. Activate the ECLIPSE power."
+question_inca_sacrifice_how	"How do I sacrifice Kapangya?"
+answer_inca_sacrifice_how	"Place the 4 great sorrows in their respective places on the priest's altar."
+objective_house_wakeuppharaoh	"Wake up the Pharaoh"
+question_house_wakeuppharaoh_how	"How do I wake up the Pharaoh?"
+answer_house_wakeuppharaoh_how	"Position the 4 Canopic jars on the floor in front of the bath as indicated on the diagram in the Pharaoh's hands. Place the tiles in the same order following the different colors."
+question_house_wakeuppharaoh_4canope	"Where do I find the 4 Canopic jars?"
+answer_house_wakeuppharaoh_4canope	"The Canopic jars are in fact 4 bottles of perfume. There are fragments in the bathroom, in the first-aid drawer, and around the Pharaoh in the bath."
+objective_egypt_entertomb	"Enter the Pharaoh's tomb"
+question_egypt_entertomb_how	"How do I enter the Pharaoh's tomb?"
+answer_egypt_entertomb_how	"Get the key to the tomb from the merchant outside by solving the mini-game."
+question_egypt_entertomb_key	"How do I use the key?"
+answer_egypt_entertomb_key	"Insert the key in the empty space where you see 5 symbols, in the room where the key is located. Solve the mini-game to activate the mechanism."
+objective_egypt_laby	"Find your way through the labyrinth"
+question_egypt_laby_how	"How do I find my way through the labyrinth?"
+answer_egypt_laby_how	"The map of the labyrinth is displayed to the right of the door. It has 9 lines and 3 columns, and indicates which door to go through from each of the 9 rooms. The plan reads from bottom to top."
+objective_egypt_boat	"Assemble the Pharaoh's boat"
+question_egypt_boat_how	"How do I assemble the Pharaoh's boat?"
+answer_egypt_boat_how	"Place the 9 statuettes collected in the 9 rooms of the labyrinth in their rightful places on the boat. Their places are shown in 2 illustrations on the wall above the boat. Both are sideways views of the boat."
+question_egypt_boat_keyboat	"How do I open the room with the sarcophagus?"
+answer_egypt_boat_keyboat	"You will obtain a key after assembling the Pharaoh's boat. Use it to unlock the door to the room with the sarcophagus."
+objective_egypt_ritual	"Restore the purification ritual"
+question_egypt_ritual_how	"How do I restore the purification ritual?"
+answer_egypt_ritual_how	"The ritual will be restored by activating and resolving the mini-game hidden in the chest of the statue above the sarcophagus. To do so, position the 7 medallions of the Gods in their rightful places at the foot of the sarcophagus."
+question_egypt_ritual_order	"In what order do I position the Gods?"
+answer_egypt_ritual_order	"Follow the order of the 7 statues of the Gods that line the wall of the room with the sarcophagus, as you face them."
+objective_house_bible	"Find the monk's bible"
+question_house_bible_where	"Where do I find the monk's bible?"
+answer_house_bible_where	"The monk's bible is underneath the bed in the bedroom. Ask Isaac to get it for you."
+objective_house_expelroom2	"Drive the poltergeist out of the bedroom"
+question_house_expelroom2_how	"How do I drive the poltergeist out?"
+answer_house_expelroom2_how	"First repair the mirror to expel the poltergeist."
+objective_house_repairmirror	"Repair the mirror"
+question_house_repairmirror_where	"Where are the missing mirror fragments?"
+answer_house_repairmirror_where	"There are other fragments in the bedroom besides the one the monk gives you. One is in the bed, another on the ceiling. Others are scattered about near the mirror."
+question_house_repairmirror_how	"How do I repair the mirror?"
+answer_house_repairmirror_how	"Gather up the 9 pieces and place them in their rightful places on the mirror."
+objective_middleage_healabbot	"Cure the abbot"
+question_middleage_healabbot_how	"How do I cure the abbot?"
+answer_middleage_healabbot_how	"Mix together a cure with help from the prisoner in the underground cell. Follow her instructions, word for word."
+objective_middleage_help	"Help the prisoner prepare a cure"
+question_middleage_help_plate	"Where do I find a plate?"
+answer_middleage_help_plate	"The plate is behind the dying abbot, left of the column."
+question_middleage_help_pestle	"How do I make a pestle?"
+answer_middleage_help_pestle	"Collect the piece of wood from the open ground, then shape it with the sickle. The sickle is on the stairs of the prison."
+objective_middleage_plant	"Prepare the next plant the prisoner has asked for"
+question_middleage_plant_nextpoppy	"What's this plant?"
+answer_middleage_plant_nextpoppy	"Its bud is like a snake's head. It's a poppy, a red flower that grows outside the monastery."
+question_middleage_plant_nextginkgo	"What's this plant?"
+answer_middleage_plant_nextginkgo	"Its leaf is like a fan. It's a ginkgo, a large tree that grows outside the monastery."
+question_middleage_plant_nextgarlic	"What's this plant?"
+answer_middleage_plan_nextgarlic	"A white flower that is foul smelling. It's garlic, and grows outside the monastery at the foot of the oak tree."
+question_middleage_plant_nextrue	"What's this plant?"
+answer_middleage_plant_nextrue	"Death is its garden. It's a rue, a yellow flower that grows outside the monastery to the right of the tomb."
+question_middleage_plant_flask	"How do I make a flask?"
+answer_middleage_plant_flask	"Gather the 4 pieces of the flask at the abbot's feet, in the cloisters."
+question_middleage_plant_how	"How do I prepare the cure?"
+answer_middleage_plant_how	"Put the plate on the floor in front of the prisoner. Then follow the instructions by putting each plant on the plate. Use the pestle after adding each plant and solve each mini-game. When the cure is ready, give it to the prisoner, along with a flask and cap. Shape the cap from a piece of cork. Use the sickle on the oak to get some cork."
+objective_house_atticdoor	"Open the door to the attic"
+question_house_atticdoor_how	"How do I open the door?"
+answer_house_atticdoor_how	"You must activate the pentagram and reverse it by using blessed water. Get the water from the monk in the bedroom."
+question_house_atticdoor_pentagram	"How do I activate the pentagram?"
+answer_house_atticdoor_pentagram	"Redraw the partially erased pentagram using the ochre chalk that Neferes the Egyptian ghost gave you."
+objective_house_atticritual	"Finish the ritual"
+question_house_atticritual_how	"How do I finish the ritual?"
+answer_house_atticritual_how	"Place the pendant in the middle of the pentagram drawn on the floor. Solve the mini-game with the candles that surround the pendant."
+objective_hell_escape	"Escape from Hell"
+question_hell_escape_how	"How do I escape from Hell?"
+answer_hell_escape_how	"Cross the River Styx. To do that, you must pay Charon, the ferryman."
+question_hell_escape_richard	"Where's Richard, Seth's brother?"
+answer_hell_escape_richard	"Richard is among the other souls in the Valley of Souls. You must free 3 before you can meet Richard."
+question_hell_escape_soul	"How do I help the souls in distress?"
+answer_hell_escape_soul	"The souls in distress each list three items they'd like to possess. Find the objects and give them to the souls. Each soul will tell you what they want."
+objective_hell_styx	"Cross the Styx"
+question_hell_styx_how	"How do I cross the River Styx?"
+answer_hell_styx_how	"Find Richard, Seth's brother, in order to get a gold coin from Seth. Then give the gold coin to Charon, the ferryman."
+DIARY_ZEPPELINS	"Since the beginning of the phenomenon, the situation across the world has worsened. The government is using repressive methods that I don't approve of. Haunted houses are sometimes set fire to! Many leave their homes behind - this is no solution to the problem. Much of the city is deserted."
+DIARY_OUT	"The house in my dream really exists...
+
+This morning I received a strange envelope. There was an address written on it, but it wasn't mine. Inside there was a key and the plan of a house. I went to the address indicated and yes, it was the house in my dream. Something beyond mere curiosity is compelling me to go inside and figure out this mystery..."
+
+DIARY_HALL1	"I went inside...
+
+In front of me was a strange person named Nathan. I think he must be one of the ghosts the newspapers spoke about. The ground shook and I was frightened. Isaac was too, and he ran upstairs. I heard Nathan speak - he seems to know me. He also seems to want to help me, but his intentions are unclear!"
+
+DIARY_HALL2	"Nathan gave me a pendant and an assignment.
+
+He says I have to free six ghosts. I have no idea what he means, only that he seems well informed. He knows who I am, or at least... what I am! I'm locked in - it's impossible to walk away now.
+
+And anyhow, I want to know!"
+
+DIARY_LIVING1	"I don't know what will happen to me, but it sure is strange to meet a ghost. I felt something indescribable. I know I can help the ghost of the Incan warrior I met. But how is the statuette so important? It seems I have to rebuild it to save him. I'll understand eventually. I know I can free him!"
+DIARY_LIVING2	"I saved Yumanco! It was like a dream. He went through a sort of trial, beyond life on earth, and I was there with him, inhabiting him... a terrifying experience. I felt a limitless force, and was afraid that my own life had come to an end.
+I'm exhausted but I'll get my strength back.
+One of the gems on the pendent has activated..."
+
+DIARY_NATHAN2	"Nathan has asked me to trust him, but does he want to help or hinder? Am I really held prisoner here as he says?
+
+I've no idea who Nathan is. He's certainly not a ghost like Yumanco! 
+
+I thought he was a member of the Fraternity but I'm having doubts."
+
+DIARY_BASEMENT1	"Another soul - in the cellar. A Japanese lady who seems lost. How can it be that I feel her suffering?
+
+She wants me to give her something. I'll look for it in the cellar.
+
+The more progress I make, the more I feel drawn into the unknown..."
+
+DIARY_BASEMENT2	"The soul of the Japanese lady, Natsumi, is free now.
+
+I've discovered that I have newfound powers. I'm able to mediate beyond life on earth!
+
+Nathan's telling the truth - I am different. And I'm afraid."
+
+DIARY_DINING1	"The third ghost scolded me and was most unpleasant. But I quickly saw he was hiding a more sensitive side, as well as deep sorrow. He too needs to put things right.
+
+I have to restore the model galleon display to its former glory. Perhaps with this broken vase!?"
+
+DIARY_DINING2	"Did Samuel Murray really think I was a pirate? How funny! When I was a young girl I dreamed of becoming the captain of a pirate ship and sailing the seas! Perhaps in another life! Anyway, I'm happy to have helped the poor buccaneer."
+DIARY_NATHAN3	"I no longer trust Nathan. All I did was ask him if he was part of the Fraternity, and he didn't answer. I thought he had been sent to guide me. Why the silence? 
+I need to be on my guard until I know more!"
+
+DIARY_BATHROOM1	"I managed to get upstairs and things have become complicated. The ghost in the bathroom is a Pharaoh, and seems to be in a deep sleep in the bath!
+
+He's holding a parchment in his hands. I have to find a way to wake him."
+
+DIARY_BATHROOM2	"The Pharaoh's ghost revealed to me why all these ghosts can't reach the afterlife. Now that he knows everything about his life, he can rest in peace. 
+
+Truth liberates the soul!"
+
+DIARY_NATHAN4	"Nathan sends shivers down my spine. He tells me he's helping me, and asks me to join him.
+
+I sense danger, but I also feel my own strength.
+
+I'm stronger than him, I can feel it.
+
+And he knows it."
+
+DIARY_ROOM1	"The monk in the bedroom can't pray without his Bible. Perhaps Isaac can help me?
+
+There's another problem - I feel a curious presence here, in the mirror. It's not human, and I sense it's rather nasty..."
+
+DIARY_POLTERGEIST	"The presence in the mirror is a poltergeist. Half ghost, half demon, it is wild and without purpose, its soul forever corrupt.
+
+I seem to somehow have the power to drive poltergeists away."
+
+DIARY_ROOM2	"Guilt poisons the soul. The monk died while his spirit was tortured by his errors. But now he rests in peace.
+
+I see why forgiveness is so important in all religions."
+
+DIARY_ATTICDOOR	"The door to the attic is closed. In my dream, the attic seemed to represent a great danger, but I know I must go inside.
+
+I can make out a pentagram on the door - it's the wrong way round, like in black magic. Perhaps I have to reverse the ritual!?"
+
+DIARY_ATTIC	"I know for certain that Nathan's trying to trap me. I still don't know his intentions and what exactly he wants from me.
+
+He's been guiding me here all along. Even so, I can't abandon everything now."
+
+ENVELOPE_PARVIS	"There is more to this world than meets the eye. Beyond reality there is where we dream, and beyond that, where we hope to live.
+
+If you find this message then you have been dreaming. You have been summoned here to fulfil our hopes.
+
+There will be no satisfactory end to the conflicts that some have instigated.
+
+Are you the Key?
+
+The Fraternity of Mediums"
+
+ENVELOPE_CORRIDOR	"
+The corridor linking the three worlds is blocked. Movement between them has been halted.
+The dead are circulating among the living. The living pursue their lives aimlessly.
+Our goal cannot be revealed, as the forces called upon do not belong to the living.
+Using dreams to transport thoughts, the Fraternity of Mediums is seeking living beings capable of passing between worlds and putting time back into the hands of Chronos. 
+
+(Are you capable? The road is a long one...)"
+
+ENVELOPE_LIVINGROOM	"
+Souls that are forbidden access to the afterlife exist in a state of severe suffering and interfere with the world of the living using supernatural means. Trapped, they exhaust energy vital to the living.
+
+Only the energies contained within their earthly belongings can give them access to the afterlife. Gifted mediums can re-energize these belongings when they travel the corridors between life and afterlife."
+
+ENVELOPE_BASEMENT	"
+The higher world cannot welcome souls that have unresolved issues in their lives. Real light is impure if it is tainted with the shadows of darkness. 
+
+Darkness resolves nothing.
+
+Mortal - the light of your soul can enter the troubled thoughts of those that roam between life and death. Give them eternal purity so they reach the afterlife."
+
+ENVELOPE_DININGROOM	"
+Mediums communicate with the dead and know how to help them. Rare are those with the gift to accompany the souls on the road that leads them to the afterlife. A key will not suffice to cross that threshold - YOU must BE the Key.
+The Fraternity of Mediums knows that the Key is among mortals. The search is not over until a mortal soul steps up."
+
+ENVELOPE_FIRSTFLOOR	"
+Beware of those that use sorcery. While it does enable you to reach the corridors between life and afterlife, sorcery is fueled by chaos and undermines the restoration of earthly balance. 
+Long ago, one of our brothers lost his way in the darkness of sorcery, and we fought him and drove him out. 
+Since then, the Fraternity is extremely vigilant in its search for the Key."
+
+ENVELOPE_ATTIC	"
+
+He that mislead his brothers and used witchcraft is disloyal and a traitor. He is no medium.
+The door to the Kingdom of the Dead is closed to him forever. Never will he reach Thanatos.
+Disloyal is the sorcerer that no-one can reach or bring down. He is neither fire nor ice, neither living nor dead, but his power is immense. He wishes to possess the Key, as only the Key has the power to reverse his wrongdoings."
+

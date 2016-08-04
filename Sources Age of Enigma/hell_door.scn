@@ -1,0 +1,18 @@
+object:scene | walksound:egypt_walk | universe:hell |
+object:image | name:bg | file:hell_doorbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:emitter | name:creeping_souls | type:creepingsmoke | x:870 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/hell_souls.cse |
+
+object:image | name:bg | file:hell_door_door.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:emitter | name:creeping_flame | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/hell_flame.cse | animationfile:particles/hell_flames.csa |
+
+object:zone | name:hell_backtohouse_zone | x:666 | y:45 | width:300 | height:293 | visible:true | mousepointer:arrow_walk |
+
+object:image | name:blank | file:blankbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:preload | destination:house_attic
+
+#END SCRIPTGEN
+object:preload | files:ghostchange.ogg
+#SCRIPTGEN: preloadsound

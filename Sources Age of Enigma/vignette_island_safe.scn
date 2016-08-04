@@ -1,0 +1,8 @@
+object:scene | walksound:none | universe:island |
+object:image | name:bg | file:island_safeempty.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+
+object:image | name:island_safe_neckless[2] | file:island_safe_neckless.png | type:static | x:433 | y:201 | visible:false | nbframe:01 | bFade:true | nFade:300 | mousepointer:arrow_take | invimage:inv_island_neckless1 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:island_beach | glitch:false |
+#END SCRIPTGEN
+object:preload | files:successisland.ogg

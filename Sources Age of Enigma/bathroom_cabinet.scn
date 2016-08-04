@@ -1,0 +1,15 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bg | file:bathroom_cabinetbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:zone | name:house_bathroom_door_zone | x:46 | y:51 | width:312 | height:503 | visible:true | mousepointer:arrow_action |
+object:image | name:house_bathroom_cabinet_open | file:bathroom_cabinet_open.png | type:static | x:0 | y:37 | visible:false | nbframe:1 | bFade:true | nFade:10 |
+object:image | name:house_bathroom_flacon_blue[2] | file:bathroom_flacon_blue_body.png | type:static | x:128 | y:168 | visible:false | nbframe:1 | bFade:true | nFade:100 | mousepointer:arrow_take | invimage:inv_bath_flacon_blue_part |
+object:image | name:house_bathroom_flacon_green[1] | file:bathroom_flacon_green_cap.png | type:static | x:315 | y:509 | visible:false | nbframe:1 | bFade:true | nFade:100 | mousepointer:arrow_take | invimage:inv_bath_flacon_green_part |
+object:image | name:house_bathroom_cabinet_closedfear | file:bathroom_cabinet_closedfear.png | type:static | x:37 | y:37 | visible:false | nbframe:1 | bFade:true | nFade:10 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | mousepointer:arrow_walkback | glitch:false |
+object:preload | destination:bathroom
+
+#END SCRIPTGEN
+object:preload | files:bathcabinet.ogg,frombeyond.ogg,ghost_longvoice_egypt.ogg
+#SCRIPTGEN: preloadsound

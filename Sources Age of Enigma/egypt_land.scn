@@ -1,0 +1,11 @@
+object:scene | walksound:egypt_walk | universe:egypt | sounddesign:egypt_land_sd |
+object:image | name:bg | file:egypt_langbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:zone | name:tomb | x:554 | y:133 | width:400 | height:143 | visible:true | exit:true | exitwalkto:true | destination:egypt_mazeentry |
+object:zone | name:egypt_shop | x:0 | y:163 | width:312 | height:396 | visible:true | mousepointer:arrow_talk |
+object:zone | name:egypt_walkingguy | x:923 | y:347 | width:90 | height:234 | visible:true | mousepointer:arrow_talk |
+object:zone | name:egypt_travelers | x:449 | y:360 | width:350 | height:178 | visible:true | mousepointer:arrow_talk |
+object:emitter | name:creeping_sand | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/egypt_sand_storm.cse | animationfile:particles/egypt_sand_storm.csa |
+object:emitter | name:creeping_birds | type:creepingsmoke | x:758 | y:160 | width:0 | height:0 | start:true | loop:false | presetfile:particles/egypt_birds.cse |
+
+object:preload | destination:egypt_shop
+object:preload | destination:egypt_tomb

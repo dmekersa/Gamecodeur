@@ -1,0 +1,23 @@
+object:scene | walksound:egypt_walk | universe:hell | sounddesign:hell_styx_sd |
+object:image | name:hell_clouds | file:hell_vale_clouds.png | type:video | x:-800 | y:-800 | visible:true | loop:true | bFade:false | nFade:0 |
+object:image | name:bg1 | file:hell_styx_ol2.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 | disable:true |
+object:emitter | name:creeping_bubble | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/hell_bubbles_1.cse | animationfile:particles/hell_bubbles.csa |
+object:emitter | name:creeping_bubble2 | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/hell_bubbles_2.cse | animationfile:particles/hell_bubbles.csa |
+object:emitter | name:creeping_bubble3 | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/hell_bubbles_3.cse | animationfile:particles/hell_bubbles.csa |
+object:image | name:hell_charon | file:hell_charon.png | type:static | x:649 | y:123 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_talk |
+object:image | name:bg2 | file:hell_styxbg_ol.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 | disable:true |
+
+object:image | name:hell_stone | file:hell_stone.png | type:static | x:885 | y:591 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_stone.png |
+object:image | name:hell_sand | file:hell_sand.png | type:static | x:660 | y:611 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_sand.png |
+object:image | name:hell_item_clover | file:hell_item_clover.png | type:static | x:214 | y:581 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_item_clover.png |
+object:image | name:hell_sling_rope | file:hell_sling_rope.png | type:static | x:882 | y:346 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_sling_rope.png |
+object:image | name:hell_item_cane[3] | file:hell_item_cane_part_3.png | type:static | x:620 | y:519 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_item_cane_part |
+
+object:anime | name:charon_animp2p | target:hell_charon | type:p2p | x:649 | y:123 | x2:649 | y2:133 | bounce:true | duration:4000 | counterfunction:EASEOUT |
+
+object:zone | name:hell_door_zone | x:64 | y:41 | width:190 | height:234 | visible:true | mousepointer:arrow_info | infotext:HELL_FARDOOR_INFO |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:hell_vale |
+
+object:anime | name:clouds_anim | target:hell_clouds | type:rotate | angle1:0 | angle2:359 | direction:0 | bounce:false | duration:30000 | counterfunction:LINEAR |
+object:preload | destination:video_player

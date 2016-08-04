@@ -1,0 +1,80 @@
+object:scene | walksound:talons | universe:house |
+
+object:image | name:bg | file:house_diningroombg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:image | name:bghalo | file:dining_lights.png | type:static | x:397 | y:27 | visible:true | nbframe:1 | bFade:true | nFade:50 | disable:true | halo:true | halospeed:0.02 |
+
+// Zones
+object:zone | name:hall | x:15 | y:235 | width:100 | height:445 | visible:true | exit:true | exitdoor:true | destination:house_hall |
+object:zone | name:boat | x:362 | y:191 | width:100 | height:104 | visible:true | mousepointer:arrow_look |
+object:zone | name:frame_trace | x:797 | y:136 | width:50 | height:52 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:hall_clock | x:548 | y:230 | width:57 | height:60 | visible:true | mousepointer:arrow_look |
+object:zone | name:hall_books | x:254 | y:230 | width:64 | height:64 | visible:true | mousepointer:arrow_look |
+
+object:image | name:frame_wall | file:diningroom_framewall.png | type:static | x:797 | y:136 | visible:false | nbframe:1 | bFade:true | nFade:50 | mousepointer:arrow_look |
+object:image | name:vase_dresser | file:diningroom_vasedresser.png | type:static | x:481 | y:257 | visible:false | nbframe:1 | bFade:true | nFade:50 |
+object:image | name:dining_vasepieces[1] | file:dining_vasepieces1.png | type:static | x:316 | y:376 | visible:true | mousepointer:arrow_take | invimage:inv_vasepieces |
+object:image | name:dining_vasepieces[2] | file:dining_vasepieces2.png | type:static | x:435 | y:328 | visible:true | mousepointer:arrow_take | invimage:inv_vasepieces |
+object:image | name:dining_vasepieces[3] | file:dining_vasepieces3.png | type:static | x:505 | y:333 | visible:true | mousepointer:arrow_take | invimage:inv_vasepieces |
+object:image | name:dining_vasepieces[4] | file:dining_vasepieces4.png | type:static | x:517 | y:490 | visible:true | mousepointer:arrow_take | invimage:inv_vasepieces |
+object:image | name:dining_vasepieces[5] | file:dining_vasepieces5.png | type:static | x:629 | y:618 | visible:true | mousepointer:arrow_take | invimage:inv_vasepieces |
+object:image | name:dining_vasepieces[6] | file:dining_vasepieces6.png | type:static | x:555 | y:373 | visible:true | mousepointer:arrow_take | invimage:inv_vasepieces |
+
+// Etats et autres objets
+object:image | name:rightwindow_closed | file:diningroom_rightwindow_closed.png | type:static | x:543 | y:152 | visible:false | nbframe:1 | bFade:true | nFade:50 | mousepointer:arrow_info |
+object:image | name:rightwindow_open | file:diningroom_rightwindow_open.png | type:static | x:540 | y:137 | visible:false | nbframe:1 | bFade:true | nFade:50 | disable:true |
+object:image | name:carpet_burn | file:diningroom_carpetburn.png | type:static | x:371 | y:505 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:carpet_key | file:diningroom_carpetkey.png | type:static | x:382 | y:515 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_diningroom_rightwindowkey.png |
+object:emitter | name:creeping_boat_smoke | type:creepingsmoke | x:423 | y:240 | width:0 | height:0 | start:false | loop:false | presetfile:particles/house_dining_boat_smoke.cse |
+object:emitter | name:creeping_boat_beam | type:creepingsmoke | x:423 | y:240 | width:0 | height:0 | start:false | loop:false | presetfile:particles/house_dining_boat_beam.cse |
+object:emitter | name:creeping_pirate1 | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/ghostflame.cse | animationfile:particles/diningroom_pirate_flame_sit.csa |
+object:image | name:boatbroken | file:dining_boatbroken.png | type:static | x:354 | y:192 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_look |
+object:image | name:boatrepaired | file:dining_boatrepaired.png | type:static | x:354 | y:192 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_look |
+object:zone | name:vase_trace | x:480 | y:255 | width:43 | height:39 | visible:true | mousepointer:arrow_puzzle |
+object:image | name:frame_dresser | file:diningroom_framedresser.png | type:static | x:486 | y:267 | visible:false | nbframe:1 | bFade:true | nFade:50 | mousepointer:arrow_take | invimage:inv_house_framedining.png |
+object:zone | name:vase_left | x:329 | y:247 | width:33 | height:46 | visible:true | mousepointer:arrow_info |
+
+object:image | name:envelope_diningroom | file:envelope_diningroom.png | type:static | x:261 | y:179 | visible:true | mousepointer:arrow_take | invimage:ihm_envelope.png |
+
+// Autres Zones
+object:emitter | name:fire_carpet | type:creepingsmoke | x:450 | y:470 | width:0 | height:0 | start:true | loop:false | presetfile:particles/torch1.cse |
+object:zone | name:firezone | x:336 | y:503 | width:226 | height:80 | visible:true | mousepointer:arrow_info |
+
+object:image | name:armchair | file:diningroom_armchair.png | type:static | x:726 | y:289 | visible:true | nbframe:1 | bFade:false | nFade:0 | mousepointer:arrow_info |
+object:emitter | name:creeping_pirate_static | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/pirateflame.cse | animationfile:particles/diningroom_pirate_flame_sit.csa | fillpolygone:true |
+object:emitter | name:creeping_pirate_standup | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/pirateflame.cse | animationfile:particles/diningroom_pirate_flame_standup.csa | fillpolygone:true |
+object:image | name:tableol | file:diningroom_tableol.png | type:static | x:650 | y:503 | visible:true | nbframe:1 | bFade:false | nFade:0 | disable:true |
+object:image | name:chairol | file:diningroom_chairol.png | type:static | x:712 | y:269 | visible:true | nbframe:1 | bFade:false | nFade:0 |
+
+object:image | name:pirate_sit | file:dining_murray_smoke.png | type:static | x:682 | y:232 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_talk |
+object:image | name:pirate_sit_throw | file:dining_murray_nosmoke.png | type:static | x:682 | y:232 | visible:false | nbframe:1 | bFade:true | nFade:200 |
+object:image | name:pirate_standup | file:dining_murray_standup.png | type:static | x:293 | y:169 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:cigar | file:dining_cigar.png | type:static | x:873 | y:304 | visible:false | nbframe:1 | bFade:true | nFade:100 |
+
+object:emitter | name:creeping_nathan_shadow | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_smoke.cse | animationfile:particles/nathan_smoke_diningroom.csa |
+object:emitter | name:creeping_nathan_souls | type:creepingsmoke | x:820 | y:408 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_souls.cse | scale:0.75 |
+
+object:image | name:house_diningroom_nathan | file:nathan_diningroom.png | type:static | x:706 | y:294 | visible:false | bFade:true | nFade:500 |
+
+object:anime | name:cigar_animrot | target:cigar | type:rotate | angle1:0 | angle2:360 | direction:1 | bounce:false | loop:true | duration:500 | counterfunction:LINEAR |
+object:anime | name:cigar_animp2p | target:cigar | type:p2p | x:873 | y:304 | x2:427 | y2:520 | bounce:false | duration:1000 | counterfunction:EASEIN |
+
+object:emitter | name:flake_framewall | type:flake | x:822 | y:180 | width:43 | height:52 | start:true | loop:true |
+object:emitter | name:flake_vasedresser | type:flake | x:510 | y:280 | width:30 | height:30 | start:false | loop:true |
+
+object:emitter | name:creeping_glow_gem | type:creepingsmoke | x:914 | y:703 | width:0 | height:0 | start:false | loop:false | presetfile:particles/egypt_tomb_beam.cse |
+
+object:image | name:diningroom_hook | file:house_diningroom_hook.png | type:static | x:436 | y:570 | visible:false | mousepointer:arrow_take | invimage:inv_house_hook.png |
+object:emitter | name:flake_hook | type:flake | x:470 | y:607 | width:71 | height:30 | start:false | loop:true |
+
+object:image | name:black | file:blackbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:4000 |
+
+object:preload | destination:openboat
+object:preload | destination:vignette_diningroom_boat
+object:preload | destination:vignette_diningroom_book
+object:preload | destination:vignette_diningroom_clock
+object:preload | destination:vignette_diningroom_lib
+object:preload | destination:vignette_diningroom_picture
+
+#END SCRIPTGEN
+object:preload | files:HALL_NATHAN_MEET3_1.ogg,HALL_NATHAN_MEET3_2.ogg,HALL_NATHAN_MEET3_4.ogg,HALL_NATHAN_MEET3_6.ogg,HALL_NATHAN_MEET3_8.ogg,carpet_burn.ogg,firestop.ogg,ghostcreep.ogg,ghostgone.ogg,hall_ashley_meet3_3.ogg,hall_ashley_meet3_5.ogg,hall_ashley_meet3_7.ogg,key_open.ogg
+#SCRIPTGEN: preloadsound

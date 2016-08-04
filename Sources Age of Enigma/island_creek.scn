@@ -1,0 +1,32 @@
+object:scene | walksound:island_walk | universe:island | sounddesign:island_volcano_sd |
+object:image | name:bg_sky | file:island_mainscreenbg.jpg | type:background | x:0 | y:0 | width:0 | height: | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:image | name:bg | file:island_creekbg.png | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:image | name:parrotfly | file:island_creekparrotwithperlanim.png | type:static | x:591 | y:261 | visible:false | loop:false| nbframe:5 | bFade:true | nFade:100 |
+object:image | name:parrot | file:island_creek_parrot.png | type:static | x:626 | y:320 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:50 | mousepointer:arrow_talk |
+object:image | name:wood | file:island_creekwood.png | type:static | x:41 | y:435 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:50 |
+
+object:zone | name:cave | x:0 | y:455 | width:142 | height:134 | visible:true | exit:true | exitwalkto:true | destination:island_cave |
+
+object:zone | name:island_creek_skeleton | x:786 | y:439 | visible:true | width:62 | height:86 | mousepointer:arrow_info | infotext:ISLAND_SKELETON_INFO | glitch:false |
+object:image | name:island_creek_head1 | file:island_creek_skeletonhead1.png | type:static | x:761 | y:383 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+object:image | name:island_rope | file:island_rope.png | type:static | x:817 | y:401 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_island_rope.png |
+object:image | name:island_blowpipe | file:island_blowpipe.png | type:static | x:819 | y:395 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_island_blowpipe.png |
+object:image | name:island_creek_head2 | file:island_creek_skeletonhead2.png | type:static | x:788 | y:436 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+object:image | name:island_creek_crab1 | file:island_creek_crab_in.png | type:static | x:531 | y:511 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | disable:true |
+object:image | name:island_creek_crab2 | file:island_creek_crab_out.png | type:static | x:535 | y:516 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | disable:true |
+object:image | name:island_map | file:island_map.png | type:static | x:549 | y:517 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_island_map.png |
+
+object:zone | name:island_creek_crabhole | x:525 | y:503 | width:54 | height:33 | visible:true | mousepointer:arrow_puzzle | glitch:true | infotext:ISLAND_CRABHOLE_INFO |
+
+object:zone | name:volcano | x:443 | y:9 | width:560 | height:200 | visible:true | mousepointer:arrow_info | glitch:false |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:island_beach |
+
+object:anime | name:parrotanimframe | target:parrotfly | type:frame |
+object:anime | name:parrotanimp2p | target:parrotfly | type:p2p | x:591 | y:261 | x2:1200 | y2:-100 | loop:false | bounce:false | duration:2000 | counterfunction:EASEIN |
+object:anime | name:bganim | target:bg_sky | type:marquee | duration:90000 | direction:1 |
+
+#END SCRIPTGEN
+object:preload | files:brokenstick.ogg,parrotfly.ogg,skullfall.ogg
+#SCRIPTGEN: preloadsound

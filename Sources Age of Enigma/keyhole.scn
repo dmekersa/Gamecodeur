@@ -1,0 +1,12 @@
+object:scene | walksound:talons | universe:house |
+object:image | name:bg | file:house_corridor_keyhole.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:eye | file:basement_keyhole_eye | type:static | x:374 | y:116 | visible:false | loop:true | nbframe:24 | bFade:false | nFade:0 |
+object:zone | name:keyhole | x:361 | y:74 | width:388 | height:639 | visible:true | mousepointer:arrow_puzzle |
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:corridor |
+
+object:anime | name:keyhole_anim | target:eye | type:video |
+object:preload | destination:stairsdown
+
+#END SCRIPTGEN
+object:preload | files:spooky_piano.ogg
+#SCRIPTGEN: preloadsound

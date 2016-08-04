@@ -1,0 +1,6 @@
+object:image | id:000 | name:pirate | file:pirate.png | type:background | x:0000 | y:0000 | width:1024 | heigth:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000
+object:emitter | id:001 | name:Fire1 | file:Fire1.pyro | x:0500 | y:0200 | state:start | loop:true
+object:emitter | id:002 | name:bubbles | file:bubbles.pyro | x:0250 | y:0500 | state:stop | loop:true
+object:image | id:003 | name:ara2 | file:ara2.png | type:static | x:0500 | y:0200 | width:0 | heigth:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:4000
+object:anime | id:004 | name:arafly | target:ara2 | type:p2p | x:0300 | y:0100 | x2:0000 | y2:0500 | loop:true | duration:5000 | counterfunction:EASEOUT
+object:anime | id:005 | name:aratang | target:ara2 | type:rotate | angle1:0 | angle2:360 | direction:1 | bounce:true | duration:2000 | counterfunction:EASEOUT

@@ -1,0 +1,40 @@
+object:scene | walksound:japan_walk | universe:japan | sounddesign:japan_outside_sd |
+object:image | name:bg | file:japan_mainscreenbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:emitter | name:fire_lamp1 | type:creepingsmoke | x:989 | y:506 | scale:0.30 | start:false | loop:false | presetfile:particles/japan_torch.cse |
+object:emitter | name:fire_lamp2 | type:creepingsmoke | x:100 | y:502 | scale:1.00 | start:false | loop:false | presetfile:particles/japan_torch.cse |
+object:emitter | name:fire_lamp3 | type:creepingsmoke | x:348 | y:356 | scale:0.16 | start:false | loop:false | presetfile:particles/japan_torch.cse |
+
+object:emitter | name:bank_flake | type:flake | x:425 | y:357 | width:80 | height:30 | start:false | loop:true |
+
+object:image | name:japan_mainscreen_lamp1 | file:japan_mainscreen_lamp1.png | type:static | x:964 | y:453 | visible:true | nbframe:1 | bFade:false | nFade:0 |
+object:image | name:japan_mainscreen_lamp2 | file:japan_mainscreen_lamp2.png | type:static | x:27 | y:353 | visible:true | nbframe:1 | bFade:false | nFade:0 |
+object:image | name:japan_mainscreen_lamp3 | file:japan_mainscreen_lamp3.png | type:static | x:336 | y:333 | visible:true | nbframe:1 | bFade:false | nFade:0 |
+object:zone | name:japan_mainscreen_lamp1_zone | x:941 | y:460 | width:78 | height:80 | visible:true |
+object:zone | name:japan_mainscreen_lamp3_zone | x:304 | y:324 | width:57 | height:74 | visible:true |
+
+object:emitter | name:creeping_glow | type:creepingsmoke | x:419 | y:345 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse | scale:0.5 |
+object:image | name:japan_mainscreen_candlelamp | file:japan_candlelamp_messy.png | type:static | x:394 | y:320 | visible:false | nbframe:1 | bFade:false | nFade:0 | mousepointer:arrow_take | invimage:inv_japan_candlelamp.png |
+
+object:image | name:japan_leaves_messy | file:japan_leaves_messy.png | type:static | x:239 | y:441 | visible:false | nbframe:1 | bFade:false | nFade:0 | mousepointer:arrow_take | invimage:inv_japan_leaves.png |
+
+object:emitter | name:creeping_leaf | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/leaf2.cse | animationfile:particles/leaf2.csa |
+
+object:zone | name:temple | x:580 | y:82 | width:207 | height:376 | visible:true | exit:true | exitwalkto:true | destination:japan_garden |
+object:zone | name:bankzone | x:370 | y:335 | width:101 | height:55 | visible:true | mousepointer:arrow_action |
+
+object:image | name:japan_atsuhito | file:japan_epilogue.png | type:static | x:327 | y:214 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:1000 | mousepointer:arrow_talk |
+object:image | name:japan_atsuhito_stone | file:japan_epilogue_stone.png | type:static | x:374 | y:325 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+
+object:image | name:japan_glow1 | file:stone_glow1.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:japan_glow2 | file:stone_glow2.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:japan_glow3 | file:stone_glow3.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:japan_enigmastone | file:univers_stone4_purple.png | type:static | x:271 | y:92 | visible:false | nbframe:1 | bFade:true | nFade:2000 |
+
+object:image | name:blank | file:blankbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:anime | name:glow_animrot | target:glow | type:rotate | angle1:0 | angle2:36000 | direction:1 | bounce:false | loop:true | duration:50000 | counterfunction:LINEAR |
+
+#END SCRIPTGEN
+object:preload | files:japan_walk.ogg
+#SCRIPTGEN: preloadsound

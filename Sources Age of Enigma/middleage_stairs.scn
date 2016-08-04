@@ -1,0 +1,16 @@
+object:scene | walksound:egypt_walk | universe:middleage | sounddesign:middleage_sd_inside |
+
+object:image | name:bg | file:middleage_stairsbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:zone | name:jail_zone | x:525 | y:339 | width:225 | height:220 | visible:true | exit:true | exitwalkto:true | destination:middleage_jail |
+object:zone | name:cloister_zone | x:0 | y:0 | width:243 | height:768 | visible:true | exit:true | exitwalkto:true | destination:middleage_cloister |
+
+object:image | name:middleage_sickle | file:middleage_sickle.png | type:static | x:178 | y:566 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_middleage_sickle.png |
+
+object:image | name:middleage_stairstojail_lightleft | file:middleage_stairstojail_lightleft.png | type:static | x:8 | y:0 | visible:true | nbframe:1 | bFade:true | nFade:500 | halo:true | halospeed:0.04 | disable:true |
+object:image | name:middleage_stairstojail_lightmiddle | file:middleage_stairstojail_lightmiddle.png | type:static | x:22 | y:109 | visible:true | nbframe:1 | bFade:true | nFade:500 | halo:true | halospeed:0.03 | disable:true |
+object:image | name:middleage_stairstojail_lightright | file:middleage_stairstojail_lightright.png | type:static | x:574 | y:238 | visible:true | nbframe:1 | bFade:true | nFade:500 | halo:true | halospeed:0.01 | disable:true |
+
+object:emitter | name:emitter_torch1 | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/torch1.cse | animationfile:particles/torch1.csa |
+object:emitter | name:emitter_torch2 | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/torch2.cse | animationfile:particles/torch2.csa |
+object:emitter | name:emitter_torch3 | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/torch3.cse | animationfile:particles/torch3.csa |

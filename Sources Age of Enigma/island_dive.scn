@@ -1,0 +1,27 @@
+object:scene | walksound:diveend | universe:island |
+object:image | name:fondmarin | file:Island_FondMarinBG.jpg | type:background | x:0000 | y:0000 | width:1024 | heigth:768 | visible:true | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:fondmarinol1 | file:Island_FondMarinBGOL1.PNG | type:static | x:0000 | y:0000 | width:1024 | heigth:768 | visible:true | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:benitieropen | file:island_benitier_open.png | type:static | x:0000 | y:0000 | width:1024 | heigth:768 | visible:true | nbframe:01 | bFade:false | nFade:300 |
+object:image | name:benitierclose | file:island_benitier_close.png | type:static | x:0000 | y:0000 | width:1024 | heigth:768 | visible:false | nbframe:01 | bFade:true | nFade:300 |
+object:image | name:woodin | file:island_dive_woodin.png | type:static | x:542 | y:220 | visible:false | nbframe:01 | bFade:true | nFade:300 |
+object:image | name:woodout | file:island_dive_woodout.png | type:static | x:452 | y:457 | visible:false | nbframe:01 | bFade:true | nFade:300 | mousepointer:arrow_take | invimage:inv_island_wood.png |
+object:image | name:island_shovelhead | file:island_shovelhead.png | type:static | x:162 | y:408 | visible:false | nbframe:01 | bFade:true | nFade:300 | mousepointer:arrow_take | invimage:inv_island_shovelhead.png |
+object:image | name:dive_key | file:island_safekey.png | type:static | x:635 | y:342 | visible:false | nbframe:01 | bFade:true | nFade:100 | mousepointer:arrow_take |
+object:image | name:dive_pearl | file:island_dive_pearl.png | type:static | x:637 | y:323 | visible:false | nbframe:01 | bFade:true | nFade:100 | mousepointer:arrow_info |
+
+object:image | name:boat | file:Island_FondMarinBGOL2.PNG | type:static | x:0 | y:0 | width:0 | heigth:0 | visible:true | nbframe:1 | bFade:false | nFade:0 |
+object:image | name:fishbanc1 | file:fm_fishbanc1.png | type:static | x:0 | y:0 | width:0 | heigth:0 | visible:true | nbframe:1 | bFade:false | nFade:0 |
+object:image | name:fish1 | file:island_fish1.png | type:static | x:250 | y:570 | width:0 | heigth:0 | visible:true | nbframe:1 | bFade:false | nFade:0 |
+
+object:anime | name:fishbanc1P2P | target:fishbanc1 | type:p2p | x:670 | y:-52 | x2:-90 | y2:425 | loop:true | duration:15000 | counterfunction:EASEOUT | delaymin:1000 | delaymax:10000 |
+object:anime | name:sharkanim | target:shark | type:frame |
+object:anime | name:wavesanim | target:waves | type:frame |
+object:anime | name:fish1animrot | target:fish1 | type:rotate | angle1:-10 | angle2:10 | direction:1 | bounce:true | duration:10000 | counterfunction:EASEOUT |
+object:anime | name:fish1animp2p | target:fish1 | type:p2p | x:250 | y:570 | x2:250 | y2:550 | bounce:true | duration:10000 | counterfunction:EASEOUT |
+
+object:zone | name:beach | x:0 | y:580 | width:1024 | height:140 | visible:true | exit:true | exitwalkback:true | destination:island_beach |
+
+object:emitter | name:bubbles | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/bubble1.cse | animationfile:particles/bubble1.csa |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:island_beach |
+object:preload | files:divestart.ogg,island_dive.ogg,diveend.ogg |

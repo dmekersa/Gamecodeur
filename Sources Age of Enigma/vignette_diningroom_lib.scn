@@ -1,0 +1,9 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bookbg | file:vignette_diningroom_libbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+
+object:zone | name:pages | x:767 | y:277 | width:120 | height:100 | visible:true | mousepointer:arrow_puzzle | glitch:false |
+
+object:emitter | name:flake | type:flake | x:820 | y:340 | width:110 | height:70 | start:true | loop:true |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_diningroom | glitch:false |
+object:preload | destination:vignette_diningroom_book

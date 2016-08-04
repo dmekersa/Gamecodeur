@@ -1,0 +1,6 @@
+object:scene | walksound:none | universe:menu |
+object:image | name:ashleybg | file:mosaique_mg_bg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+
+object:image | name:skiphalo | file:mg_ihm_submit_halo.png | type:static | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:1000 |
+object:zone | name:menu_zone | x:0 | y:0 | width:249 | height:99 | visible:true | mousepointer:arrow_action |
+object:preload | files:mg_screenshot_1.png,mg_screenshot_10.png,mg_screenshot_11.png,mg_screenshot_12.png,mg_screenshot_13.png,mg_screenshot_14.png,mg_screenshot_15.png,mg_screenshot_16.png,mg_screenshot_17.png,mg_screenshot_18.png,mg_screenshot_19.png,mg_screenshot_2.png,mg_screenshot_20.png,mg_screenshot_21.png,mg_screenshot_22.png,mg_screenshot_23.png,mg_screenshot_24.png,mg_screenshot_25.png,mg_screenshot_3.png,mg_screenshot_4.png,mg_screenshot_5.png,mg_screenshot_6.png,mg_screenshot_7.png,mg_screenshot_8.png,mg_screenshot_9.png,mg_screenshot_frame.png,mg_screenshot_overlay.png

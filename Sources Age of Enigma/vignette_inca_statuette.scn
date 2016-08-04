@@ -1,0 +1,21 @@
+object:scene | walksound:none | universe:inca |
+
+object:image | name:inca_card_elevation | file:inca_card_elevation.png | type:static | x:304 | y:344 | visible:true | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_card_lightness | file:inca_card_lightness.png | type:static | x:79 | y:344 | visible:true | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_card_darkness | file:inca_card_darkness.png | type:static | x:207 | y:36 | visible:true | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_card_earthquake | file:inca_card_earthquake.png | type:static | x:0 | y:55 | visible:true | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:image | name:inca_statuette_eyepressed | file:inca_statuette_off_eyespressed.png | type:static | x:640 | y:131 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_statuette_off | file:inca_statuette_off.png | type:static | x:640 | y:131 | visible:true | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:image | name:inca_statuette_symbol_blue1 | file:inca_statuette_symbol_blue.png | type:static | x:729 | y:459 | visible:valse | loop:false | nbframe:01 | bFade:true | nFade:300 | mousepointer:arrow_action |
+object:image | name:inca_statuette_symbol_blue2 | file:inca_statuette_symbol_blue.png | type:static | x:716 | y:513 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:300 | mousepointer:arrow_action |
+
+object:image | name:inca_statuette_symbol_red1 | file:inca_statuette_symbol_red.png | type:static | x:729 | y:459 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:300 | mousepointer:arrow_action |
+object:image | name:inca_statuette_symbol_red2 | file:inca_statuette_symbol_red.png | type:static | x:716 | y:513 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:300 | mousepointer:arrow_action |
+
+object:zone | name:inca_statuette_eye_zone | x:719 | y:235 | width:147 | height:89 | visible:true | mousepointer:arrow_action |
+object:image | object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:2500 | mousepointer:arrow_walkback |
+#END SCRIPTGEN
+object:preload | files:inca_eclipse.ogg,kapangya_symbol.ogg,rockfall.ogg
+#SCRIPTGEN: preloadsound

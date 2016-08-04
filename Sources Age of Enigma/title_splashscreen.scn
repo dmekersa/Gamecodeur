@@ -1,0 +1,9 @@
+object:scene | walksound:none | universe:none |
+object:image | name:splash1 | file:splash_normal.jpg | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:500 | basedir:l10n/ |
+object:image | name:splash2 | file:splash_enigma.jpg | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:500 | basedir:l10n/ |
+object:image | name:splash3 | file:splash_casualbox.jpg | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:splash4 | file:splash_cleophas.jpg | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:500 |
+object:xxemitter | name:creeping_smoke | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/mysterysplash.cse | animationfile:particles/mystery1.csa |
+
+object:preload | destination:loading
+object:preload | destination:title

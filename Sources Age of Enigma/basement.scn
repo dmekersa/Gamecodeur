@@ -1,0 +1,63 @@
+object:scene | walksound:talons | universe:house | sounddesign:basement_dark_sd |
+object:image | name:bg | file:house_basementbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:xxemitter | name:creeping_static_hidden | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/pirateflame.cse | animationfile:particles/japan_geisha_sit_flame.csa | scale:0.25 | fillpolygone:true |
+object:image | name:basement_ghosthidden | file:house_basement_ghosthidden.png | type:static | x:396 | y:130 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_talk |
+object:image | name:basement_overlayghost | file:house_basement_wall_ol.png | type:static | x:325 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true |
+
+object:zone | name:basement_mess1 | x:794 | y:15 | width:196 | height:175 | visible:true | mousepointer:arrow_info | infotext:HOUSE_BASEMENT_MESS_INFO | glitch:false |
+object:zone | name:basement_mess2 | x:608 | y:66 | width:79 | height:154 | visible:true | mousepointer:arrow_info | infotext:HOUSE_BASEMENT_MESS_INFO | glitch:false |
+
+object:image | name:basement_grip | file:house_basement_grip.png | type:static | x:863 | y:208 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_house_basement_gripbroken.png |
+object:image | name:basement_toolboxclosed | file:house_basement_toolbox_close.png | type:static | x:815 | y:91 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_action |
+object:image | name:basement_toolboxopen | file:house_basement_toolbox_open.png | type:static | x:806 | y:91 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | glitch:false |
+object:image | name:basement_hammer | file:house_basement_hammer.png | type:static | x:876 | y:114 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_house_basement_hammer.png |
+object:image | name:basement_coalbucketup | file:house_basement_coalbucketup.png | type:static | x:691 | y:200 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_action |
+object:image | name:basement_coalbucketdown | file:house_basement_coalbucketdown.png | type:static | x:465 | y:280 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_info | infotext:HOUSE_BASEMENT_COAL_INFO | glitch:false |
+object:image | name:basement_vasebroken | file:house_basement_vasebroken.png | type:static | x:310 | y:266 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_info | infotext:HOUSE_BASEMENT_VASEBROKEN_INFO | glitch:false |
+object:image | name:basement_bonzai | file:house_basement_bonzai.png | type:static | x:232 | y:72 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_info | infotext:HOUSE_BASEMENT_BONZAI_INFO |
+object:image | name:basement_bonzairesolved | file:house_basement_bonzairesolved.png | type:static | x:232 | y:72 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_info | infotext:HOUSE_BASEMENT_BONZAI_INFO | glitch:false |
+object:emitter | name:creeping_glow | type:creepingsmoke | x:270 | y:130 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse | scale:1 |
+object:image | name:basement_vase | file:house_basement_vase.png | type:static | x:281 | y:208 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_info | infotext:HOUSE_BASEMENT_VASE_INFO |
+object:image | name:basement_screwdriver | file:house_basement_screwdriver.png | type:static | x:265 | y:307 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_house_basement_screwdriver.png |
+object:image | name:basement_paper | file:house_basement_paper.png | type:static | x:328 | y:287 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_house_basement_paper.png |
+object:image | name:basement_sketch | file:house_basement_sketch.png | type:static | x:432 | y:188 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_house_basement_sketch.png |
+object:image | name:basement_gridclosed | file:house_basement_grid.png | type:static | x:504 | y:366 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_look |
+object:image | name:basement_gridopen | file:house_basement_gridopen.png | type:static | x:418 | y:369 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_look | glitch:false |
+object:image | name:basement_ghostdrawing1 | file:house_basement_ghostdrawing1.png | type:static | x:396 | y:98 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | glitch:false |
+object:image | name:basement_ghostdrawing2 | file:house_basement_ghostdrawing2.png | type:static | x:396 | y:98 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | glitch:false |
+object:emitter | name:creeping_static_up | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/pirateflame.cse | animationfile:particles/japan_geisha_flame.csa | fillpolygone:true |
+object:image | name:basement_ghostup | file:japanesegirl | type:video | x:495 | y:153 | visible:true | loop:true | bFade:true | nFade:500 | mousepointer:arrow_talk | glitch:false | nbframe:12 |
+object:zone | name:basement_brokenpot | x:63 | y:256 | width:45 | height:45 | visible:true | mousepointer:arrow_info | infotext:HOUSE_BASEMENT_BROKENPOT_INFO | glitch:false |
+object:zone | name:basement_trash | x:0 | y:370 | width:69 | height:218 | visible:true | mousepointer:arrow_info | infotext:HOUSE_BASEMENT_TRASH_INFO | glitch:false |
+object:emitter | name:creeping_moth | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/moths1.cse | animationfile:particles/moths1.csa |
+
+object:image | name:envelope_basement | file:envelope_basement.png | type:static | x:11 | y:408 | visible:true | mousepointer:arrow_take |
+
+object:image | name:lightning | file:house_basement_lightning.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | halo:true | halospeed:0.01 | disable:true |
+
+object:image | name:darkness | file:house_basement_darkness.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 |
+object:image | name:bulbbroken | file:house_basement_bulbbroken.png | type:static | x:251 | y:24 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take |
+object:image | name:bulboff | file:house_basement_bulboff.png | type:static | x:251 | y:24 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 |
+object:image | name:bulbon | file:house_basement_bulbon.png | type:static | x:254 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 |
+
+object:zone | name:nobulb | x:251 | y:0 | width:47 | height:69 | visible:false | mousepointer:arrow_puzzle |
+object:zone | name:switch | x:943 | y:314 | width:48 | height:58 | visible:true | mousepointer:arrow_action |
+
+object:zone | name:gotostairs | x:660 | y:430 | width:360 | height:337 | visible:true | exit:true | exitwalkback:true | destination:stairsdown | glitch:false |
+
+object:anime | name:sketchanimp2p | target:basement_sketch | type:p2p | x:432 | y:188 | x2:517 | y2:204 | bounce:false | duration:1000 | counterfunction:EASEOUT |
+object:anime | name:basement_ghostup_anim | target:basement_ghostup | type:video |
+
+object:emitter | name:creeping_glow_gem | type:creepingsmoke | x:920 | y:660 | width:0 | height:0 | start:false | loop:false | presetfile:particles/egypt_tomb_beam.cse |
+
+object:image | name:basement_rope | file:house_basement_rope.png | type:static | x:512 | y:398 | visible:false | mousepointer:arrow_take | invimage:inv_house_rope.png |
+object:emitter | name:flake_rope | type:flake | x:545 | y:437 | width:43 | height:40 | start:false | loop:true |
+
+object:image | name:black | file:blackbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:4000 |
+
+object:preload | destination:basement_grid
+
+#END SCRIPTGEN
+object:preload | files:ghostcreep.ogg,ghostgone.ogg
+#SCRIPTGEN: preloadsound

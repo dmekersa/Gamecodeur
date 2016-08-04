@@ -1,0 +1,23 @@
+object:scene | walksound:none | universe:menu |
+object:image | name:bg0 | file:modebg.jpg | type:background | x:0 | y:0 | width:1024 | heigth:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:image | name:selectmode_1 | file:mode_selectframe.png | type:static | x:213 | y:188 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:selectmode_2 | file:mode_selectframe.png | type:static | x:525 | y:188 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:zone | name:but_mode_1 | x:210 | y:175 | width:295 | height:293 |
+object:zone | name:but_mode_2 | x:523 | y:175 | width:295 | height:293 |
+
+object:zone | name:but_cancel | x:342 | y:520 | width:139 | height:44 |
+object:zone | name:but_continue | x:558 | y:520 | width:139 | height:44 |
+
+object:text | name:txt_title | textid:MODE_TITLE | fontname:tahoma.ttf | fontsize:30 | x1:352 | x2:663 | style:center | y:124 | rotation:0 | fade:500 | R:1.0 | G:1.0 | B:1.0 | A:1.0 | visible:true |
+object:text | name:txt_mode_1 | textid:MODE_CASUAL | fontname:tahoma.ttf | fontsize:24 | x1:278 | x2:278 | style:left | y:200 | rotation:0 | fade:500 | R:1.0 | G:1.0 | B:1.0 | A:1.0 | visible:true |
+object:text | name:txt_mode_2 | textid:MODE_ADVENTURE | fontname:tahoma.ttf | fontsize:24 | x1:590 | x2:590 | style:left | y:200 | rotation:0 | fade:500 | R:1.0 | G:1.0 | B:1.0 | A:1.0 | visible:true |
+object:text | name:txt_mode_1_desc | textid:MODE_CASUAL_DESC | fontname:tahoma.ttf | fontsize:18 | x1:229 | x2:492 | style:left | y:408 | rotation:0 | fade:500 | R:1.0 | G:1.0 | B:1.0 | A:1.0 | visible:true |
+object:text | name:txt_mode_2_desc | textid:MODE_ADVENTURE_DESC | fontname:tahoma.ttf | fontsize:18 | x1:545 | x2:790 | style:left | y:408 | rotation:0 | fade:500 | R:1.0 | G:1.0 | B:1.0 | A:1.0 | visible:true |
+
+object:text | name:txt_but_cancel | textid:MODE_BUT_CANCEL | fontname:tahoma.ttf | fontsize:24 | x1:342 | x2:484 | style:center | y:560 | rotation:0 | fade:500 | R:1.0 | G:1.0 | B:1.0 | A:1.0 | visible:true |
+object:text | name:txt_but_continue | textid:MODE_BUT_CONTINUE | fontname:tahoma.ttf | fontsize:24 | x1:558 | x2:695 | style:center | y:560 | rotation:0 | fade:500 | R:1.0 | G:1.0 | B:1.0 | A:1.0 | visible:true |
+
+object:preload | destination:video_player |
+object:preload | destination:house_out |

@@ -1,0 +1,23 @@
+object:scene | walksound:talons | universe:house | sounddesign:kitchen_sd |
+object:image | name:bg | file:kitchenbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:zone | name:corridor | x:300 | y:620 | width:415 | height:150 | visible:true | exit:true | exitdoor:true | destination:corridor |
+
+// Objets / Etats
+object:image | name:kitchen_pan | file:kitchen_pan.png | type:static | x:312 | y:342 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_pan.png |
+object:image | name:kitchen_water | file:kitchen_water.png | type:static | x:224 | y:350 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:basement_rag | file:house_basement_rag.png | type:static | x:617 | y:395 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_house_basement_rag.png |
+object:image | name:house_kitchen_knife | file:house_knife.png | type:static | x:206 | y:377 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_house_knife.png |
+
+// Zones
+object:zone | name:kitchen_faucet | x:190 | y:335 | width:60 | height:60 | visible:true | mousepointer:arrow_action |
+object:zone | name:kitchen_badpan | x:328 | y:492 | width:95 | height:95 | visible:true | mousepointer:arrow_info | glitch:false |
+object:zone | name:kitchen_call999_zone | x:25 | y:380 | width:78 | height:138 | visible:true | mousepointer:arrow_info |
+
+object:emitter | name:creeping_dust | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/kitchen_dust.cse | animationfile:particles/kitchen_dust.csa | fillpolygone:false |
+
+object:image | name:kitchen_call999 | file:call999.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:corridor |
+#END SCRIPTGEN
+object:preload | files:faucet.ogg,poltergeistloop.ogg:loop
+#SCRIPTGEN: preloadsound

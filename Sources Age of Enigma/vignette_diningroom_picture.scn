@@ -1,0 +1,7 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bg | file:vignette_diningroom_picturebg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+object:image | name:frame_picture_dirty | file:dining_picture_dirty.png | type:static | x:813 | y:223 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_action |
+
+object:zone | name:close | x:0 | y:600 | width:1024 | height:150 | visible:true | mousepointer:arrow_walkback |
+
+object:image | object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:2500 | exit:true | exitwalkback:true | destination:house_diningroom | glitch:false |

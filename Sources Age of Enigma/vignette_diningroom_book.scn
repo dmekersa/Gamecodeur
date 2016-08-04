@@ -1,0 +1,9 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bookbg_broken | file:vignette_diningroom_book_broken.png | type:background | x:12 | y:80 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:1000 | mousepointer:arrow_info | glitch:false |
+object:image | name:bookbg_repaired | file:vignette_diningroom_book_repaired.png | type:background | x:12 | y:80 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:1000 | mousepointer:arrow_info | glitch:false |
+
+object:zone | name:book_jigsawzone | x:510 | y:178 | width:313 | height:256 | visible:false | mousepointer:arrow_action |
+
+object:zone | name:close | x:0 | y:600 | width:1024 | height:150 | visible:true | mousepointer:arrow_walkback | glitch:false |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | mousepointer:arrow_walkback | glitch:false |

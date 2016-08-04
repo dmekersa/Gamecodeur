@@ -1,0 +1,6 @@
+object:scene | walksound:none | universe:menu |
+object:image | name:ashley2 | file:ashleyanimmenu | type:static | x:134 | y:206 | width:0 | heigth:0 | visible:true | loop:false | bFade:false | nFade:0 | nbframe:12 |
+object:image | name:bg0 | file:loadingbg.jpg | type:background | x:0 | y:0 | width:1024 | heigth:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:anime | name:ashleymenu | target:ashley2 | type:video |
+object:preload | destination:menu

@@ -1,0 +1,24 @@
+object:scene | walksound:talons | universe:house |
+object:image | name:bg | file:house_stairstoatticbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:image | name:house_atticdoor_door_off | file:house_stairstoattic_off.png | type:static | x:366 | y:100 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_action | glitch:false | infotext:HOUSE_ATTICDOOR_DOORIDLE_INFO |
+object:image | name:house_atticdoor_door_draw | file:house_stairstoattic_draw.png | type:static | x:366 | y:100 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:house_atticdoor_door_on | file:house_stairstoattic_on.png | type:static | x:366 | y:100 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_info | glitch:false | infotext:HOUSE_ATTICDOOR_DOORON_INFO |
+object:emitter | name:creeping_glow | type:creepingsmoke | x:520 | y:260 | width:0 | height:0 | start:false | loop:false | presetfile:particles/beam_x3.cse |
+
+object:image | name:house_atticdoor_pentacle_on | file:pentacle_atticdoor_on.png | type:static | x:410 | y:151 | visible:false | nbframe:1 | bFade:true | nFade:1000 | disable:true |
+object:image | name:house_atticdoor_pentacle_goat | file:pentacle_atticdoor_goat.png | type:static | x:411 | y:150 | visible:false | nbframe:1 | bFade:true | nFade:1000 | halo:true | halospeed:0.01 | disable:true |
+
+object:image | name:house_atticdoor_door_open | file:house_stairstoattic_doorwideopened.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 | exit:true | exitwalkto:true | destination:house_attic | glitch:false |
+
+object:image | name:house_room2_isaac_quiet | file:isaac_meeting3.png | type:static | x:596 | y:474 | visible:true | bFade:true | nFade:500 | mousepointer:arrow_talk |
+
+object:image | name:envelope_attic | file:envelope_attic.png | type:static | x:945 | y:137 | visible:true | mousepointer:arrow_take |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:firstfloor | glitch:false |
+
+object:anime | name:pentacle_anim | target:house_atticdoor_pentacle_on | type:rotate | angle1:0 | angle2:180 | direction:0 | bounce:false | loop:false | duration:3000 | counterfunction:LINEAR |
+
+#END SCRIPTGEN
+object:preload | files:carpet_burn.ogg,doorclosed.ogg,inca_eclipse.ogg
+#SCRIPTGEN: preloadsound

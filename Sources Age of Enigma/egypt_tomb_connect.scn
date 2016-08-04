@@ -1,0 +1,27 @@
+object:scene | walksound:none | universe:egypt | sounddesign:egypt_inside_sd |
+object:image | name:bg | file:egypt_tomb_connectbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:image | name:egypt_tomb_connect_doorleft | file:egypt_tomb_connect_doorleft.png | type:static | x:429 | y:24 | visible:true | loop:false | nbframe:01 | bFade:false |
+object:image | name:egypt_tomb_connect_doorright | file:egypt_tomb_connect_doorright.png | type:static | x:500 | y:26 | visible:true | loop:false | nbframe:01 | bFade:false |
+object:image | name:bg2 | file:egypt_tomb_connectol.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:zone | name:egypt_tomb_connect_zone01 | x:199 | y:557 | width:81 | height:83 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:egypt_tomb_connect_zone02 | x:281 | y:557 | width:81 | height:83 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:egypt_tomb_connect_zone03 | x:363 | y:557 | width:81 | height:83 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:egypt_tomb_connect_zone04 | x:445 | y:557 | width:81 | height:83 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:egypt_tomb_connect_zone05 | x:527 | y:557 | width:81 | height:83 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:egypt_tomb_connect_zone06 | x:609 | y:557 | width:81 | height:83 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:egypt_tomb_connect_zone07 | x:691 | y:557 | width:81 | height:83 | visible:true | mousepointer:arrow_puzzle |
+
+object:image | name:egypt_tomb_connect_god01 | file:egypt_symbol_god01.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | glitch:false |
+object:image | name:egypt_tomb_connect_god02 | file:egypt_symbol_god02.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | glitch:false | invimage:inv_egypt_god02.png |
+object:image | name:egypt_tomb_connect_god03 | file:egypt_symbol_god03.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | glitch:false | invimage:inv_egypt_god03.png |
+object:image | name:egypt_tomb_connect_god04 | file:egypt_symbol_god04.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | glitch:false |
+object:image | name:egypt_tomb_connect_god05 | file:egypt_symbol_god05.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | glitch:false | invimage:inv_egypt_god05.png |
+object:image | name:egypt_tomb_connect_god06 | file:egypt_symbol_god06.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | glitch:false | invimage:inv_egypt_god06.png |
+object:image | name:egypt_tomb_connect_god07 | file:egypt_symbol_god07.png | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | glitch:false |
+
+object:image | name:egypt_tomb_connect_godsdone | file:egypt_tomb_connect_godsdone.png | type:static | x:180 | y:537 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:2000 |
+
+object:zone | name:egypt_tomb_connect_zonemg | x:420 | y:15 | width:166 | height:157 | visible:false | mousepointer:arrow_action |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:egypt_tomb |

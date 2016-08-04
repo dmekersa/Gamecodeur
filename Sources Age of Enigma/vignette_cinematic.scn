@@ -1,0 +1,13 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bg | file:blackbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:image | name:picture_tbd | file:menu_logo.png | type:static | x:0 | y:157 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:500 | basedir:l10n/ |
+object:image | name:island1 | file:cinematic_island1.png | type:static | x:0 | y:157 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:500 |
+object:image | name:japan1 | file:cinematic_japan1.png | type:static | x:0 | y:157 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:500 |
+object:image | name:japan2 | file:cinematic_japan2.png | type:static | x:0 | y:157 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:500 |
+object:image | name:inca | file:cinematic_inca.png | type:static | x:0 | y:157 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:500 |
+object:image | name:middleage | file:cinematic_middleage.png | type:static | x:0 | y:157 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:500 |
+object:image | name:egypt | file:cinematic_egypt.png | type:static | x:0 | y:157 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:500 |
+
+object:zone | name:close | x:0 | y:600 | width:1024 | height:150 | visible:true |
+object:preload | destination:video_player

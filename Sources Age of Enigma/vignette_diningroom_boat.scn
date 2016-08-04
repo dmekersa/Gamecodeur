@@ -1,0 +1,17 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bg | file:vignette_diningroom_boatbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+object:image | name:boatbrokenbg | file:vignette_diningroom_boatbroken.png | type:background | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+object:image | name:boatrepairedbg | file:vignette_diningroom_boatrepaired.png | type:background | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+object:image | name:boatopenbg | file:vignette_diningroom_boatopen.png | type:background | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+object:image | name:boatemptybg | file:vignette_diningroom_boatempty.png | type:background | x:0 | y:0 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+
+object:zone | name:mast | x:416 | y:219 | width:111 | height:111 | visible:false | mousepointer:arrow_puzzle | infotext:DININGBOAT_ASHLEY_REPAIR |
+object:zone | name:treasure | x:600 | y:260 | width:300 | height:230 | visible:false | mousepointer:arrow_take | invimage:inv_dining_treasure.png |
+object:zone | name:windows | x:703 | y:291 | width:272 | height:214 | visible:false | mousepointer:arrow_look |
+
+object:emitter | name:flake | type:flake | x:830 | y:430 | width:150 | height:100 | start:true | loop:true |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_diningroom |
+#END SCRIPTGEN
+object:preload | files:openboat.ogg
+#SCRIPTGEN: preloadsound

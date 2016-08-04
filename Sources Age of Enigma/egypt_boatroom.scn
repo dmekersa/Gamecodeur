@@ -1,0 +1,20 @@
+object:scene | walksound:egypt_walk | universe:egypt |
+object:image | name:bg | file:egypt_boatroombg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:zone | name:egypt_boatroom_doorzone | x:91 | y:159 | width:62 | height:409 | visible:true | exit:true | exitwalkto:true | destination:egypt_tomb |
+
+object:image | name:egypt_boatroom_door | file:egypt_boatroom_door.png | type:static | x:53 | y:150 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 | mousepointer:arrow_info | infotext:INCA_MAIN_DOOR_INFO |
+object:image | name:egypt_boatroom_doorol | file:egypt_boatroom_doorol.png | type:static | x:0 | y:41 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 | disable:true |
+
+object:zone | name:egypt_boatroom_keyzone | x:152 | y:340 | width:60 | height:84 | visible:true | mousepointer:arrow_look |
+object:image | name:egypt_boatroom_key | file:egypt_boatroom_key.png | type:static | x:148 | y:331 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:200 | disable:true |
+
+object:zone | name:egypt_boat_zone | x:333 | y:348 | width:104 | height:95 | visible:true | exit:true | mousepointer:arrow_look | destination:egypt_boat |
+
+object:image | name:egypt_boatroomkey_bg | file:egypt_boatroomkey_bg.jpg | type:static | x:0 | y:0 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:200 |
+object:zone | name:egypt_boatroomkey_key_zone | x:368 | y:60 | width:334 | height:640 | visible:false | mousepointer:arrow_puzzle |
+object:emitter | name:creeping_glow | type:creepingsmoke | x:511 | y:317 | width:0 | height:0 | start:false | loop:false | presetfile:particles/beam_x3.cse |
+object:image | name:egypt_boatroomkey_key | file:egypt_boatroomkey_key.png | type:static | x:306 | y:17 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:200 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:egypt_mazeentry |
+object:image | name:back2 | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:50 | mousepointer:arrow_walkback |

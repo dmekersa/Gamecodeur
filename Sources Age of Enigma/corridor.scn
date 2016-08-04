@@ -1,0 +1,23 @@
+object:scene | walksound:talons | universe:house |
+object:image | name:bg | file:house_corridorbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:image | name:house_statuette_part_head2 | file:house_corridor_statuette_part_head2.png | type:static | x:393 | y:539 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_house_statuette_part_head2.png |
+object:image | name:house_cordon | file:house_cordon.png | type:static | x:177 | y:195 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_house_cordon.png |
+object:image | name:house_corridor_painting | file:house_corridor_painting.png | type:static | x:117 | y:154 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:house_corridor_painting_down | file:house_corridor_painting_down.png | type:static | x:113 | y:253 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:image | name:house_corridor_drawer_closed | file:house_corridor_drawer_closed.png | type:static | x:168 | y:438 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:house_corridor_drawer_open | file:house_corridor_drawer_open.png | type:static | x:166 | y:439 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:house_zippo_empty | file:house_zippo_empty.png | type:static | x:267 | y:440 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_house_zippo_empty.png |
+
+object:image | name:envelope_corridor | file:envelope_corridor.png | type:static | x:112 | y:372 | visible:true | mousepointer:arrow_take | invimage:ihm_envelope.png |
+
+object:zone | name:stairsdown | x:811 | y:132 | width:115 | height:434 | visible:true | exit:true | exitwalkto:true | destination:keyhole |
+object:zone | name:kitchendoor | x:652 | y:246 | width:46 | height:231 | visible:true | exit:true | exitdoor:true | destination:kitchen |
+object:zone | name:closetdoor | x:380 | y:246 | width:46 | height:231 | visible:true | exit:true | exitdoor:true | destination:closet |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_hall |
+#END SCRIPTGEN
+object:preload | files:drawer_close.ogg | destination:house_livingroom |
+object:preload  | destination:house_diningroom |
+#SCRIPTGEN: preloadsound

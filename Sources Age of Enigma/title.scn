@@ -1,0 +1,5 @@
+object:scene | walksound:none | universe:menu |
+object:image | name:bg0 | file:blackbg.jpg | type:background | x:0 | y:0 | width:1024 | heigth:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:xximage | name:bg1 | file:vignette_cinematicbg.jpg | type:background | x:0 | y:0 | width:1024 | heigth:768 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:100000 |
+object:xxemitter | name:creeping_smoke | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/menu_mystery.cse | animationfile:particles/menu_mystery.csa |
+object:preload | destination:house_out

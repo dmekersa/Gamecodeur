@@ -1,0 +1,30 @@
+object:scene | walksound:egypt_walk | universe:egypt | sounddesign:egypt_inside_sd |
+object:image | name:bg | file:egypt_mazebg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:image | name:bg02 | file:egypt_mazebg_02.png | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true |
+object:image | name:bg03 | file:egypt_mazebg_03.png | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true |
+object:image | name:bg04 | file:egypt_mazebg_04.png | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true |
+object:image | name:bg05 | file:egypt_mazebg_05.png | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true |
+object:image | name:bg06 | file:egypt_mazebg_06.png | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true |
+object:image | name:bg07 | file:egypt_mazebg_07.png | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true |
+object:image | name:bg08 | file:egypt_mazebg_08.png | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true |
+object:image | name:bg09 | file:egypt_mazebg_09.png | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true |
+
+object:zone | name:egypt_maze_door1 | x:233 | y:187 | width:121 | height:258 | visible:true | mousepointer:arrow_walk |
+object:zone | name:egypt_maze_door2 | x:446 | y:187 | width:121 | height:258 | visible:true | mousepointer:arrow_walk |
+object:zone | name:egypt_maze_door3 | x:655 | y:187 | width:121 | height:258 | visible:true | mousepointer:arrow_walk |
+
+object:image | name:egypt_maze_fig01 | file:egypt_maze_fig01.png | type:static | x:364 | y:518 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_fig01.png |
+object:image | name:egypt_maze_fig02 | file:egypt_maze_fig02.png | type:static | x:117 | y:424 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_fig02.png |
+object:image | name:egypt_maze_fig03 | file:egypt_maze_fig03.png | type:static | x:777 | y:564 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_fig03.png |
+object:image | name:egypt_maze_fig04 | file:egypt_maze_fig04.png | type:static | x:357 | y:463 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_fig04.png |
+object:image | name:egypt_maze_fig05 | file:egypt_maze_fig05.png | type:static | x:96 | y:517 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_fig05.png |
+object:image | name:egypt_maze_fig06 | file:egypt_maze_fig06.png | type:static | x:533 | y:464 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_fig06.png |
+object:image | name:egypt_maze_fig07 | file:egypt_maze_fig07.png | type:static | x:881 | y:221 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_fig07.png |
+object:image | name:egypt_maze_fig08 | file:egypt_maze_fig08.png | type:static | x:932 | y:456 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_fig08.png |
+object:image | name:egypt_maze_fig09 | file:egypt_maze_fig09.png | type:static | x:573 | y:425 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_fig09.png |
+
+object:image | name:egypt_symbol_god07h | file:egypt_symbol_god07h.png | type:static | x:86 | y:450 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_god07.png |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:egypt_mazeentry |
+object:preload | destination:egypt_boatroom

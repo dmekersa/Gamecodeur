@@ -1,0 +1,21 @@
+object:scene | walksound:egypt_walk | universe:hell | sounddesign:hell_mainscreen_sd |
+object:image | name:bg | file:hell_mainscreenbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:emitter | name:creeping_beams | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/hell_beam.cse | animationfile:particles/hell_beams.csa |
+
+object:zone | name:hell_hang_zone | x:426 | y:40 | width:348 | height:212 | visible:true | mousepointer:arrow_info | infotext:HELL_MAINSCREEN_HANG_INFO | glitch:false |
+object:zone | name:hell_tartare_zone | x:908 | y:168 | width:100 | height:100 | visible:true | mousepointer:arrow_info | infotext:HELL_MAINSCREEN_TARTARE_INFO | glitch:false |
+object:zone | name:hell_field_zone | x:21 | y:353 | width:460 | height:220 | visible:true | exit:true | exitwalkto:true | destination:hell_vale | 
+
+object:image | name:hell_item_lemon_hangon | file:hell_lemon_hangon.png | type:static | x:892 | y:107 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_action | infotext:HELL_LEMON_INFO |
+object:image | name:hell_item_lemon_falling | file:hell_lemon.png | type:static | x:892 | y:107 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 |
+object:image | name:hell_lemon | file:hell_lemon.png | type:static | x:911 | y:428 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_lemon.png |
+object:image | name:hell_item_crow | file:hell_item_craw.png | type:static | x:539 | y:463 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_item_crow.png |
+object:image | name:hell_item_beetle | file:hell_item_beetle.png | type:static | x:856 | y:260 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_item_beetle.png |
+object:image | name:hell_item_hourglass | file:hell_item_hourglass.png | type:static | x:565 | y:536 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_item_hourglass_empty.png |
+object:image | name:hell_knife | file:hell_knife.png | type:static | x:907 | y:364 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_knife.png |
+object:image | name:hell_item_cane[1] | file:hell_item_cane_part_1.png | type:static | x:835 | y:422 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_item_cane_part |
+
+object:image | name:hell_mainscreen_seth | file:hell_mainscreen_seth.png | type:static | x:618 | y:328 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_talk |
+
+object:anime | name:lemon_animp2p | target:hell_item_lemon_falling | type:p2p | x:892 | y:107 | x2:892 | y2:428 | bounce:false | duration:1000 | counterfunction:EASEIN |

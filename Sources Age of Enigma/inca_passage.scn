@@ -1,0 +1,24 @@
+object:scene | walksound:egypt_walk | universe:inca | sounddesign:egypt_inside_sd |
+object:image | name:bg | file:inca_passagebg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:zone | name:inca_stairsfresco3_zone | x:358 | y:354 | width:121 | height:56 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:inca_stairsfresco4_zone | x:676 | y:403 | width:79 | height:44 | visible:true | mousepointer:arrow_puzzle |
+
+object:image | name:inca_cartouche1_ground | file:inca_cartouche1_ground.png | type:static | x:544   | y:532 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_inca_cartouche1.png |
+object:image | name:inca_cartouche2_ground | file:inca_cartouche2_ground.png | type:static | x:809   | y:460 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_inca_cartouche2.png |
+object:image | name:inca_cartouche1_wall | file:inca_cartouche1_wall.png | type:static | x:355   | y:356 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_cartouche2_wall | file:inca_cartouche2_wall.png | type:static | x:696   | y:414 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:image | name:inca_passage_blocks_ceiling | file:inca_passage_blocks_ceiling.png | type:static | x:737 | y:126 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_info | infotext:INCA_YUMANCO_MAKEFALL |
+object:image | name:inca_passage_blocks_ground | file:inca_passage_blocks_ground.png | type:static | x:689 | y:518 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_info | infotext:INCA_YUMANCO_HOLEOK |
+
+object:emitter | name:creeping_glow1 | type:creepingsmoke | x:428 | y:259 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse | scale:1 |
+object:emitter | name:creeping_glow2 | type:creepingsmoke | x:733 | y:372 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse | scale:0.5 |
+
+object:image | name:inca_artefact3 | file:inca_artefact3.png | type:static | x:403 | y:209 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_inca_artefact3.png |
+object:image | name:inca_artefact4 | file:inca_artefact4.png | type:static | x:720 | y:356 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_inca_artefact4.png |
+
+object:zone | name:inca_final_zone | x:850 | y:339 | width:194 | height:169 | visible:false | exit:true | exitwalkto:true | destination:inca_final |
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:inca_stairs |
+
+object:preload | destination:vignette_inca_statuette

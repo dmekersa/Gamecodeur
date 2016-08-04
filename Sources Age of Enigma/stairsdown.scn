@@ -1,0 +1,5 @@
+object:scene | walksound:talons | universe:house |
+object:image | name:bg1 | file:house_stairsdownbg_off.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:image | name:bg2 | file:house_stairsdownbg_off.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:zone | name:gotobasement | x:500 | y:320 | width:135 | height:150 | visible:true | exit:true | exitwalkto:true | destination:basement |
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:corridor |

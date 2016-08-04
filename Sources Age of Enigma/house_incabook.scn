@@ -1,0 +1,37 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bg | file:house_livingroom_bookbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:image | name:livingroom_book_page1 | file:house_livingroom_book_page1.jpg | type:static | x:185 | y:51 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+object:image | name:livingroom_book_page2 | file:house_livingroom_book_page2.jpg | type:static | x:185 | y:51 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+object:image | name:livingroom_book_page3 | file:house_livingroom_book_page3.jpg | type:static | x:185 | y:51 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+object:image | name:livingroom_book_page4 | file:house_livingroom_book_page4.jpg | type:static | x:185 | y:51 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+object:image | name:livingroom_book_page5 | file:house_livingroom_book_page5.jpg | type:static | x:185 | y:51 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+object:image | name:livingroom_book_page6 | file:house_livingroom_book_page6.jpg | type:static | x:185 | y:51 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+
+object:text | name:txt_title_left_page1 | textid:LIVINGROOM_TITLE_PAGE1 | fontname:jancient.ttf | fontsize:36 | x1:207 | x2:485 | style:left | y:50 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_subtitle_left_page1 | textid:LIVINGROOM_SUBTITLE_PAGE1 | fontname:jancient.ttf | fontsize:24 | x1:207 | x2:480 | style:center | y:495 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+
+object:text | name:txt_title_left_page2 | textid:LIVINGROOM_TITLE_PAGE2 | fontname:jancient.ttf | fontsize:36 | x1:207 | x2:485 | style:center | y:50 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_subtitle_left_page2 | textid:LIVINGROOM_SUBTITLE_PAGE2 | fontname:jancient.ttf | fontsize:24 | x1:207 | x2:485 | style:center | y:495 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_text_page2 | textid:LIVINGROOM_TEXT_PAGE2 | fontname:jancient.ttf | fontsize:30 | x1:538 | x2:855 | style:left | y:85 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+
+object:text | name:txt_title_left_page3 | textid:LIVINGROOM_TITLE_PAGE3 | fontname:jancient.ttf | fontsize:36 | x1:207 | x2:485 | style:center | y:50 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_subtitle_left_page3 | textid:LIVINGROOM_SUBTITLE_PAGE3 | fontname:jancient.ttf | fontsize:24 | x1:207 | x2:485 | style:center | y:495 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_text_page3 | textid:LIVINGROOM_TEXT_PAGE3 | fontname:jancient.ttf | fontsize:30 | x1:538 | x2:855 | style:left | y:85 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+
+object:text | name:txt_title_left_page4 | textid:LIVINGROOM_TITLE_PAGE4 | fontname:jancient.ttf | fontsize:36 | x1:207 | x2:485 | style:center | y:50 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_subtitle_left_page4 | textid:LIVINGROOM_SUBTITLE_PAGE4 | fontname:jancient.ttf | fontsize:24 | x1:207 | x2:485 | style:center | y:495 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_text_page4 | textid:LIVINGROOM_TEXT_PAGE4 | fontname:jancient.ttf | fontsize:30 | x1:538 | x2:855 | style:left | y:85 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+
+object:text | name:txt_title_left_page5 | textid:LIVINGROOM_TITLE_PAGE5 | fontname:jancient.ttf | fontsize:36 | x1:207 | x2:485 | style:center | y:50 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_subtitle_left_page5 | textid:LIVINGROOM_SUBTITLE_PAGE5 | fontname:jancient.ttf | fontsize:24 | x1:207 | x2:485 | style:center | y:495 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_text_page5 | textid:LIVINGROOM_TEXT_PAGE5 | fontname:jancient.ttf | fontsize:30 | x1:538 | x2:855 | style:left | y:85 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+
+object:text | name:txt_title_left_page6 | textid:LIVINGROOM_TITLE_PAGE6 | fontname:jancient.ttf | fontsize:36 | x1:207 | x2:485 | style:center | y:50 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_subtitle_left_page6 | textid:LIVINGROOM_SUBTITLE_PAGE6 | fontname:jancient.ttf | fontsize:24 | x1:207 | x2:485 | style:center | y:495 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+object:text | name:txt_text_page6 | textid:LIVINGROOM_TEXT_PAGE6 | fontname:jancient.ttf | fontsize:30 | x1:538 | x2:855 | style:left | y:85 | rotation:0 | fade:500 | R:0.30 | G:0.25 | B:0.03 | A:0.9 | visible:true |
+
+object:image | name:livingroom_book_left | file:house_livingroom_book_left.png | type:static | x:0 | y:309 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:livingroom_book_right | file:house_livingroom_book_right.png | type:static | x:831 | y:309 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_livingroom_table |

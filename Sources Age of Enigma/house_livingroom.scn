@@ -1,0 +1,63 @@
+object:scene | walksound:talons | universe:house | sounddesign:livingroom_sd |
+object:image | name:bg | file:house_livingroombg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:zone | name:piano | x:420 | y:339 | width:199 | height:52 | visible:true | mousepointer:arrow_look |
+object:zone | name:chessboard | x:221 | y:488 | width:73 | height:50 | visible:true | mousepointer:arrow_look |
+
+object:emitter | name:creeping_dust1 | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/livingroom_dust.cse | animationfile:particles/livingroom_dust_side.csa |
+object:xxxemitter | name:creeping_smoke2 | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/livingroom_dust.cse | animationfile:particles/livingroom_dust_front.csa |
+
+object:image | name:livingroom_poltergeist | file:poltergeist_livingroom | type:static | x:570 | y:275 | width:130 | height:120 | visible:false | loop:true | bFade:true | nFade:200 | mousepointer:arrow_action |
+object:anime | name:livingroom_poltergeistanim | target:livingroom_poltergeist | type:video |
+
+object:emitter | name:creeping_glow_green | type:creepingsmoke | x:612 | y:447 | width:0 | height:0 | start:false | loop:false | presetfile:particles/multi_beam.cse | scale:0.80 |
+
+object:anime | name:house_livingroom_ghost_anim | target:house_livingroom_ghost | type:video | loop:false |
+
+object:image | name:neckless | file:ihm_pentacle.png | type:static | x:878 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+object:image | name:neckless_stone | file:ihm_pentacle_yellow.png | type:static | x:878 | y:0 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+object:emitter | name:creeping_glow | type:creepingsmoke | x:960 | y:644 | width:0 | height:0 | start:false | loop:false | presetfile:particles/egypt_tomb_beam.cse |
+
+object:image | name:livingroom_book_full | file:house_livingroom_bookontable.png | type:static | x:573 | y:426 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_look | glitch:false |
+object:image | name:livingroom_book_ghost | file:house_livingroom_bookontableg.png | type:static | x:573 | y:426 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_look | glitch:false |
+
+object:image | name:livingroom_statuette_full | file:house_livingroom_statuette.png | type:static | x:637 | y:383 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_look | glitch:true |
+object:image | name:livingroom_statuette_ghost | file:house_livingroom_statuetteg.png | type:static | x:637 | y:383 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | halo:true | halospeed:0.01 | mousepointer:arrow_look | glitch:true |
+object:emitter | name:flake_statuette | type:flake | x:608 | y:449 | width:35 | height:60 | start:false | loop:true |
+
+object:image | name:house_statuette_part_skull | file:house_livingroom_statuette_part_skull.png | type:static | x:911 | y:378 | visible:false | loop:true | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_house_statuette_part_skull.png |
+object:image | name:house_statuette_part_chest | file:house_livingroom_statuette_part_chest.png | type:static | x:299 | y:402 | visible:false | loop:true | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_house_statuette_part_chest.png |
+object:image | name:house_statuette_part_legs | file:house_livingroom_statuette_part_legs.png | type:static | x:21 | y:455 | visible:false | loop:true | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_house_statuette_part_legs.png |
+object:image | name:house_statuette_part_head1 | file:house_livingroom_statuette_part_head1.png | type:static | x:635 | y:482 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_house_statuette_part_head1.png |
+
+object:image | name:livingroom_page[1] | file:livingroom_page01.png | type:static | x:168 | y:161 | visible:true | mousepointer:arrow_take | invimage:inv_livingroom_page |
+object:image | name:livingroom_page[2] | file:livingroom_page02.png | type:static | x:189 | y:555 | visible:true | mousepointer:arrow_take | invimage:inv_livingroom_page |
+object:image | name:livingroom_page[3] | file:livingroom_page03.png | type:static | x:376 | y:474 | visible:true | mousepointer:arrow_take | invimage:inv_livingroom_page |
+object:image | name:livingroom_page[4] | file:livingroom_page04.png | type:static | x:654 | y:544 | visible:true | mousepointer:arrow_take | invimage:inv_livingroom_page |
+object:image | name:livingroom_page[5] | file:livingroom_page05.png | type:static | x:867 | y:502 | visible:true | mousepointer:arrow_take | invimage:inv_livingroom_page |
+object:image | name:livingroom_page[6] | file:livingroom_page06.png | type:static | x:799 | y:196 | visible:true | mousepointer:arrow_take | invimage:inv_livingroom_page |
+
+object:image | name:envelope_livingroom | file:envelope_livingroom.png | type:static | x:946 | y:237 | visible:true | mousepointer:arrow_take | invimage:ihm_envelope.png |
+
+object:image | name:house_living_darkcloud1 | file:house_living_darkcloud.png | type:static | x:353 | y:173 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+object:image | name:house_living_darkcloud2 | file:house_living_darkcloud.png | type:static | x:353 | y:173 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:emitter | name:creeping_static | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/pirateflame.cse | animationfile:particles/livingroom_yumanco_flame.csa | fillpolygone:true |
+object:image | name:house_livingroom_ghost | file:inca_ghost_anim | type:static | x:330 | y:182 | visible:false | loop:true | bFade:true | nFade:1000 | mousepointer:arrow_talk |
+object:image | name:livingroom_key | file:house_livingroom_key.png | type:static | x:398 | y:503 | visible:false | mousepointer:arrow_take | invimage:inv_basementkey.png |
+object:emitter | name:flake_key | type:flake | x:425 | y:513 | width:43 | height:20 | start:false | loop:true |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_hall |
+
+object:anime | name:clouds_anim1 | target:house_living_darkcloud1 | type:rotate | angle1:0 | angle2:359 | direction:0 | bounce:false | duration:60000 | counterfunction:LINEAR |
+object:anime | name:clouds_anim2 | target:house_living_darkcloud2 | type:rotate | angle1:0 | angle2:359 | direction:1 | bounce:false | duration:60000 | counterfunction:LINEAR |
+
+object:image | name:black | file:blackbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:4000 |
+
+object:preload | destination:house_incabook |
+object:preload | destination:house_livingroom_piano |
+object:preload | destination:house_livingroom_table |
+object:preload | destination:house_livingroom_box |
+#END SCRIPTGEN
+object:preload | files:ghostcreep.ogg,ghostgone.ogg,poltergeist_amadeus.ogg
+#SCRIPTGEN: preloadsound

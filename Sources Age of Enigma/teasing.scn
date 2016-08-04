@@ -1,0 +1,7 @@
+object:scene | walksound:none | universe:hell |
+object:image | name:bg1 | file:teaser_bg_japan.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:bg2 | file:teaser_bg_inca.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:ashley | file:ashley_teaser_anim | type:background | x:-53 | y:155 | visible:true | loop:true | nbframe:24 | bFade:false | nFade:0000 |
+object:image | name:thanku | file:teaser_thankyou.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:anime | name:ashleyanim | target:ashley | type:video |

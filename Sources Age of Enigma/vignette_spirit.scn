@@ -1,0 +1,6 @@
+object:scene | walksound:none | universe:house |
+object:image | name:ashleybg | file:spiritism_ashley.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+
+object:anime | name:ashleyanim | target:ashleybg | type:p2p | x:0 | y:0 | x2:0 | y2:30 | bounce:true | duration:4000 | counterfunction:EASEOUT |
+
+object:preload | destination:_lpSceneDirector->GoToScene(_strSceneAdditionalName.c_str());

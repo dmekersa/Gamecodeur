@@ -1,0 +1,29 @@
+object:scene | walksound:egypt_walk | universe:middleage |
+
+object:image | name:bg | file:middleage_cloisterbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:zone | name:jail_zone | x:691 | y:297 | width:85 | height:112 | visible:true | exit:true | exitwalkto:true | destination:middleage_stairs |
+
+object:image | name:middleage_plate | file:middleage_cloister_plate.png | type:static | x:182 | y:435 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_middleage_plate.png |
+
+object:emitter | name:creeping_glow | type:creepingsmoke | x:396 | y:429 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse |
+object:image | name:middleage_dyingabbot | file:middleage_dyingabbot.png | type:static | x:345 | y:390 | visible:true | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_talk |
+
+object:image | name:flaskpieces[1] | file:middleage_flask1.png | type:static | x:284 | y:624 | visible:true | mousepointer:arrow_take | invimage:inv_middleage_flaskpieces |
+object:image | name:flaskpieces[2] | file:middleage_flask2.png | type:static | x:547 | y:477 | visible:true | mousepointer:arrow_take | invimage:inv_middleage_flaskpieces |
+object:image | name:flaskpieces[3] | file:middleage_flask3.png | type:static | x:359 | y:574 | visible:true | mousepointer:arrow_take | invimage:inv_middleage_flaskpieces |
+object:image | name:flaskpieces[4] | file:middleage_flask4.png | type:static | x:675 | y:537 | visible:true | mousepointer:arrow_take | invimage:inv_middleage_flaskpieces |
+
+object:image | name:middleage_epilogue01 | file:middleage_epilogue01.png | type:static | x:321 | y:307 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:middleage_epilogue02 | file:middleage_epilogue02.png | type:static | x:365 | y:304 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:middleage_mainscreen |
+
+object:image | name:middleage_glow1 | file:stone_glow1.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:middleage_glow2 | file:stone_glow2.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:middleage_glow3 | file:stone_glow3.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:middleage_enigmastone | file:stonebig.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:2000 |
+
+object:image | name:blank | file:blankbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:preload | destination:house_room2

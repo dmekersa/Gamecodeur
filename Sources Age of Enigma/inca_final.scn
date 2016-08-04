@@ -1,0 +1,38 @@
+object:scene | walksound:egypt_walk | universe:inca | sounddesign:inca_final_sd |
+object:image | name:bg | file:inca_finalbg_sky.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+object:image | name:inca_final_eclipse | file:inca_final_eclipse.png | type:background | x:0 | y:0 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:3000 |
+object:xximage | name:inca_pyramid_clouds | file:inca_toppyramide_clouds.ogv | type:video | x:0 | y:0 | width:0 | height:0 | visible:true | loop:false | bFade:false | nFade:0 |
+object:image | name:bg | file:inca_finalbg_montains.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+object:image | name:bg | file:inca_final_ol1.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:zone | name:inca_final_skyzone | x:0 | y:0 | width:1024 | height:155 | visible:true | mousepointer:arrow_info |  infotext:INCA_FINAL_SKY_INFO |
+
+object:image | name:inca_final_priest_ready | file:inca_final_priest_ready.png | type:static | x:440 | y:192 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_talk |
+object:image | name:inca_final_priest_killing | file:inca_final_priest_kill.png | type:static | x:416 | y:241 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_final_priest_calm | file:inca_final_priest_calm.png | type:static | x:463 | y:265 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_talk |
+object:image | name:inca_final_inty_lie | file:inca_final_inty_lie.png | type:static | x:412 | y:366 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | disable:true | 
+object:image | name:inca_final_statuette | file:inca_final_statuette.png | type:static | x:520 | y:353 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:inca_final_statuettebroken | file:inca_final_statuettebroken.png | type:static | x:481 | y:312 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:500 |
+
+object:zone | name:inca_final_autelzone | x:433 | y:376 | width:206 | height:125 | visible:true | mousepointer:arrow_look |
+
+object:image | name:inca_final_inty_up | file:inca_final_inty_up.png | type:static | x:681 | y:273 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_talk |
+
+object:image | name:inca_glow1 | file:stone_glow1.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:inca_glow2 | file:stone_glow2.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:inca_glow3 | file:stone_glow3.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:inca_enigmastone | file:univers_stone5_yellow.png | type:static | x:271 | y:92 | visible:false | nbframe:1 | bFade:true | nFade:2000 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:inca_passage |
+
+object:image | name:blank | file:blankbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:anime | name:inca_pyramid_clouds_anim | target:inca_pyramid_clouds | type:video |
+
+object:preload | destination:house_livingroom
+object:preload | destination:inca_autel
+object:preload | destination:vignette_inca_statuette
+
+#END SCRIPTGEN
+object:preload | files:incabreak.ogg,incafinal.ogg
+#SCRIPTGEN: preloadsound

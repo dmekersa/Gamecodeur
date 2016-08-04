@@ -1,0 +1,10 @@
+object:image | id:000 | name:plagepirate | file:piratebg.jpg | type:background | x:0000 | y:0000 | width:1024 | heigth:768 | visible:true | nbframe:01 | bFade:false | nFade:0000 |
+
+object:image | id:001 | name:parrot | file:ara2.png | type:static | x:625 | y:65 | width:0 | heigth:0 | visible:true | nbframe:01 | bFade:false | nFade:1000 |
+object:image | name:crabe | file:crabe.png | type:static | x:0 | y:0 | width:0 | heigth:0 | visible:true | nbframe:1 | bFade:false | nFade:0 |
+object:anime | name:crabeP2P | target:crabe | type:p2p | x:-50 | y:585 | x2:260 | y2:790 | loop:true | duration:10000 | counterfunction:EASEOUT | delaymin:1000 | delaymax:10000 |
+
+object:emitter | id:002 | name:explosion | file:explosion.pyro | x:670 | y:425 | state:start | loop:true |
+object:emitter | id:003 | name:shortcirc | file:shortcircuit.pyro | x:0 | y:0 | state:start | loop:true |
+object:imgzone | name:coffre | x:700 | y:600 | width:50 | heigth:50 |
+object:imgzone | name:test | x:200 | y:200 | width:100 | heigth:50 |

@@ -1,0 +1,4 @@
+object:scene | walksound:egypt_walk | universe:egypt |
+object:image | name:bg | file:egypt_shopbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:zone | name:gameboard_zone | x:392 | y:352 | width:289 | height:175 | visible:true | mousepointer:arrow_action |
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:egypt_land |

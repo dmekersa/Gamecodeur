@@ -1,0 +1,18 @@
+object:scene | walksound:egypt_walk | universe:middleage | sounddesign:middleage_sd_inside |
+
+object:image | name:bg | file:middleage_jailbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:image | name:middleage_witch_wait | file:middleage_witch_wait.png | type:static | x:401 | y:232 | visible:false | nbframe:1 | bFade:true | nFade:200 | mousepointer:arrow_talk |
+object:image | name:middleage_witch_ask | file:middleage_witch_ask.png | type:static | x:323 | y:232 | visible:false | nbframe:1 | bFade:true | nFade:200 | mousepointer:arrow_talk |
+
+object:zone | name:middleage_plate_zone | x:563 | y:563 | width:158 | height:94 | visible:true | mousepointer:arrow_puzzle | infotext:MIDDLEAGE_JAIL_PLATEZONE_INFO |
+object:image | name:middleage_emptyplate | file:middleage_emptyplate.png | type:static | x:458 | y:549 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_info |
+object:image | name:middleage_contentplate | file:middleage_contentplate.png | type:static | x:603 | y:590 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_info | infotext:MIDDLEAGE_MONK_CONTENTPLATE |
+object:image | name:middleage_contentplate_ready | file:middleage_contentplate_ready.png | type:static | x:593 | y:582 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_middleage_contentplate_ready.png |
+
+object:emitter | name:flake_content | type:flake | x:655 | y:603 | width:120 | height:30 | start:false | loop:true |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:middleage_stairs |
+#END SCRIPTGEN
+object:preload | files:spooky_piano.ogg
+#SCRIPTGEN: preloadsound

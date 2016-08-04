@@ -1,0 +1,10 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bg | file:house_attic_pentaclebg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:zone | name:house_attic_pentacle_zone | x:451 | y:307 | width:93 | height:90 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_ATTIC_PENTACLE_INFO |
+object:image | name:house_attic_pentacle_hexa | file:house_attic_pentacle_hexa.png | type:static | x:451 | y:307 | visible:false | bFade:true | nFade:1000 | mousepointer:arrow_action |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_attic | glitch:false |
+#END SCRIPTGEN
+object:preload | files:inca_eclipse.ogg
+#SCRIPTGEN: preloadsound

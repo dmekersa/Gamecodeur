@@ -1,0 +1,47 @@
+object:scene | walksound:talons | universe:house | sounddesign:room2_sd |
+object:image | name:bg | file:house_room2bg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:image | name:house_room2_mirror_repared | file:house_room2_mirror_repared.png | type:static | x:18 | y:134 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:zone | name:house_room2_bedclosed | x:553 | y:356 | width:239 | height:206 | visible:false | mousepointer:arrow_action |
+object:zone | name:house_room2_mirrorzone | x:0 | y:135 | width:112 | height:174 | visible:true | mousepointer:arrow_look |
+
+object:image | name:house_room2_bedopen | file:house_room2_bedopen.png | type:static | x:553 | y:356 | visible:false | bFade:true | nFade:500 | 
+object:image | name:house_room2_ghostwin | file:house_room2_ghostwin.png | type:static | x:234 | y:229 | visible:true | bFade:true | nFade:5000 | mousepointer:arrow_action |
+object:image | name:house_room2_bedside_closed | file:house_room2_bedside_closed.png | type:static | x:809 | y:266 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_look |
+object:image | name:house_room2_bedside_open | file:house_room2_bedside_open.png | type:static | x:874 | y:406 | visible:false | bFade:true | nFade:500 | 
+
+object:emitter | name:creeping_priest_nobible | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/pirateflame.cse | animationfile:particles/room2_priest_nobible.csa |
+object:emitter | name:creeping_priest_bible | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/pirateflame.cse | animationfile:particles/room2_priest_bible.csa |
+object:emitter | name:creeping_priest_underattack | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/pirateflame.cse | animationfile:particles/room2_priest_underattack.csa |
+
+object:image | name:house_room2_priest_bible | file:house_room2_priest_bible.png | type:static | x:346 | y:190 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_talk |
+
+object:image | name:house_room2_frag05 | file:room2_mirror_fragment05.png | type:static | x:522 | y:505 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_room2mirror_frag05.png |
+object:image | name:house_room2_frag06 | file:room2_mirror_fragment06.png | type:static | x:281 | y:37 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_room2mirror_frag06.png |
+object:image | name:house_room2_frag07 | file:room2_mirror_fragment07.png | type:static | x:742 | y:403 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_room2mirror_frag07.png |
+object:image | name:house_room2_frag08 | file:room2_mirror_fragment08.png | type:static | x:476 | y:389 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_room2mirror_frag08.png |
+
+object:image | name:house_room2_priest_nobible | file:house_room2_priest_nobible.png | type:static | x:335 | y:193 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_talk |
+object:image | name:house_room2_priest_underattack | file:house_room2_priest_underattack.png | type:static | x:344 | y:205 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:house_room2_poltergeist | file:room2_poltergeist | type:video | x:120 | y:0 | visible:false | loop:true | bFade:true | nFade:500 | mousepointer:arrow_action | glitch:false | nbframe:24 |
+
+object:image | name:house_room2_isaac_quiet | file:house_room2_isaac_quiet.png | type:static | x:29 | y:393 | visible:true | bFade:true | nFade:500 | mousepointer:arrow_talk |
+object:image | name:house_room2_isaac_seek | file:house_room2_isaac_seek.png | type:static | x:726 | y:425 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_room2_isaac_bible | file:house_room2_isaac_bible.png | type:static | x:701 | y:411 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_room2_bible.png |
+
+object:image | name:room2_flask | file:house_room2_holy.png | type:static | x:413 | y:493 | visible:false | mousepointer:arrow_take | invimage:inv_room2_flask.png |
+object:emitter | name:flake_flask | type:flake | x:430 | y:530 | width:36 | height:20 | start:false | loop:true |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:firstfloor |
+
+object:image | name:black | file:blackbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:4000 |
+
+object:anime | name:poltergeist_anim | target:house_room2_poltergeist | type:video |
+
+object:preload | destination:house_room2_bedside
+object:preload | destination:house_room2_mirror
+
+#END SCRIPTGEN
+object:preload | files:energy.ogg,ghostgone.ogg,poltergeistloop.ogg:loop
+#SCRIPTGEN: preloadsound

@@ -1,0 +1,19 @@
+object:scene | walksound:none | universe:house | sounddesign:livingroom_sd |
+object:image | name:bg | file:house_livingroom_pianobg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:zone | name:pianoscore_zone | x:299 | y:111 | width:337 | height:233 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_LIVING_SCORE_INFO |
+
+object:zone | name:piano_key1 | x:238 | y:497 | width:120 | height:120 | visible:true | mousepointer:arrow_action |
+object:zone | name:piano_key2 | x:415 | y:442 | width:120 | height:120 | visible:true | mousepointer:arrow_action |
+object:zone | name:piano_key3 | x:630 | y:374 | width:120 | height:120 | visible:true | mousepointer:arrow_action |
+object:zone | name:piano_key4 | x:824 | y:317 | width:120 | height:120 | visible:true | mousepointer:arrow_action |
+
+object:image | name:house_piano_pianoscore | file:house_piano_pianoscore.png | type:static | x:341 | y:94 | visible:false | loop:true | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+
+object:image | name:house_statuette_part_jaw | file:house_livingroom_statuette_part_jaw.png | type:static | x:192 | y:204 | visible:false | loop:true | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_house_statuette_part_jaw.png |
+object:emitter | name:creeping_glow | type:creepingsmoke | x:211 | y:221 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_livingroom |
+#END SCRIPTGEN
+object:preload | files:pianocode_full.ogg
+#SCRIPTGEN: preloadsound

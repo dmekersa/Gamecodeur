@@ -1,0 +1,35 @@
+object:scene | walksound:egypt_walk | universe:middleage | sounddesign:middleage_sd_outside |
+
+object:xximage | name:bg_cloulds | file:middleage_mainscreen_bgsky.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+object:image | name:bg_castel | file:middleage_mainscreen_bgcastel.jpg | type:background | x:230 | y:225 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+object:emitter | name:emitter_brume | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/middleage_castel_mystery.cse | animationfile:particles/middleage_castel_mystery.csa |
+object:image | name:bg_front | file:middleage_mainscreen_bgfront.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:emitter | name:creeping_leaf | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/leaf3.cse | animationfile:particles/leaf2.csa |
+
+object:zone | name:monastery_zone | x:336 | y:103 | width:301 | height:285 | visible:true | exit:true | exitwalkto:true | destination:middleage_cloister |
+
+object:image | name:middleage_ginkgo_img | file:middleage_ginkgo_zone.png | type:static | x:548 | y:0 | visible:false | invimage:inv_middleage_ginkgo.png |
+object:image | name:middleage_rue_img | file:middleage_rue_zone.png | type:static | x:931 | y:326 | visible:false | invimage:inv_middleage_rue.png |
+object:image | name:middleage_aneth_img | file:middleage_aneth_zone.png | type:static | x:665 | y:412 | visible:false | invimage:inv_middleage_dill.png |
+object:image | name:middleage_cerfeuil_img | file:middleage_cerfeuil_zone.png | type:static | x:631 | y:339 | visible:false |
+object:image | name:middleage_ail_img | file:middleage_ail_zone.png | type:static | x:340 | y:317 | visible:false | invimage:inv_middleage_garlic.png |
+object:image | name:middleage_pavot_img | file:middleage_pavot_zone.png | type:static | x:276 | y:456 | visible:false | invimage:inv_middleage_poppy.png |
+object:image | name:middleage_fenouil_img | file:middleage_fenouil_zone.png | type:static | x:154 | y:383 | visible:false | invimage:inv_middleage_fennel.png |
+object:image | name:middleage_millepertuis_img | file:middleage_millepertuis_zone.png | type:static | x:77 | y:354 | visible:false | invimage:inv_middleage_wort.png |
+
+object:zone | name:middleage_oak_zone | x:79 | y:139 | width:145 | height:148 | visible:true | mousepointer:arrow_action | invimage:inv_middleage_cork.png |
+object:zone | name:middleage_ginkgo_zone | x:548 | y:0 | width:476 | height:141 | visible:true | mousepointer:arrow_action |
+object:zone | name:middleage_rue_zone | x:931 | y:326 | width:93 | height:156 | visible:true | mousepointer:arrow_action |
+object:zone | name:middleage_aneth_zone | x:665 | y:412 | width:89 | height:71 | visible:true | mousepointer:arrow_action |
+object:zone | name:middleage_cerfeuil_zone | x:631 | y:339 | width:68 | height:62 | visible:true | mousepointer:arrow_action |
+object:zone | name:middleage_ail_zone | x:315 | y:346 | width:47 | height:67 | visible:true | mousepointer:arrow_action |
+object:zone | name:middleage_pavot_zone | x:276 | y:456 | width:144 | height:90 | visible:true | mousepointer:arrow_action |
+object:zone | name:middleage_fenouil_zone | x:154 | y:383 | width:115 | height:89 | visible:true | mousepointer:arrow_action |
+object:zone | name:middleage_millepertuis_zone | x:0 | y:311 | width:122 | height:227 | visible:true | mousepointer:arrow_action |
+
+object:image | name:middleage_wood | file:middleage_woodstick.png | type:static | x:582 | y:570 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_middleage_wood.png |
+
+#END SCRIPTGEN
+object:preload | files:ghostchange.ogg
+#SCRIPTGEN: preloadsound

@@ -1,0 +1,17 @@
+object:scene | walksound:egypt_walk | universe:house | sounddesign:incar_sd |
+object:image | name:bg | file:house_out_carbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:image | name:car_key | file:house_carkey.png | type:static | x:517 | y:319 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_house_carkey.png |
+
+object:zone | name:car_box_closed | x:613 | y:353 | visible:false | width:63 | height:63 | mousepointer:arrow_action | infotext:HOUSE_OUT_CARBOX_INFO |
+object:image | name:car_box_open | file:house_out_car_boxopen.png | type:static | x:537 | y:340 | visible:false | nbframe:1 | bFade:true | nFade:0 |
+
+object:image | name:car_box_key | file:house_out_car_housekey.png | type:static | x:611 | y:411 | visible:false | nbframe:1 | bFade:true | nFade:0 | mousepointer:arrow_take | invimage:inv_key.png |
+object:image | name:car_box_map | file:house_out_car_map.png | type:static | x:649 | y:402 | visible:false | nbframe:1 | bFade:true | nFade:0 | mousepointer:arrow_take | invimage:inv_map.png |
+
+object:zone | name:horn | x:314 | y:195 | width:57 | height:57 | visible:true | mousepointer:arrow_action |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_out |
+#END SCRIPTGEN
+object:preload | files:carboxclose.ogg
+#SCRIPTGEN: preloadsound

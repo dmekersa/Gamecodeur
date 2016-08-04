@@ -1,0 +1,42 @@
+object:scene | walksound:egypt_walk | universe:hell | sounddesign:hell_vale_sd |
+object:image | name:hell_clouds | file:hell_vale_clouds.png | type:video | x:-336 | y:-800 | visible:true | loop:true | bFade:false | nFade:0 |
+object:image | name:bg | file:hell_valebg.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:zone | name:hell_styx_zone1 | x:692 | y:134 | width:220 | height:232 | visible:true | exit:true | exitwalkto:true | destination:hell_styx |
+object:zone | name:hell_styx_zone2 | x:242 | y:393 | width:519 | height:139 | visible:true | exit:true | exitwalkto:true | destination:hell_styx |
+
+object:image | name:smoke_for_hell | file:smoke_for_hell | type:static | x:700 | y:288 | visible:true | loop:true | nbframe:24 | bFade:false | nFade:0 |
+object:zone | name:hell_vale_hands_zone | x:150 | y:516 | width:486 | height:202 | visible:true | mousepointer:arrow_take |
+
+
+object:zone | name:hell_smoke | x:691 | y:343 | width:188 | height:266 | visible:true | mousepointer:arrow_action | infotext:HELL_SMOKE_INFO |
+object:emitter | name:creeping_smoke | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/hell_smoke.cse | animationfile:particles/hell_smoke.csa |
+
+object:image | name:hell_vale_soul_1 | file:hell_vale_soul_1.png | type:static | x:212 | y:330 | visible:false | bFade:true | nFade:2500 | mousepointer:arrow_talk |
+object:image | name:hell_vale_soul_2 | file:hell_vale_soul_2.png | type:static | x:352 | y:358 | visible:false | bFade:true | nFade:2500 | mousepointer:arrow_talk |
+object:image | name:hell_vale_soul_3 | file:hell_vale_soul_3.png | type:static | x:487 | y:319 | visible:false | bFade:true | nFade:2500 | mousepointer:arrow_talk |
+object:image | name:hell_vale_soul_richard | file:hell_vale_soul_richard.png | type:static | x:481 | y:324 | visible:false | bFade:true | nFade:2500 | mousepointer:arrow_talk |
+
+object:image | name:hell_item_heart | file:hell_item_heart.png | type:static | x:209 | y:118 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_item_heart.png |
+object:image | name:hell_item_eyeball | file:hell_item_eyeball.png | type:static | x:922 | y:494 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_item_eyeball.png |
+object:image | name:hell_item_eyeball_ol | file:hell_item_eyeball_ol.png | type:static | x:909 | y:475 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 | disable:true | invimage:inv_hell_item_eyeball.png |
+object:image | name:hell_item_butterfly | file:hell_item_butterfly.png | type:static | x:855 | y:341 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_item_butterfly.png |
+object:image | name:hell_item_cane[2] | file:hell_item_cane_part_2.png | type:static | x:351 | y:551 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_item_cane_part |
+object:image | name:hell_sling_stick | file:hell_sling_stick.png | type:static | x:922 | y:591 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_hell_sling_stick.png |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:hell_mainscreen |
+
+object:anime | name:smoke_for_hell_anim | target:smoke_for_hell | type:video |
+object:anime | name:clouds_anim | target:hell_clouds | type:rotate | angle1:0 | angle2:359 | direction:0 | bounce:false | duration:30000 | counterfunction:LINEAR |
+object:anime | name:soul1rot | target:hell_vale_soul_1 | type:rotate | angle1:-25 | angle2:0 | direction:1 | bounce:false | loop:false | duration:3000 | counterfunction:EASEOUT |
+object:anime | name:soul1anim | target:hell_vale_soul_1 | type:p2p | x:212 | y:500 | x2:212 | y2:330 | bounce:false | duration:3000 | counterfunction:EASEOUT |
+object:anime | name:soul2rot | target:hell_vale_soul_2 | type:rotate | angle1:-25 | angle2:0 | direction:1 | bounce:false | loop:false | duration:3000 | counterfunction:EASEOUT |
+object:anime | name:soul2anim | target:hell_vale_soul_2 | type:p2p | x:352 | y:500 | x2:352 | y2:358 | bounce:false | duration:3000 | counterfunction:EASEOUT |
+object:anime | name:soul3rot | target:hell_vale_soul_3 | type:rotate | angle1:-25 | angle2:0 | direction:1 | bounce:false | loop:false | duration:3000 | counterfunction:EASEOUT |
+object:anime | name:soul3anim | target:hell_vale_soul_3 | type:p2p | x:487 | y:500 | x2:487 | y2:319 | bounce:false | duration:3000 | counterfunction:EASEOUT |
+object:anime | name:soul4rot | target:hell_vale_soul_richard | type:rotate | angle1:-25 | angle2:0 | direction:1 | bounce:false | loop:false | duration:3000 | counterfunction:EASEOUT |
+object:anime | name:soul4anim | target:hell_vale_soul_richard | type:p2p | x:581 | y:500 | x2:581 | y2:324 | bounce:false | duration:3000 | counterfunction:EASEOUT |
+
+#END SCRIPTGEN
+object:preload | files:ghostchange.ogg,ghostcreep.ogg
+#SCRIPTGEN: preloadsound

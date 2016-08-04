@@ -1,0 +1,59 @@
+object:scene | walksound:talons | universe:house | sounddesign:bathroom_sd |
+object:image | name:bg | file:bathroombg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:house_bathroom_ghost_bath | file:bathroom_ghost_bath.png | type:static | x:333 | y:293 | visible:false | nbframe:1 | bFade:true | nFade:2000 | mousepointer:arrow_look |
+object:image | name:house_bathroom_curtain_closed | file:bathroom_curtain_closed.png | type:static | x:325 | y:27 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:house_bathroom_curtain_half | file:bathroom_curtain_half.png | type:static | x:325 | y:27 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:house_bathroom_curtain_open | file:bathroom_curtain_open.png | type:static | x:325 | y:27 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+
+object:zone | name:house_bathroom_cabinet_zone | x:722 | y:43 | width:254 | height:215 | visible:true | mousepointer:arrow_look |
+
+object:zone | name:house_bathroom_square1_zone | x:319 | y:452 | width:86 | height:66 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_BATHROOM_GROUND_INFO |
+object:zone | name:house_bathroom_square2_zone | x:534 | y:452 | width:86 | height:66 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_BATHROOM_GROUND_INFO |
+object:zone | name:house_bathroom_square3_zone | x:241 | y:549 | width:121 | height:74 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_BATHROOM_GROUND_INFO |
+object:zone | name:house_bathroom_square4_zone | x:546 | y:549 | width:121 | height:74 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_BATHROOM_GROUND_INFO |
+
+object:image | name:house_bathroom_flacon_blue_small_left | file:bathroom_flacon_blue_s.png | type:static | x:341 | y:430 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:house_bathroom_flacon_green_small_left | file:bathroom_flacon_green_s.png | type:static | x:341 | y:430 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:house_bathroom_flacon_yellow_small_left | file:bathroom_flacon_yellow_s.png | type:static | x:341 | y:430 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_bath_flacon_yellow_full.png |
+object:image | name:house_bathroom_flacon_red_small_left | file:bathroom_flacon_red_s.png | type:static | x:341 | y:430 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+
+object:image | name:house_bathroom_flacon_blue_small_right | file:bathroom_flacon_blue_s.png | type:static | x:555 | y:430 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:house_bathroom_flacon_green_small_right | file:bathroom_flacon_green_s.png | type:static | x:555 | y:430 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:house_bathroom_flacon_yellow_small_right | file:bathroom_flacon_yellow_s.png | type:static | x:555 | y:430 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:house_bathroom_flacon_red_small_right | file:bathroom_flacon_red_s.png | type:static | x:555 | y:430 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_bath_flacon_red_full.png |
+
+object:image | name:house_bathroom_flacon_blue_large_left | file:bathroom_flacon_blue_l.png | type:static | x:279 | y:536 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:house_bathroom_flacon_green_large_left | file:bathroom_flacon_green_l.png | type:static | x:279 | y:536 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_bath_flacon_green_full.png |
+object:image | name:house_bathroom_flacon_yellow_large_left | file:bathroom_flacon_yellow_l.png | type:static | x:279 | y:536 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:house_bathroom_flacon_red_large_left | file:bathroom_flacon_red_l.png | type:static | x:279 | y:536 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+
+object:image | name:house_bathroom_flacon_blue_large_right | file:bathroom_flacon_blue_l.png | type:static | x:575 | y:536 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_bath_flacon_blue_full.png |
+object:image | name:house_bathroom_flacon_green_large_right | file:bathroom_flacon_green_l.png | type:static | x:575 | y:536 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:house_bathroom_flacon_yellow_large_right | file:bathroom_flacon_yellow_l.png | type:static | x:575 | y:536 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:house_bathroom_flacon_red_large_right | file:bathroom_flacon_red_l.png | type:static | x:575 | y:536 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+
+object:image | name:house_bathroom_flacon_yellow[1] | file:bathroom_flacon_yellow_cap.png | type:static | x:868 | y:417 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_bath_flacon_yellow_part |
+object:image | name:house_bathroom_flacon_yellow[2] | file:bathroom_flacon_yellow_body.png | type:static | x:631 | y:563 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_bath_flacon_yellow_part |
+object:image | name:house_bathroom_flacon_red[2] | file:bathroom_flacon_red_body.png | type:static | x:145 | y:120 | visible:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_bath_flacon_red_part |
+
+object:image | name:house_bathroom_blokoban_frame | file:bathroom_blokoban_frame.png | type:static | x:201 | y:292 | visible:false | nbframe:1 | bFade:true | nFade:2000 | mousepointer:arrow_action |
+object:image | name:house_bathroom_blokoban_frame_resolved | file:bathroom_blokoban_frame_resolved.png | type:static | x:201 | y:292 | visible:false | nbframe:1 | bFade:true | nFade:2000 |
+
+object:emitter | name:creeping_ghost | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/pirateflame.cse | animationfile:particles/bathroom_egypt_dead.csa |
+object:image | name:house_bathroom_ghost | file:vortex_egypt_dead.png | type:static | x:488 | y:115 | visible:false | nbframe:1 | bFade:true | nFade:5000 |
+
+object:zone | name:flush | x:175 | y:350 | width:43 | height:29 | visible:true | mousepointer:arrow_action | glitch:false |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:firstfloor | glitch:false |
+
+object:image | name:bathroom_chalk | file:house_bathroom_chalk.png | type:static | x:640 | y:527 | visible:false | mousepointer:arrow_take | invimage:inv_bathroom_chalk.png |
+object:emitter | name:flake_chalk | type:flake | x:657 | y:546 | width:36 | height:20 | start:false | loop:true |
+
+object:image | name:black | file:blackbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:4000 |
+
+object:preload | destination:bathroom_cabinet
+object:preload | destination:bathroom_tub
+
+#END SCRIPTGEN
+object:preload | files:bathcurtain.ogg,ghost_energy.ogg:loop,ghostcreep.ogg,ghostgone.ogg
+#SCRIPTGEN: preloadsound

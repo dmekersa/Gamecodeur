@@ -1,0 +1,10 @@
+object:scene | walksound:none | universe:none |
+
+object:zone | name:hint1zone | x:886 | y:645 | width:40 | height:21 |
+object:zone | name:hint2zone | x:926 | y:635 | width:60 | height:108 |
+object:zone | name:helpzone | x:898 | y:677 | width:167 | height:102 | 
+
+object:zone | name:resetzone | x:14 | y:627 | width:106 | height:32 |
+object:zone | name:submitzone | x:473 | y:634 | width:79 | height:32 |
+object:zone | name:cancelzone | x:94 | y:677 | width:70 | height:36 |
+object:zone | name:menuzone | x:184 | y:732 | width:80 | height:29 |

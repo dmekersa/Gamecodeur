@@ -1,0 +1,5 @@
+object:scene | walksound:none | universe:none |
+
+object:zone | name:skipzone | x:0 | y:668 | width:249 | height:99 | mousepointer:arrow_action |
+object:emitter | name:poltergeisthit | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/sparkles.cse |
+

@@ -1,0 +1,3 @@
+object:image | name:bg | file:vortex.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:250 |
+object:image | name:pirate_standup1 | file:pirate_ghost_standup.png | type:static | x:150 | y:100 | visible:true | nbframe:1 | bFade:true | nFade:10000 |
+object:image | name:pirate_standup2 | file:pirate_noghost_standup.png | type:static | x:150 | y:100 | visible:false | nbframe:1 | bFade:true | nFade:10000 |

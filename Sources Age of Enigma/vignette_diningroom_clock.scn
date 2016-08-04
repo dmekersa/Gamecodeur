@@ -1,0 +1,36 @@
+object:scene | walksound:none | universe:house |
+object:image | name:clockbg | file:diningroom_clockbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:1000 |
+
+// Aiguilles
+object:image | name:p1 | file:diningroom_clock_p1.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:p2 | file:diningroom_clock_p2.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:p3 | file:diningroom_clock_p3.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:p4 | file:diningroom_clock_p4.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:p5 | file:diningroom_clock_p5.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:p6 | file:diningroom_clock_p6.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:p7 | file:diningroom_clock_p7.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:p8 | file:diningroom_clock_p8.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:g1 | file:diningroom_clock_g1.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:g2 | file:diningroom_clock_g2.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:g3 | file:diningroom_clock_g3.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:g4 | file:diningroom_clock_g4.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:g5 | file:diningroom_clock_g5.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:g6 | file:diningroom_clock_g6.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:g7 | file:diningroom_clock_g7.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:g8 | file:diningroom_clock_g8.png | type:static | x:411 | y:159 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+
+// Tiroirs
+object:image | name:diningclock_drawer1 | file:dining_drawer1.png | type:static | x:351 | y:371 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:diningclock_drawer2 | file:dining_drawer2.png | type:static | x:350 | y:371 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:diningclock_pagepiece | file:dining_pagepiece.png | type:static | x:537 | y:388 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_dining_page.png |
+object:image | name:diningclock_mastpiece | file:dining_mastpiece.png | type:static | x:422 | y:455 | visible:false | nbframe:1 | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_dining_mast.png |
+
+object:zone | name:diningclock_clock | x:403 | y:114 | width:177 | height:177 | visible:true | mousepointer:arrow_info |
+
+object:zone | name:diningclock_leftbutton | x:384 | y:288 | width:35 | height:31 | visible:true | mousepointer:arrow_action |
+object:zone | name:diningclock_rightbutton | x:559 | y:296 | width:35 | height:31 | visible:true | mousepointer:arrow_action |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_diningroom | glitch:false |
+#END SCRIPTGEN
+object:preload | files:mg_clic.ogg
+#SCRIPTGEN: preloadsound

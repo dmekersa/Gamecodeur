@@ -1,0 +1,20 @@
+object:scene | walksound:talons | universe:house |
+object:image | name:bg | file:firstfloorbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:image | name:house_firstfloor_isaac1 | file:isaac_meeting1.png | type:static | x:284 | y:395 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_talk |
+object:image | name:house_firstfloor_isaac2 | file:isaac_meeting2.png | type:static | x:284 | y:395 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_talk |
+
+object:emitter | name:creeping_nathan_shadow | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_smoke.cse | animationfile:particles/nathan_smoke_firstfloor.csa |
+object:emitter | name:creeping_nathan_souls | type:creepingsmoke | x:580 | y:347 | width:0 | height:0 | start:false | loop:false | presetfile:particles/nathan_souls.cse |
+
+object:image | name:house_firstfloor_nathan | file:house_firstfloor_nathan.png | type:static | x:413 | y:182 | visible:false | bFade:true | nFade:500 |
+
+object:zone | name:gotohall | x:0 | y:270 | width:270 | height:400 | visible:true | mousepointer:arrow_info |
+object:zone | name:gotoroom2 | x:705 | y:205 | width:50 | height:237 | visible:true | exit:true | exitdoor:true | destination:house_room2 |
+object:zone | name:gotobathroom | x:822 | y:36 | width:126 | height:524 | visible:true | exit:true | exitdoor:true | destination:bathroom |
+object:zone | name:gotoatticdoor | x:309 | y:215 | width:124 | height:167 | visible:true | exit:true | exitwalkto:true | destination:house_atticdoor |
+
+object:image | name:envelope_firstfloor | file:envelope_firstfloor.png | type:static | x:735 | y:554 | visible:true | mousepointer:arrow_take | invimage:ihm_envelope.png |
+#END SCRIPTGEN
+object:preload | files:HALL_NATHAN_MEET4_1.ogg,HALL_NATHAN_MEET4_3.ogg,HALL_NATHAN_MEET4_5.ogg,HALL_NATHAN_MEET4_6.ogg,HALL_NATHAN_MEET4_8.ogg,HALL_NATHAN_MEET4_9.ogg,hall_ashley_meet4_2.ogg,hall_ashley_meet4_4.ogg,hall_ashley_meet4_7.ogg
+#SCRIPTGEN: preloadsound

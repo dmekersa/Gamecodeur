@@ -1,0 +1,16 @@
+object:scene | walksound:egypt_walk | universe:house | sounddesign:outdoor_sd |
+object:image | name:bg | file:house_outbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:zone | name:out_house_zeps | x:416 | y:227 | width:198 | height:203 | visible:true | mousepointer:arrow_look |
+
+object:image | name:house_out_isaac_quiet | file:house_out_isaac.png | type:static | x:336 | y:348 | visible:true | bFade:true | nFade:500 | mousepointer:arrow_talk |
+
+object:zone | name:out_house_zone | x:129 | y:87 | width:192 | height:221 | visible:true | exit:true | exitwalkto:true | destination:parvis |
+
+object:zone | name:out_car_zone | x:755 | y:239 | width:139 | height:320 | visible:true | mousepointer:arrow_look |
+
+object:preload | destination:house_out_car
+
+#END SCRIPTGEN
+object:preload | files:cardoor.ogg
+#SCRIPTGEN: preloadsound

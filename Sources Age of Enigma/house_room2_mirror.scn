@@ -1,0 +1,34 @@
+object:scene | walksound:talons | universe:house |
+object:image | name:bg | file:house_room2_mirrorbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:image | name:house_room2_repaired_frag00 | file:room2_mirror_repaired_fragment00.png | type:static | x:367 | y:325 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_room2_repaired_frag01 | file:room2_mirror_repaired_fragment01.png | type:static | x:503 | y:330 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_room2_repaired_frag02 | file:room2_mirror_repaired_fragment02.png | type:static | x:244 | y:197 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_room2_repaired_frag03 | file:room2_mirror_repaired_fragment03.png | type:static | x:426 | y:190 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_room2_repaired_frag04 | file:room2_mirror_repaired_fragment04.png | type:static | x:437 | y:462 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_room2_repaired_frag05 | file:room2_mirror_repaired_fragment05.png | type:static | x:464 | y:154 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_room2_repaired_frag06 | file:room2_mirror_repaired_fragment06.png | type:static | x:638 | y:165 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_room2_repaired_frag07 | file:room2_mirror_repaired_fragment07.png | type:static | x:544 | y:312 | visible:false | bFade:true | nFade:500 |
+object:image | name:house_room2_repaired_frag08 | file:room2_mirror_repaired_fragment08.png | type:static | x:522 | y:277 | visible:false | bFade:true | nFade:500 |
+
+object:image | name:house_room2mirror_ghost | file:house_room2_mirror_ghosttrapped.png | type:static | x:243 | y:27 | visible:true | bFade:true | nFade:2000 | mousepointer:arrow_action |
+
+object:zone | name:house_room2mirror_dropzone_00 | x:362 | y:319 | width:67 | height:93 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_ROOM2_MIRROR_INFO |
+object:zone | name:house_room2mirror_dropzone_01 | x:495 | y:331 | width:89 | height:154 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_ROOM2_MIRROR_INFO |
+object:zone | name:house_room2mirror_dropzone_02 | x:256 | y:207 | width:121 | height:47 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_ROOM2_MIRROR_INFO |
+object:zone | name:house_room2mirror_dropzone_03 | x:428 | y:191 | width:47 | height:47 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_ROOM2_MIRROR_INFO |
+object:zone | name:house_room2mirror_dropzone_04 | x:432 | y:461 | width:25 | height:26 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_ROOM2_MIRROR_INFO |
+object:zone | name:house_room2mirror_dropzone_05 | x:463 | y:147 | width:105 | height:70 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_ROOM2_MIRROR_INFO |
+object:zone | name:house_room2mirror_dropzone_06 | x:645 | y:174 | width:66 | height:21 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_ROOM2_MIRROR_INFO |
+object:zone | name:house_room2mirror_dropzone_07 | x:570 | y:331 | width:116 | height:104 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_ROOM2_MIRROR_INFO |
+object:zone | name:house_room2mirror_dropzone_08 | x:520 | y:274 | width:49 | height:42 | visible:true | mousepointer:arrow_puzzle | infotext:HOUSE_ROOM2_MIRROR_INFO |
+
+object:image | name:house_room2_frag01 | file:room2_mirror_fragment01.png | type:static | x:826 | y:148 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_room2mirror_frag01.png |
+object:image | name:house_room2_frag02 | file:room2_mirror_fragment02.png | type:static | x:808 | y:332 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_room2mirror_frag02.png |
+object:image | name:house_room2_frag03 | file:room2_mirror_fragment03.png | type:static | x:591 | y:588 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_room2mirror_frag03.png |
+object:image | name:house_room2_frag04 | file:room2_mirror_fragment04.png | type:static | x:333 | y:490 | visible:false | bFade:true | nFade:500 | mousepointer:arrow_take | invimage:inv_room2mirror_frag04.png |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_room2 |
+#END SCRIPTGEN
+object:preload | files:poltergeist.ogg
+#SCRIPTGEN: preloadsound

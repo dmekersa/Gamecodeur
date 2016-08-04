@@ -1,0 +1,12 @@
+object:scene | walksound:egypt_walk | universe:egypt |
+object:image | name:bg | file:egypt_keyroombg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:zone | name:egypt_missingkey_zone | x:404 | y:548 | width:285 | height:115 | visible:true | mousepointer:arrow_look |
+
+object:image | name:egypt_keyroom_completedkey | file:egypt_keyroom_completedkey.png | type:static | x:357 | y:528 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:image | name:egypt_keyroom_keyup | file:egypt_keyroom_cube.png | type:static | x:498 | y:501 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:egypt_keyroom_keydown | file:egypt_keyroom_cubedown.png | type:static | x:504 | y:525 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:egypt_mazeentry |
+object:preload | destination:egypt_keyroom_zoom

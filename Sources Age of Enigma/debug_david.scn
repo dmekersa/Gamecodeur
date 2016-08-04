@@ -1,0 +1,8 @@
+object:scene | walksound:none | universe:hell |
+object:image | name:bg1 | file:blackbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:image | name:japan_table_messy[1] | file:japan_table_messy1.png | type:static | x:151 | y:463 | visible:true | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:japan_table_messy[2] | file:japan_table_messy2.png | type:static | x:246 | y:443 | visible:true | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:japan_table_messy[3] | file:japan_table_messy3.png | type:static | x:237 | y:467 | visible:true | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:japan_table_messy[4] | file:japan_table_messy4.png | type:static | x:451 | y:436 | visible:true | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take |
+object:image | name:livingroom_key | file:house_livingroom_key.png | type:static | x:398 | y:503 | visible:true | mousepointer:arrow_take |

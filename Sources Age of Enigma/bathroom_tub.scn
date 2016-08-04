@@ -1,0 +1,14 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bg | file:bathroom_tubbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:house_bathroom_tub_parchment_hold | file:bathroom_tub_parchment.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+
+object:zone | name:house_bathroom_ghost_zone | x:366 | y:272 | width:199 | height:146 | visible:true | mousepointer:arrow_info | infotext:HOUSE_BATHROOM_SLEEP_INFO |
+object:zone | name:house_bathroom_parchment_zone | x:409 | y:417 | width:137 | height:92 | visible:true | mousepointer:arrow_look |
+
+object:image | name:house_bathroom_flacon_blue[1] | file:bathroom_flacon_blue_cap.png | type:static | x:426 | y:197 | visible:false | nbframe:1 | bFade:true | nFade:100 | mousepointer:arrow_take | invimage:inv_bath_flacon_blue_part |
+object:image | name:house_bathroom_flacon_red[1] | file:bathroom_flacon_red_cap.png | type:static | x:319 | y:447 | visible:false | nbframe:1 | bFade:true | nFade:100 | mousepointer:arrow_take | invimage:inv_bath_flacon_red_part |
+object:image | name:house_bathroom_flacon_green[2] | file:bathroom_flacon_green_body.png | type:static | x:214 | y:422 | visible:false | nbframe:1 | bFade:true | nFade:100 | mousepointer:arrow_take | invimage:inv_bath_flacon_green_part |
+
+object:image | name:house_bathroom_tub_parchment | file:bathroom_tub_parchment.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:bathroom |

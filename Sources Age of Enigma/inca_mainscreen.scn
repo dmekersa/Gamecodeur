@@ -1,0 +1,39 @@
+object:scene | walksound:egypt_walk | universe:inca | sounddesign:inca_mainscreen_sd |
+object:image | name:bg0 | file:inca_mainscreen_bg_sky.png | type:background | x:257 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+object:image | name:inca_mainclouds | file:inca_mainscreen_clouds.png | type:video | x:237 | y:-495 | width:770 | height:330 | visible:true | loop:true | bFade:false | nFade:0 |
+object:image | name:bg3 | file:inca_mainscreenbg_ol2.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+object:emitter | name:creeping_waterfall | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/inca_temple_waterfall.cse | animationfile:particles/inca_temple_waterfall.csa |
+object:image | name:inca_waterfall_mask | file:inca_mainscreenbg_ol3.png | type:background | x:495 | y:320 | visible:true | loop:false | bFade:false | nFade:0 |
+
+object:emitter | name:creeping_smoke | type:creepingsmoke | x:0 | y:0 | width:0 | height:0 | start:true | loop:false | presetfile:particles/inca_temple_mystery.cse | animationfile:particles/inca_temple_mystery.csa |
+
+object:zone | name:inca_topdoor_zone | x:229 | y:111 | width:195 | height:225 | visible:true | mousepointer:arrow_info | infotext:INCA_MAIN_TOPDOOR_INFO |
+
+object:image | name:inca_main_cubesclosed | file:inca_mainscreen_stone01.png | type:static | x:870 | y:419 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | mousepointer:arrow_action |
+object:image | name:inca_main_cubesopen | file:inca_mainscreen_stone02.png | type:static | x:870 | y:419 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:500 | disable:true |
+
+object:zone | name:inca_door_zone | x:219 | y:313 | width:136 | height:238 | visible:true | exit:true | exitwalkto:true | destination:inca_stairs |
+object:image | name:inca_main_door | file:inca_mainscreen_door.png | type:static | x:219 | y:313 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 | mousepointer:arrow_info | infotext:INCA_MAIN_DOOR_INFO |
+object:image | name:inca_main_doorol | file:inca_mainscreen_door_ol.png | type:static | x:175 | y:93 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 | disable:true |
+object:image | name:bg4 | file:inca_mainscreenbg_ol1.png | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 | disable:true |
+
+object:image | name:inca_main_guard_nospear | file:inca_mainscreen_guardian03.png | type:static | x:652 | y:294 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_talk |
+object:image | name:inca_main_guard_prey | file:inca_mainscreen_guardian02.png | type:static | x:648 | y:247 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_main_guard_spear | file:inca_mainscreen_guardian01.png | type:static | x:636 | y:276 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_talk |
+
+object:zone | name:inca_pyramid_zone | x:536 | y:106 | width:278 | height:178 | visible:true | mousepointer:arrow_info |  infotext:INCA_MAIN_PYRAMID_INFO |
+object:zone | name:inca_main_skyzone | x:534 | y:0 | width:295 | height:112 | visible:true | mousepointer:arrow_info |  infotext:INCA_MAIN_SKY_INFO |
+
+object:emitter | name:creeping_glow | type:creepingsmoke | x:919 | y:474 | width:0 | height:0 | start:false | loop:false | presetfile:particles/light_beam.cse | scale:0.5 |
+object:image | name:inca_spear[1] | file:inca_spearbroken_1.png | type:static | x:372 | y:195 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_inca_spearbroken |
+object:image | name:inca_spear[2] | file:inca_spearbroken_2.png | type:static | x:239 | y:481 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_inca_spearbroken |
+object:image | name:inca_spear[3] | file:inca_spearbroken_3.png | type:static | x:331 | y:576 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_inca_spearbroken |
+object:image | name:inca_spear[4] | file:inca_spearbroken_4.png | type:static | x:461 | y:478 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_inca_spearbroken |
+object:image | name:inca_spear[5] | file:inca_spearbroken_5.png | type:static | x:71  | y:87  | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_inca_spearbroken |
+object:image | name:inca_spear[6] | file:inca_spearbroken_6.png | type:static | x:896 | y:471 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_take | invimage:inv_inca_spearbroken |
+
+object:anime | name:bg2_anim | target:bg2 | type:video |
+object:anime | name:clouds_anim | target:inca_mainclouds | type:rotate | angle1:0 | angle2:359 | direction:0 | bounce:false | duration:30000 | counterfunction:LINEAR |
+
+object:preload | destination:inca_final
+object:preload | destination:vignette_inca_statuette

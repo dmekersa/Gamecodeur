@@ -1,0 +1,37 @@
+object:scene | walksound:egypt_walk | universe:egypt | sounddesign:egypt_inside_sd |
+object:image | name:bg | file:egypt_tombbg.jpg | type:background | x:0000 | y:0000 | width:1024 | height:768 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+object:image | name:egypt_tomb_glow | file:egypt_tomb_glow.png | type:static | x:275 | y:175 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:egypt_tomb_statue2 | file:egypt_tomb_statue2.png | type:static | x:258 | y:19 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | halo:true | halospeed:0.001 |
+object:emitter | name:creeping_glow | type:creepingsmoke | x:391 | y:294 | width:0 | height:0 | start:false | loop:false | presetfile:particles/egypt_tomb_beam.cse |
+
+object:emitter | name:creeping_scab1 | type:creepingsmoke | x:172 | y:473 | width:0 | height:0 | start:true | loop:false | presetfile:particles/egypt_scarabees_1.cse |
+object:emitter | name:creeping_scab2 | type:creepingsmoke | x:794 | y:419 | width:0 | height:0 | start:true | loop:false | presetfile:particles/egypt_scarabees_2.cse |
+
+object:zone | name:egypt_tomb_connectzone | x:319 | y:282 | width:335 | height:172 | visible:true | mousepointer:arrow_look | exit:true | destination:egypt_tomb_connect |
+
+object:image | name:egypt_tomb_neres | file:egypt_tomb_neres.png | type:static | x:581 | y:234 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 | mousepointer:arrow_talk |
+
+object:zone | name:egypt_tomb_god1zone | x:380 | y:208 | width:33 | height:47 | visible:true | mousepointer:arrow_info | infotext:EGYPT_TOMB_GOD1_INFO |
+object:zone | name:egypt_tomb_god2zone | x:413 | y:217 | width:33 | height:47 | visible:true | mousepointer:arrow_info | infotext:EGYPT_TOMB_GOD2_INFO |
+object:zone | name:egypt_tomb_god3zone | x:464 | y:204 | width:33 | height:47 | visible:true | mousepointer:arrow_info | infotext:EGYPT_TOMB_GOD3_INFO |
+object:zone | name:egypt_tomb_god4zone | x:525 | y:173 | width:50 | height:60 | visible:true | mousepointer:arrow_info | infotext:EGYPT_TOMB_GOD4_INFO |
+object:zone | name:egypt_tomb_god5zone | x:602 | y:161 | width:33 | height:47 | visible:true | mousepointer:arrow_info | infotext:EGYPT_TOMB_GOD5_INFO |
+object:zone | name:egypt_tomb_god6zone | x:711 | y:140 | width:33 | height:47 | visible:true | mousepointer:arrow_info | infotext:EGYPT_TOMB_GOD6_INFO |
+object:zone | name:egypt_tomb_god7zone | x:903 | y:111 | width:33 | height:47 | visible:true | mousepointer:arrow_info | infotext:EGYPT_TOMB_GOD7_INFO |
+
+object:image | name:egypt_symbol_god01h | file:egypt_symbol_god01h.png | type:static | x:842 | y:346 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_egypt_god01.png |
+
+object:image | name:egypt_glow1 | file:stone_glow1.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:egypt_glow2 | file:stone_glow2.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:egypt_glow3 | file:stone_glow3.png | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:500 |
+object:image | name:egypt_enigmastone | file:univers_stone1_green.png | type:static | x:271 | y:92 | visible:false | nbframe:1 | bFade:true | nFade:2000 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:egypt_boatroom |
+
+object:image | name:blank | file:blankbg.jpg | type:static | x:0 | y:0 | visible:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:preload | destination:bathroom
+
+#END SCRIPTGEN
+object:preload | files:inca_eclipse.ogg
+#SCRIPTGEN: preloadsound

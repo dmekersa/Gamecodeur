@@ -1,0 +1,14 @@
+object:scene | walksound:talons | universe:house |
+object:image | name:bg | file:house_room2_bedsidebg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0 |
+
+object:zone | name:house_bedside_drawerzone | x:133 | y:284 | width:760 | height:232 | visible:false | mousepointer:arrow_action |
+object:image | name:house_bedside_drawer | file:house_room2_bedside_drawer.png | type:static | x:38 | y:260 | visible:false | bFade:true | nFade:500 | 
+
+object:image | name:house_bedside_light | file:house_room2_bedsidetable_light.png | type:static | x:51 | y:0 | visible:false | bFade:true | nFade:500 | disable:true |
+
+object:emitter | name:creeping_glow | type:creepingsmoke | x:438 | y:408 | width:0 | height:0 | start:false | loop:false | presetfile:particles/beam_x3.cse |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:house_room2 |
+#END SCRIPTGEN
+object:preload | files:ghostcreep.ogg
+#SCRIPTGEN: preloadsound

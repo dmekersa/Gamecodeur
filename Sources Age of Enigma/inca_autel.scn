@@ -1,0 +1,16 @@
+object:scene | walksound:egypt_walk | universe:inca | sounddesign:inca_final_sd |
+object:image | name:bg | file:inca_autelbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:1 | bFade:false | nFade:0 |
+
+object:zone | name:inca_autel_artefact1zone | x:306 | y:203 | width:108 | height:46 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:inca_autel_artefact2zone | x:636 | y:203 | width:108 | height:46 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:inca_autel_artefact3zone | x:249 | y:289 | width:138 | height:71 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:inca_autel_artefact4zone | x:654 | y:289 | width:138 | height:71 | visible:true | mousepointer:arrow_puzzle |
+object:zone | name:inca_autel_statuettezone | x:464 | y:212 | width:119 | height:95 | visible:true | mousepointer:arrow_puzzle |
+
+object:image | name:inca_autel_artefact1 | file:inca_autel_artefact1.png | type:static | x:250   | y:292 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_autel_artefact2 | file:inca_autel_artefact2.png | type:static | x:654   | y:294 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_autel_artefact3 | file:inca_autel_artefact3.png | type:static | x:637   | y:206 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_autel_artefact4 | file:inca_autel_artefact4.png | type:static | x:306   | y:206 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+object:image | name:inca_autel_statuette | file:inca_autel_statuette.png | type:static | x:458   | y:145 | visible:false | loop:false | nbframe:1 | bFade:true | nFade:1000 |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:inca_final |

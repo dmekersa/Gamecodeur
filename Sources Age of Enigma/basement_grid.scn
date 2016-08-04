@@ -1,0 +1,10 @@
+object:scene | walksound:none | universe:house |
+object:image | name:bg | file:house_basement_gridbg.jpg | type:background | x:0 | y:0 | visible:true | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+object:image | name:basement_grid_coal | file:house_basement_grid_coal.png | type:static | x:103 | y:10 | visible:false | loop:false | nbframe:01 | bFade:false | nFade:0000 |
+
+object:image | name:basement_grid_charcoal | file:house_basement_grid_charcoal.png | type:static | x:488 | y:318 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_house_basement_grid_charcoal.png |
+object:image | name:basement_grid_gridclosed | file:house_basement_grid_gridclosed.png | type:static | x:244 | y:30 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 |
+object:image | name:basement_grid_gridopen | file:house_basement_grid_gridopen.png | type:static | x:0 | y:401 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 |
+object:image | name:basement_grid_bolt | file:house_basement_grid_bolt.png | type:static | x:193 | y:29 | visible:false | loop:false | nbframe:01 | bFade:true | nFade:200 | mousepointer:arrow_take | invimage:inv_house_basement_bolt.png |
+
+object:image | name:back | file:ihm_backbutton.png | type:static | x:407 | y:624 | visible:true | loop:false | nbframe:01 | bFade:true | nFade:50 | exit:true | exitwalkback:true | destination:basement | glitch:false |
