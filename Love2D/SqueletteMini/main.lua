@@ -1,3 +1,5 @@
+-- [Wiki Love2D](https://love2d.org/wiki/Main_Page), [Wiki LUA](https://www.lua.org/docs.html), [General math Love2D](https://love2d.org/wiki/General_math)
+
 -- Cette ligne permet d'afficher des traces dans la console pendant l'éxécution
 io.stdout:setvbuf('no')
 
