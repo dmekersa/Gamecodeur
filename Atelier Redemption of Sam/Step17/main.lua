@@ -13,6 +13,7 @@ require("util")
 
 local spriteManager = require("spritemanager")
 local bulletManager = require("bulletmanager")
+local mobManager = require("mobmanager")
 local particleManager = require("particlemanager")
 
 -- Globales utiles
@@ -67,6 +68,7 @@ end
 function ChargeSalle(pSalle)
   
   bulletManager.Reset()
+  mobManager.Reset()
   
   salleCourante.portes = {}
     
@@ -97,6 +99,21 @@ function ChargeSalle(pSalle)
       porte.boss = true
     end
     table.insert(salleCourante.portes, porte)
+  end
+  
+  -- Spawn des monstres dans la salle
+  if pSalle.mobPattern == 0 then
+    -- Rien, la salle est vide
+  elseif pSalle.mobPattern == 1 then
+    -- Les mouches
+    mobManager.CreeMob(1,(LARGEURTILE*2)+10,(HAUTEURTILE*5)+10,0,0)
+    mobManager.CreeMob(1,largeurEcran-(LARGEURTILE*2)-10,(HAUTEURTILE*5)+10,0,0)
+    mobManager.CreeMob(1,(LARGEURTILE*2)+10,hauteurEcran-(HAUTEURTILE*2)-10,0,0)
+    mobManager.CreeMob(1,largeurEcran-(LARGEURTILE*2)-10,hauteurEcran-(HAUTEURTILE*2)-10,0,0)
+  elseif pSalle.mobPattern == 2 then
+    -- Les rats
+  elseif pSalle.mobPattern == 3 then
+    -- Défi : gérer un nouveau type de monstres
   end
   
   salleCourante.salle = pSalle
@@ -195,6 +212,7 @@ function love.update(dt)
   
   spriteManager.update(dt)
   bulletManager.update(dt)
+  mobManager.update(dt)
   
   if math.abs(samSprite.vx) < 1 and math.abs(samSprite.vy) < 1 then
     samSprite.frame = 4
@@ -325,6 +343,7 @@ function love.draw()
   donjon.DessineMapDonjon(salleCourante.salle)
     
   spriteManager.draw()
+  mobManager.draw()
   bulletManager.draw()
   particleManager.draw()
   

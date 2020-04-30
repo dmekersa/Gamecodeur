@@ -62,9 +62,9 @@ void EWatchDog::EndFrame() {
          mFPS += lastFPS[i];
       mFPS /= FRAMEWINDOW;
 
-      // gestion pointeur système
+      // gestion pointeur systï¿½me
       if (!SCENEDIRECTOR->_bSystemCursor ) {
-// DESACTIVE ! Les joueurs passeront pas l'option.
+// DESACTIVE ! Les joueurs passeront par l'option.
 //         if (mFPS < 20 && SCENEDIRECTOR->_bSoftCursor) {
 //            K_LOG("EWatchDog::EndFrame -- SCENEDIRECTOR->_bSoftCursor = false");
 //            SCENEDIRECTOR->_bSoftCursor = false;
